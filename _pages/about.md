@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Research Assistant Professor<a href='#'>The Hong Kong Polytechnic University</a> #. Address. Contacts. Moto. Etc.
+subtitle: Research Assistant Professor at <a href='https://www.polyu.edu.hk/'>The Hong Kong Polytechnic University</a> #. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
@@ -16,8 +16,8 @@ profile:
 
 [//]: # (    <p>Your City, State 12345</p>)
 
-News: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+news: true  # includes a list of news items
+latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
