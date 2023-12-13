@@ -6,7 +6,7 @@ subtitle: Research Assistant Professor at <a href='https://www.polyu.edu.hk/'>Th
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: dr_lizhiwei.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
 
