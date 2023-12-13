@@ -5,8 +5,12 @@ title: People
 description: 
 nav: true
 nav_order: 5
+---
+
 
 Coming soon...
+
+
 
 [//]: # ()
 [//]: # (profiles:)
@@ -48,4 +52,4 @@ Coming soon...
 
 [//]: # (      <p>Your City, State 12345</p>)
 
----
+[//]: # (---)
