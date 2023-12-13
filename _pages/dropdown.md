@@ -1,7 +1,7 @@
 ---
 layout: page
 title: submenus
-nav: false #disapear in nav bar?
+nav: false #disapear in nav bar
 nav_order: 7
 dropdown: true
 children:
