@@ -4,7 +4,7 @@ permalink: /publications/
 title: Publications
 description: Ten representative journal publications:
 nav: true
-nav_order: 3
+nav_order: 
 ---
 <!-- _pages/publications.md -->
 <div class="publications">
