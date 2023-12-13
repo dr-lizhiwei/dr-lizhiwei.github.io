@@ -48,4 +48,4 @@ Coming soon...
 
 [//]: # (      <p>Your City, State 12345</p>)
 
-[//]: # (---)
+---
