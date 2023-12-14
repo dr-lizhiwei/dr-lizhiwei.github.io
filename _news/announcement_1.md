@@ -13,4 +13,4 @@ Our two papers entitled 'Cloud and cloud shadow detection for optical satellite 
 
 [Link]: https://doi.org/10.1016/j.rse.2017.01.026
 
-) are selected as ESI Highly Cited Papers! :sparkles: :smile:
+) are selected as ESI Highly Cited Papers! :trophy:
