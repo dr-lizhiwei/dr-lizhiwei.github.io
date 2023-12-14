@@ -136,6 +136,11 @@
           {{ entry.note | strip }}
         </div>
 
+          <!-- Award -->
+          {% if entry.award -%}
+            <div class="periodical"><font color="#B509AC"><b>{{entry.award}}</b></font>🏆</div>
+          {%- endif %}
+
           <!-- Links/Buttons -->
           <div class="links">
           {%- if entry.abstract %}
@@ -169,6 +174,12 @@
           {%- endif %}
           {%- if entry.code %}
             <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
+          {%- endif %}
+          {%- if entry.project %}
+            <a href="{{ entry.project }}" class="btn btn-sm z-depth-0" role="button">Project</a>
+          {%- endif %}
+          {%- if entry.dataset %}
+            <a href="{{ entry.dataset }}" class="btn btn-sm z-depth-0" role="button">Dataset</a>
           {%- endif %}
           {%- if entry.poster %}
             {% if entry.poster contains '://' -%}
