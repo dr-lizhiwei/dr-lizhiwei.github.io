@@ -138,8 +138,11 @@
 
           <!-- Award -->
           {% if entry.award -%}
-            <div class="periodical"><font color="#B509AC"><b>{{entry.award}}</b></font>🏆</div>
+            <div class="periodical">
+              <span style="color: #B509AC;"><b>{{ entry.award }}</b></span>
+            </div>
           {%- endif %}
+
 
           <!-- Links/Buttons -->
           <div class="links">

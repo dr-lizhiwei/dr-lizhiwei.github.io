@@ -47,6 +47,13 @@ layout: default
             {%- include news.html limit=true %}
           {%- endif %}
 
+          <!-- More News -->
+          {% if page.news and site.announcements.enabled -%}
+            <div class="periodical">
+              <a href="{{ '/news/' | relative_url }}" style="color: inherit;"><u><b>More News...</b></u></a>
+            </div>
+          {%- endif %}
+
           <!-- Latest posts -->
           {% if page.latest_posts -%}
             <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">Latest Posts</a></h2>
