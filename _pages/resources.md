@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /openresources/
-title: Open Resources
+permalink: /resources/
+title: Resources
 description: 
 nav: true
 nav_order: 4
