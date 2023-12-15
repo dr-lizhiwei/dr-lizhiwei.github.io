@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://dr-lizhiwei.github.io/sitemap.xml
+Sitemap: zhiweili.net/sitemap.xml
