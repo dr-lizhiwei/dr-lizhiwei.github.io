@@ -5,9 +5,10 @@ layout: default
 <!-- about.html -->
       <div class="post">
         <header class="post-header">
-          <h3 class="post-title">
-            {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
-          </h3>
+          <h1 class="post-title" style="font-size: 20px;">
+            <span class="font-weight-bold">{{ site.firstline_name }}</span>
+<!--            {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}-->
+          </h1>
           <p class="desc">{{ page.subtitle }}</p>
         </header>
 
@@ -30,7 +31,7 @@ layout: default
               cache_bust=true -%}
             {% endif -%}
             {%- if page.profile.more_info %}
-            <div class="more-info">
+            <div class="more-info" style="font-family: initial;">
               {{ page.profile.more_info }}
             </div>
             {%- endif %}
@@ -50,7 +51,7 @@ layout: default
           <!-- More News -->
           {% if page.news and site.announcements.enabled -%}
             <div class="periodical">
-              <a href="{{ '/news/' | relative_url }}" style="color: inherit;"><u><b>More News...</b></u></a>
+              <a href="{{ '/news/' | relative_url }}" style="color: inherit;"><u><b>More</b></u></a>
             </div>
           {%- endif %}
 

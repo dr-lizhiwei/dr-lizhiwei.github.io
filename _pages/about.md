@@ -10,7 +10,8 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Room ZN613, Block Z, PolyU</p>
-    <p>zhiwei.li(AT)polyu.edu.hk</p>
+    <p>Email: <a href="mailto:zhiwei.li@polyu.edu.hk">zhiwei.li(AT)polyu.edu.hk</a></p>
+
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts

@@ -3,7 +3,8 @@
 # -----------------------------------------------------------------------------
 
 title: Zhiwei Li, Ph.D. #blank # the website title (if blank, full name will be used instead)
-first_name: Zhiwei Li, Ph.D.
+firstline_name: Zhiwei Li, Ph.D. (李志伟 博士)
+first_name: Zhiwei Li
 middle_name:
 last_name:
 email: zhiwei.li@polyu.edu.hk
@@ -13,12 +14,12 @@ footer_text: >
   Powered by Jekyll with al-folio theme.
 #  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 #  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: #jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+keywords: 李志伟, 香港理工大学, PolyU, Zhiwei Li, The Hong Kong Polytechnic University, Remote Sensing, Cloud Detection and Removal, Cloudy and Rainy, GeoAI #jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: webfavicon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://dr-lizhiwei.github.io # the base hostname & protocol for your site
+url: zhiweili.net # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -113,8 +114,8 @@ contact_note: >
 google_analytics:  # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 cronitor_analytics:  # cronitor RUM analytics site ID (format: XXXXXXXXX)
 
-google_site_verification:  # your google-site-verification ID (Google Search Console)
-bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
+google_site_verification: tfpoUs6D1dBmYWqASPBVXGYN-HXRZNU # your google-site-verification ID (Google Search Console)
+bing_site_verification: 8f0b2726a7802e4b90d365a55fbf528b # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
 # Blog
