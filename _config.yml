@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Zhiwei Li, Ph.D. #blank # the website title (if blank, full name will be used instead)
+title: Zhiwei Li - Home #blank # the website title (if blank, full name will be used instead)
 firstline_name: Zhiwei Li, Ph.D. (李志伟 博士)
 first_name: Zhiwei Li
 middle_name:
@@ -14,7 +14,7 @@ footer_text: >
   Powered by Jekyll with al-folio theme.
 #  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 #  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: 李志伟, 香港理工大学, PolyU, Zhiwei Li, The Hong Kong Polytechnic University, Remote Sensing, Cloud Detection and Removal, Cloudy and Rainy, GeoAI #jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+keywords: 李志伟, 香港理工大学, Zhiwei Li, PolyU, The Hong Kong Polytechnic University, Remote Sensing, Cloud Detection and Removal, Cloudy and Rainy, GeoAI #jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: webfavicon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -176,7 +176,7 @@ collections:
 announcements:
   enabled: true
   scrollable: false # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: 7 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: true

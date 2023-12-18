@@ -6,7 +6,7 @@ description:
 nav: true
 nav_order: 2
 ---
-**Ten representative journal publications** (\* corresponding author, # co-first author):
+**Ten featured journal papers** (\* corresponding author, # co-first author):
 
 ###### [<u><b>Google Scholar</b></u>](https://scholar.google.com/citations?user=SlXpfWMAAAAJ)		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;			[<u><b>ResearchGate</b></u>](https://www.researchgate.net/profile/Zhiwei_Li22)
 
