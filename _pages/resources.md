@@ -10,7 +10,7 @@ nav_order: 4
 ##### **Projects**  
 
 **[1] OpenSICDR: Open Satellite Image Cloud Detection Resources ([Link](https://github.com/dr-lizhiwei/OpenSICDR)) <font color=red>*New*</font>**  
-&emsp;We collect the latest open-source tools and datasets for cloud and cloud shadow detection and launch an online project (Open Satellite Image Cloud Detection Resources, i.e., OpenSICDR) to promote the sharing of the latest research outputs of the field. If you would like to provide new resources, please kindly submit an update request.  
+&emsp;We collect the latest open-source tools and datasets for cloud and cloud shadow detection, and launch this online project (Open Satellite Image Cloud Detection Resources, i.e., OpenSICDR) to promote the sharing of the latest research outputs of the field. If you would like to provide new resources, please kindly contact Dr. Zhiwei Li or submit an update request.  
 &emsp;Reference: Zhiwei Li, Huanfeng Shen, Qihao Weng, Yuzhuo Zhang, Peng Dou, Liangpei Zhang. Cloud and cloud shadow detection for optical satellite imagery: Features, algorithms, validation, and prospects. *ISPRS Journal of Photogrammetry and Remote Sensing*, vol. 188, pp. 89-108, 2022. [[PDF](https://www.sciencedirect.com/science/article/pii/S0924271622000934)]  
 
 ------
@@ -19,15 +19,15 @@ nav_order: 4
 
 ##### **Datasets**  
 
-**[1] GF1_WHU: GF-1 Cloud and Cloud Shadow Detection Validation Dataset ([Link](http://sendimage.whu.edu.cn/en/mfc-validation-data/))**  
-&emsp;The Gaofen-1 cloud and cloud shadow detection validation dataset, termed GF1_WHU, was created by researchers at Wuhan University. It has been used for the performance evaluation of cloud detection methods for Gaofen-1 WFV images, which have a 16-m spatial resolution and four multispectral bands spanning the visible to the near-infrared spectral regions. This collection of validation data includes 108 Level2A scenes collected from different global land-cover types under varying cloud conditions. All associated reference masks label both cloud and cloud shadow. 
+**[1] GF1_WHU: GF-1 Cloud and Cloud Shadow Detection Dataset ([Link](https://github.com/dr-lizhiwei/GF1_WHU/))**  
+&emsp;The Gaofen-1 cloud and cloud shadow detection dataset, termed GF1_WHU, was created by researchers at Wuhan University. It has been used for the performance evaluation of cloud detection methods for Gaofen-1 WFV images, which have a 16-m spatial resolution and four multispectral bands spanning the visible to the near-infrared spectral regions. This data collection includes 108 Level2A scenes collected from different global land-cover types under varying cloud conditions. All associated reference masks label both cloud and cloud shadow. 
 
 <div align=center><img src="../assets/img/open_resources/GF1_WHU.jpg" alt="" width="600"/></div>
 
 <center>Global distribution of images in GF1_WHU (base map credit: NASA Visible Earth)</center>  
 
-**[2] HRC_WHU: High-resolution Cloud Detection Validation Dataset ([Link](http://sendimage.whu.edu.cn/en/hrc_whu/))**  
-&emsp;The high-resolution cloud detection validation dataset, termed HRC_WHU, comprises 150 high-resolution images acquired with three RGB channels and a resolution varying from 0.5 to 15 meters across different global regions. The images were collected from Google Earth, where satellite images, aerial photography, and geographic information system data are superimposed to map the Earth onto a 3D globe. The associated reference cloud masks were digitized by experts specializing in remote sensing image interpretation from Wuhan University.
+**[2] HRC_WHU: High-resolution Cloud Detection Dataset ([Link](https://github.com/dr-lizhiwei/HRC_WHU))**  
+&emsp;The high-resolution cloud detection dataset, termed HRC_WHU, comprises 150 high-resolution images acquired with three RGB channels and a resolution varying from 0.5 to 15 meters across different global regions. The images were collected from Google Earth, where satellite images, aerial photography, and geographic information system data are superimposed to map the Earth onto a 3D globe. The associated reference cloud masks were digitized by experts specializing in remote sensing image interpretation from Wuhan University.
 
 <div align=center><img src="../assets/img/open_resources/HRC_WHU.jpg" alt="" width="600"/></div>
 
