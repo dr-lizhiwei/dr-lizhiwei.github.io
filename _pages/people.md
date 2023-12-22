@@ -17,7 +17,7 @@ Dr. Zhiwei LI, Research Assistant Professor
 
 ##### **Team Members**
 
-Shaofen Xu, Research Assistant
+Shaofen XU, Research Assistant
 
 ------
 
@@ -25,7 +25,7 @@ Shaofen Xu, Research Assistant
 
 ##### **Master Students**
 
-List of Master Students Under Supervision for Theses and Projects:
+List of Master Students Under Supervision for Theses or Projects:
 
 | Name | Thesis/Project Title                                         | Status                     |
 | ----------------------- | ------------------------------------------------------------ | -------------------------- |
@@ -33,5 +33,4 @@ List of Master Students Under Supervision for Theses and Projects:
 | Sukanta BAG             | Evaluating the Impact of Deforestation on the Amazon Rainforest Through Satellite Imagery Analysis | Completed in December 2023 |
 | Huan ZHOU               | Unlocking the Potential of Multi-Modal Self-Supervised Learning for Flood Inundation Mapping | Ongoing                    |
 | Jinzhuo XIONG          | Use of Radom Forest and High-Resolution Satellite Imagery for Urban Flooding Inundation Probability Mapping | Ongoing                    |
-
 
