@@ -7,49 +7,31 @@ nav: true
 nav_order: 5
 ---
 
+##### **Principle Investigator**
 
-Coming soon...
+Dr. Zhiwei LI, Research Assistant Professor
+
+------
 
 
 
-[//]: # ()
-[//]: # (profiles:)
+##### **Team Members**
 
-[//]: # (  # if you want to include more than one profile, just replicate the following block)
+Shaofen Xu, Research Assistant
 
-[//]: # (  # and create one content file for each profile inside _pages/)
+------
 
-[//]: # (  - align: right)
 
-[//]: # (    image: prof_pic.jpg)
 
-[//]: # (    content: about_einstein.md)
+##### **Master Students**
 
-[//]: # (    image_circular: false # crops the image to make it circular)
+List of Master Students Under Supervision for Theses and Projects:
 
-[//]: # (    more_info: >)
+| Name | Thesis/Project Title                                         | Status                     |
+| ----------------------- | ------------------------------------------------------------ | -------------------------- |
+| Yim-ting CHEUNG         | Comprehensive Flood Risk Assessment in the Greater Bay Area: A Historical and Future Perspective (2000-2100) | Completed in December 2023 |
+| Sukanta BAG             | Evaluating the Impact of Deforestation on the Amazon Rainforest Through Satellite Imagery Analysis | Completed in December 2023 |
+| Huan ZHOU               | Unlocking the Potential of Multi-Modal Self-Supervised Learning for Flood Inundation Mapping | Ongoing                    |
+| Jinzhuo XIONG          | Use of Radom Forest and High-Resolution Satellite Imagery for Urban Flooding Inundation Probability Mapping | Ongoing                    |
 
-[//]: # (      <p>555 your office number</p>)
 
-[//]: # (      <p>123 your address street</p>)
-
-[//]: # (      <p>Your City, State 12345</p>)
-
-[//]: # (    )
-[//]: # (  - align: left)
-
-[//]: # (    image: prof_pic.jpg)
-
-[//]: # (    content: about_einstein.md)
-
-[//]: # (    image_circular: false # crops the image to make it circular)
-
-[//]: # (    more_info: >)
-
-[//]: # (      <p>555 your office number</p>)
-
-[//]: # (      <p>123 your address street</p>)
-
-[//]: # (      <p>Your City, State 12345</p>)
-
-[//]: # (---)

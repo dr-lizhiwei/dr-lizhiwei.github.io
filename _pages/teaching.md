@@ -14,7 +14,7 @@ nav_order: 3
 ##### **Teaching Assistant**  
 
 - 09/2022 - Present, Undergraduate Subject, LSGI1001, Big Earth Data and Geospatial AI
-- 08/2022, Training Course for Lands Department of Hong Kong Government, Remote Sensing and Machine Learning
+- 08/2022, Training Course for the Lands Department of the Government of the Hong Kong Special Administrative Region, Remote Sensing and Machine Learning
 
 
 
