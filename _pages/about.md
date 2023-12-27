@@ -27,3 +27,7 @@ My research interests primarily focus on **Remote Sensing of Cloudy and Rainy En
 
 I obtained my Ph.D. degree in Cartography and Geoinformation Engineering from Wuhan University in 2020. Prior to my current position, I worked as a Postdoctoral Fellow at Wuhan University from 2020 to 2022. I have been the PI of one project funded by the National Natural Science Foundation of China (NSFC) and two projects funded by the China Postdoctoral Science Foundation. The methods and tools I developed have been widely applied in the preprocessing of multiple types of satellite images, supporting national land resource monitoring by the China Land Survey and Planning Institute and other related departments.
 
+
+<div id="revolverMaps">
+    <script type="text/javascript" src="//rf.revolvermaps.com/0/0/9.js?i=53a2m5qfpn2&amp;t=Live%20Stats." async="async"></script>
+</div>

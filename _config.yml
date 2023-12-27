@@ -12,8 +12,10 @@ description: >
   Zhiwei Li, Ph.D. (李志伟 博士), Research Assistant Professor, Department of Land Surveying and Geo-Informatics (LSGI), The Hong Kong Polytechnic University (PolyU).
 
 # https://www.revolvermaps.com/livestats/53a2m5qfpn2/
+# <font color=white><script type="text/javascript" src="//rf.revolvermaps.com/0/0/9.js?i=53a2m5qfpn2&amp;t=Live%20Stats." async="async"></script></font>
+# <script type="text/javascript" src="//rf.revolvermaps.com/0/0/3.js?i=53a2m5qfpn2&amp;b=0&amp;s=20&amp;m=2&amp;cl=ffffff&amp;co=010020&amp;cd=aa0000&amp;v0=60&amp;v1=60&amp;r=1" async="async"></script>
 footer_text: >
-  Powered by Jekyll with al-folio theme.<script type="text/javascript" src="//rf.revolvermaps.com/0/0/3.js?i=53a2m5qfpn2&amp;b=0&amp;s=20&amp;m=2&amp;cl=ffffff&amp;co=010020&amp;cd=aa0000&amp;v0=60&amp;v1=60&amp;r=1" async="async"></script>
+  Powered by Jekyll with al-folio theme.
 
 keywords: 李志伟, 香港理工大学, Zhiwei Li, PolyU, The Hong Kong Polytechnic University, Remote Sensing, Cloud Detection and Removal, Cloudy and Rainy, GeoAI #jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
 
@@ -53,7 +55,7 @@ navbar_fixed: true
 footer_fixed: false
 
 # Dimensions
-max_width: 800px
+max_width: 960px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -362,8 +364,8 @@ jekyll-diagrams:
 
 enable_google_analytics:    true  # enables google analytics
 enable_cronitor_analytics:  false  # enables cronitor RUM analytics
-enable_google_verification: true  # enables google site verification
-enable_bing_verification:   true  # enables bing site verification
+enable_google_verification: false  # enables google site verification
+enable_bing_verification:   false  # enables bing site verification
 enable_baidu_verification: true  # enables baidu site verification
 enable_masonry:             true   # enables automatic project cards arrangement
 enable_math:                true   # enables math typesetting (uses MathJax)
