@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Research Assistant Professor at <a href='https://www.polyu.edu.hk/'>The Hong Kong Polytechnic University</a>
+subtitle: Research Assistant Professor, The Hong Kong Polytechnic University
 
 profile:
   align: right
@@ -21,7 +21,7 @@ social: true  # includes social icons at the bottom of the page
 
 **<font color=orange>I am recruiting part-time Research Assistants for 2024!</font>**
 
-I am currently a Research Assistant Professor in the <a href='https://www.polyu.edu.hk/lsgi/'>Department of Land Surveying and Geo-Informatics</a> at The Hong Kong Polytechnic University. I am also affiliated with the PolyU JC STEM Lab of Earth Observations (POLEIS) and the Research Centre for Artificial Intelligence in Geomatics (RCAIG), led by [Prof. Qihao Weng](https://qihaoweng.net/).
+I am currently a Research Assistant Professor in the <a href='https://www.polyu.edu.hk/lsgi/'>Department of Land Surveying and Geo-Informatics (LSGI)</a> at <a href='https://www.polyu.edu.hk/'>The Hong Kong Polytechnic University (PolyU)</a>. I am also affiliated with the PolyU JC STEM Lab of Earth Observations (POLEIS) and the Research Centre for Artificial Intelligence in Geomatics (RCAIG), led by [Prof. Qihao Weng](https://qihaoweng.net/).
 
 My research interests primarily focus on **Remote Sensing of Cloudy and Rainy Environments**, which involves applying big Earth data and geospatial artificial intelligence (GeoAI) for environment and climate change-related research and applications, especially in cloudy and rainy tropical/subtropical regions. The specific research topics include urban remote sensing, cloud detection and removal, multi-source data fusion, land cover/use mapping, flood monitoring, etc. I have authored more than 20 journal and conference papers in *RSE*, *ISPRS P&RS*, *IEEE JSTARS*, etc., with a total of over 1800 citations (<a href='https://scholar.google.com/citations?user=SlXpfWMAAAAJ'>Google Scholar</a>), four of which have been selected as ESI Highly Cited Papers.
 
