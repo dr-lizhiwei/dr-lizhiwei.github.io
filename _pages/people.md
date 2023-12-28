@@ -34,4 +34,3 @@ List of Master Students Under Supervision for Theses or Projects:
 | Huan Zhou       | Unlocking the Potential of Multi-Modal Self-Supervised Learning for Flood Inundation Mapping                 | Ongoing                    |
 | Jinzhuo Xiong   | Use of Radom Forest and High-Resolution Satellite Imagery for Urban Flooding Inundation Probability Mapping  | Ongoing                    |
 
-
