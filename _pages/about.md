@@ -9,7 +9,7 @@ profile:
   image: dr_lizhiwei.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p><b>Office</b>: ZN613, Block Z, PolyU</p>
+    <p><b>Office</b>: ZN613, Block Z, PolyU, HK</p>
     <p><b>Email</b>: <a href="mailto:zhiwei.li@polyu.edu.hk">zhiwei.li(AT)polyu.edu.hk</a></p>
 
 
