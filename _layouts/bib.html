@@ -11,6 +11,7 @@
             {%- assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' -%}
             {% include figure.html
             path=entry_path
+            sizes = "200px"
             class="preview z-depth-1 rounded"
             zoomable=false
             alt=entry.preview -%}
@@ -136,14 +137,6 @@
           {{ entry.note | strip }}
         </div>
 
-          <!-- Award -->
-          {% if entry.award -%}
-            <div class="periodical">
-              <span style="color: #B509AC;"><b>{{ entry.award }}</b></span>
-            </div>
-          {%- endif %}
-
-
           <!-- Links/Buttons -->
           <div class="links">
           {%- if entry.abstract %}
@@ -172,17 +165,14 @@
             <a href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Supp</a>
             {%- endif %}
           {%- endif %}
+          {%- if entry.video %}
+            <a class="abstract btn btn-sm z-depth-0" role="button">Video</a>
+          {%- endif %}
           {%- if entry.blog %}
             <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
           {%- endif %}
           {%- if entry.code %}
             <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
-          {%- endif %}
-          {%- if entry.project %}
-            <a href="{{ entry.project }}" class="btn btn-sm z-depth-0" role="button">Project</a>
-          {%- endif %}
-          {%- if entry.dataset %}
-            <a href="{{ entry.dataset }}" class="btn btn-sm z-depth-0" role="button">Dataset</a>
           {%- endif %}
           {%- if entry.poster %}
             {% if entry.poster contains '://' -%}
@@ -203,10 +193,25 @@
           {%- endif %}
           </div>
           {% if site.enable_publication_badges %}
-          {% assign entry_has_altmetric_badge = entry.altmetric or entry.doi or entry.eprint or entry.pmid or entry.isbn %}
+          {% assign entry_has_altmetric_badge = entry.altmetric or entry.doi or  entry.eprint or entry.pmid or entry.isbn %}
           {% assign entry_has_dimensions_badge = entry.dimensions or entry.doi or entry.pmid %}
           {% if entry_has_altmetric_badge or entry_has_dimensions_badge %}
           <div class="badges">
+            {%- if site.enable_publication_badges.altmetric and entry_has_altmetric_badge %}
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"
+              {% if entry.eprint %}
+                data-arxiv-id="{{ entry.eprint }}"
+              {% elsif entry.doi %}
+                data-doi="{{ entry.doi }}"
+              {% elsif entry.altmetric %}
+                data-altmetric-id="{{ entry.altmetric }}"
+              {% elsif entry.pmid %}
+                data-pmid="{{ entry.pmid }}"
+              {% elsif entry.isbn %}
+                data-isbn="{{ entry.isbn }}"
+              {% endif %}
+              ></span>
+            {%- endif %}
             {%- if site.enable_publication_badges.dimensions and entry_has_dimensions_badge %}
               <span class="__dimensions_badge_embed__"
               {% if entry.doi %}
@@ -217,22 +222,6 @@
                 data-id="{{ entry.dimensions }}"
               {% endif %}
               data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-            {%- endif %}
-            {%- if site.enable_publication_badges.altmetric %} <!-- and entry_has_altmetric_badge -->
-            <!-- <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="1" data-badge-type="2" data-badge-popover="right" -->
-            <span class="altmetric-embed" data-badge-type="2" data-hide-no-mentions="true" data-hide-less-than="1" data-badge-popover="right" data-link-target = "true"
-              {% if entry.doi %}
-                data-doi="{{ entry.doi }}"
-              {% elsif entry.eprint %}
-                data-arxiv-id="{{ entry.eprint }}"
-              {% elsif entry.altmetric %}
-                data-altmetric-id="{{ entry.altmetric }}"
-              {% elsif entry.pmid %}
-                data-pmid="{{ entry.pmid }}"
-              {% elsif entry.isbn %}
-                data-isbn="{{ entry.isbn }}"
-              {% endif %}
-              ></span>
             {%- endif %}
           </div>
           {%- endif %}
@@ -251,5 +240,13 @@
             {% highlight bibtex %}{{ entry.bibtex | hideCustomBibtex }}{% endhighlight %}
           </div>
           {%- endif %}
+
+          {% if entry.video -%}
+          <!-- Hidden video block -->
+          <div class="abstract hidden">
+            <div style="text-align: center;">{% include video.html path=entry.video class="img-fluid rounded z-depth-1" controls=true %}</div>
+          </div>
+          {%- endif -%}
+
         </div>
       </div>

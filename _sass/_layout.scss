@@ -34,31 +34,6 @@ body.sticky-bottom-footer {
 }
 
 // TODO: redefine content layout.
-/* Mobile devices */
-// @media (max-width: 768px) {
-//     .img-fluid {
-//         max-width: 50%; /* or any other percentage */
-//         height: auto;
-//     }
-// }
-
-.profile {
-    display: flex;
-    justify-content: center; /* Aligns content in the center */
-    align-items: center; /* Aligns items vertically */
-    flex-direction: column; /* Stacks items vertically */
-}
-
-.img-fluid {
-    max-width: 50vw; /* 80% of the viewport width */
-    height: auto;
-}
-
-
-#revolverMaps {
-    display: none;
-}
-
 
 
 /******************************************************************************

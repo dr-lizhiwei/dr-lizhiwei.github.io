@@ -1,22 +1,12 @@
 ---
 layout: page
 permalink: /teaching/
-title: Teaching
-description: 
+title: teaching
+description: Materials for courses you taught. Replace this text with your description.
 nav: true
-nav_order: 3
+nav_order: 6
 ---
 
-##### **Subject Lecturer**  
+For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
 
-- 01/2023 - Present,  Graduate Subject, LSGI536, Remote Sensing Image Processing
-
-##### **Teaching Assistant**  
-
-- 09/2022 - Present, Undergraduate Subject, LSGI1001, Big Earth Data and Geospatial AI
-- 08/2022, Training Course for the Lands Department of the Government of the Hong Kong Special Administrative Region, Remote Sensing and Machine Learning
-
-
-
-<div align=left><img src="../assets/img/teaching_area.png" alt="Teaching Area" width="650"/></div>
-
+Organize your courses by years, topics, or universities, however you like!
