@@ -29,5 +29,5 @@ I obtained my Ph.D. degree in Cartography and Geoinformation Engineering from Wu
 
 
 <div id="revolverMaps">
-    <script type="text/javascript" src="//rf.revolvermaps.com/0/0/9.js?i=53a2m5qfpn2&amp;t=Live%20Stats." async="async"></script>
+    <script type="text/javascript" src="//rf.revolvermaps.com/0/0/9.js?i=5955mvwzj0a&amp;t=Live%20Stats." async="async"></script>
 </div>

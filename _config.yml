@@ -11,18 +11,18 @@ email: zhiwei.li@polyu.edu.hk
 description: >
   Zhiwei Li, Ph.D. (李志伟 博士), Research Assistant Professor, Department of Land Surveying and Geo-Informatics (LSGI), The Hong Kong Polytechnic University (PolyU).
 
-# https://www.revolvermaps.com/livestats/53a2m5qfpn2/
-# <font color=white><script type="text/javascript" src="//rf.revolvermaps.com/0/0/9.js?i=53a2m5qfpn2&amp;t=Live%20Stats." async="async"></script></font>
-# <script type="text/javascript" src="//rf.revolvermaps.com/0/0/3.js?i=53a2m5qfpn2&amp;b=0&amp;s=20&amp;m=2&amp;cl=ffffff&amp;co=010020&amp;cd=aa0000&amp;v0=60&amp;v1=60&amp;r=1" async="async"></script>
+# https://www.revolvermaps.com/livestats/5955mvwzj0a/
+# <font color=white><script type="text/javascript" src="//rf.revolvermaps.com/0/0/9.js?i=5955mvwzj0a&amp;t=Live%20Stats." async="async"></script></font>
+# <script type="text/javascript" src="//rf.revolvermaps.com/0/0/3.js?i=5955mvwzj0a&amp;b=0&amp;s=20&amp;m=2&amp;cl=ffffff&amp;co=010020&amp;cd=aa0000&amp;v0=60&amp;v1=60&amp;r=1" async="async"></script>
 footer_text: >
   Powered by Jekyll with al-folio theme.
 
-keywords: 李志伟, 香港理工大学, Zhiwei Li, PolyU, The Hong Kong Polytechnic University, Remote Sensing, Cloud Detection and Removal, Cloudy and Rainy, GeoAI # add your own keywords or leave empty
+keywords: 李志伟, 香港理工大学, Zhiwei Li, PolyU, The Hong Kong Polytechnic University, Remote Sensing, Cloud Detection and Removal, Cloudy and Rainy, GeoAI, Earth Observation, Land Cover, Flood, Urbanization, Climate Change # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: webfavicon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://zhiweili.net # the base hostname & protocol for your site
+url: https://zhiweili.net/ # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
