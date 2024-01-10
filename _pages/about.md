@@ -19,7 +19,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-**<font color=brown>:pushpin:I am seeking part-time Research Assistants for 2024:pushpin:</font>**
+**<font color=brown>I am seeking part-time Research Assistants for 2024.:pushpin:</font>**
 
 I am currently a Research Assistant Professor in the Department of Land Surveying and Geo-Informatics (<a href='https://www.polyu.edu.hk/lsgi/'>LSGI</a>) at The Hong Kong Polytechnic University (<a href='https://www.polyu.edu.hk/'>PolyU</a>). I am also affiliated with the PolyU JC STEM Lab of Earth Observations (POLEIS) and the Research Centre for Artificial Intelligence in Geomatics (RCAIG), both led by [Prof. Qihao Weng](https://qihaoweng.net/).
 
