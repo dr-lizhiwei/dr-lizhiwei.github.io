@@ -9,11 +9,11 @@ nav_order: 3
 
 ##### **Subject Lecturer**  
 
-- 01/2023 - Present,  Graduate Subject, LSGI536, Remote Sensing Image Processing
+- Spring 2023 - Present,  Graduate Subject, LSGI536, Remote Sensing Image Processing
 
 ##### **Teaching Assistant**  
 
-- 09/2022 - Present, Undergraduate Subject, LSGI1001, Big Earth Data and Geospatial AI
+- Fall 2022 - Present, Undergraduate Subject, LSGI1001, Big Earth Data and Geospatial AI
 - 08/2022, Training Course for the Lands Department of the Government of the Hong Kong Special Administrative Region, Remote Sensing and Machine Learning
 
 
