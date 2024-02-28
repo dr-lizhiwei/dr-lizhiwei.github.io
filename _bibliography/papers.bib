@@ -4,6 +4,7 @@
 @string{aps = {American Physical Society,}}
 
 @article{Zhu2024,
+abbr = {IEEE TGRS},
 abstract = {Recently, deep learning has been widely used for cloud detection in satellite images; however, due to radiometric and spatial resolution differences in images from different sensors and time-consuming process of manually labeling cloud detection datasets, it is difficult to effectively generalize deep learning models for cloud detection in multisensor images. This article propose a weakly supervised learning method for transferring deep models for cloud detection in multisensor images (TransMCD), which leverages the generalization of deep models and the spectral features of clouds to construct pseudo-label dataset to improve the generalization of models. A deep model is first pretrained using a well-annotated cloud detection dataset, which is used to obtain a rough cloud mask of unlabeled target image. The rough mask can be used to determine the spectral threshold adaptively for cloud segmentation of target image. Block-level pseudo labels with high confidence in target image are selected using the rough mask and spectral mask. Unsupervised segmentation technique is used to construct a high-quality pixel-level pseudo-label dataset. Finally, the pseudo-label dataset is used as supervised information for transferring the pretrained model to target image. The TransMCD method was validated by transferring model trained on 16-m Gaofen-1 wide field of view(WFV)images to 8-m Gaofen-1, 4-m Gaofen-2, and 10-m Sentinel-2 images. The F1-score of the transferred models on target images achieves improvements of 1.23%–9.63% over the pretrained models, which is comparable to the fully-supervised models trained with well-annotated target images, suggesting the efficiency of the TransMCD method for cloud detection in multisensor images.},
 author = {Zhu, Shaocong and Li, Zhiwei and Shen, Huanfeng},
 doi = {10.1109/TGRS.2024.3358824},
@@ -18,7 +19,7 @@ month = {feb},
 dimensions={true},
 pdf = {https://zhiweili.net/assets/pdf/2024.2_TGRS_Transferring Deep Models for Cloud Detection in Multisensor Images via Weakly Supervised Learning.pdf},
 dataset = {https://github.com/whu-ZSC/GF1-GF2MS-WHU/},
-preview = {2024.2_TGRS.png},
+preview = {2024.2_TGRS.png}
 }
 
 
