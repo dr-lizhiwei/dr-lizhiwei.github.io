@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-Our new paper entitled *Thick cloud and cloud shadow removal in multitemporal imagery using progressively spatio-temporal patch group deep learning* has been published in **ISPRS Journal of Photogrammetry and Remote Sensing** ([Link](https://www.sciencedirect.com/science/article/abs/pii/S0924271620300423), [PDF](../assets/pdf/2020.4_ISPRS P&RS_Thick cloud and cloud shadow removal in multitemporal imagery using progressively spatio-temporal patch group deep learning.pdf)).
+Our new paper entitled *Thick cloud and cloud shadow removal in multitemporal imagery using progressively spatio-temporal patch group deep learning* has been published in **ISPRS Journal of Photogrammetry and Remote Sensing** ([HTML](https://www.sciencedirect.com/science/article/abs/pii/S0924271620300423), [PDF](../assets/pdf/2020.4_ISPRS P&RS_Thick cloud and cloud shadow removal in multitemporal imagery using progressively spatio-temporal patch group deep learning.pdf)).
 
