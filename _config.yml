@@ -15,7 +15,7 @@ description: >
 # <font color=white><script type="text/javascript" src="//rf.revolvermaps.com/0/0/9.js?i=5955mvwzj0a&amp;t=Live%20Stats." async="async"></script></font>
 # <script type="text/javascript" src="//rf.revolvermaps.com/0/0/3.js?i=5955mvwzj0a&amp;b=0&amp;s=20&amp;m=2&amp;cl=ffffff&amp;co=010020&amp;cd=aa0000&amp;v0=60&amp;v1=60&amp;r=1" async="async"></script>
 footer_text: >
-  Powered by Jekyll with al-folio theme.
+  Powered by Jekyll with al-folio theme. Hosted by GitHub Pages.
 
 keywords: 李志伟, 香港理工大学, Zhiwei Li, PolyU, The Hong Kong Polytechnic University, Remote Sensing, Cloud Detection and Removal, Cloudy and Rainy, GeoAI, Earth Observation, Land Cover, Flood, Urbanization, Climate Change # add your own keywords or leave empty
 
@@ -71,7 +71,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
+github_username: dr-lizhiwei # your GitHub user name
 gitlab_username: # your GitLab user name
 x_username: # your X handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
@@ -126,9 +126,9 @@ baidu_site_verification: codeva-VhAM0AReUZ # <meta name="baidu-site-verification
 # -----------------------------------------------------------------------------
 
 blog_name: #al-folio # blog_name will be displayed in your blog page
-blog_nav_title: Blog # your blog must have a title for it to be displayed in the nav bar
+blog_nav_title: #Blog # your blog must have a title for it to be displayed in the nav bar
 blog_description: #a simple whitespace theme for academics
-permalink: /blog/:year/:title/
+permalink: #/blog/:year/:title/
 
 # Pagination
 pagination:
@@ -159,9 +159,9 @@ disqus_shortname: #al-folio # put your disqus shortname
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+#external_sources:
+#  - name: medium.com
+#    rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections
