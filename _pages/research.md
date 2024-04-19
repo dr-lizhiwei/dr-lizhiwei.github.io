@@ -23,14 +23,20 @@ Remote Sensing of Cloudy and Rainy Environments:
 
   <div align=center><img src="../assets/img/research_cloud.jpg" alt="" width="600"/></div>
 
+  
+
 - Land Use & Land Cover Mapping
 
   <div align=center><img src="../assets/img/research_lulc.jpg" alt="" width="600"/></div>
+
+  
 
 - Flood Monitoring and Risk Assessment
 
   <div align=center><img src="../assets/img/research_flood.jpg" alt="" width="600"/></div>
 
-- Geospatial Artificial Intelligence
+  
 
-<div align=center><img src="../assets/img/research_GeoAI.jpg" alt="" width="600"/></div>
+- Geospatial Artificial Intelligence (GeoAI)
+
+  <div align=center><img src="../assets/img/research_GeoAI.jpg" alt="" width="600"/></div>
