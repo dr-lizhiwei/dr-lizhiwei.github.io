@@ -3,6 +3,28 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{Li2024,
+abstract = {Mapping of highly dynamic changes in land use and land cover (LULC) can be hindered by various cloudy conditions with optical satellite images. These conditions result in discontinuities in high-temporal-density LULC mapping. In this paper, we developed an integrated time series mapping method to enhance the LULC mapping accuracy and frequency in cloud-prone areas by incorporating spectral-indices-fused deep models and time series reconstruction techniques. The proposed method first reconstructed cloud-contaminated pixels through time series filtering, during which the cloud masks initialized by a deep model were refined and updated during the reconstruction process. Then, the reconstructed time series images were fed into a spectral-indices-fused deep model trained on samples collected worldwide for classification. Finally, post-classification processing, including spatio-temporal majority filtering and time series refinement considering land–water interactions, was conducted to enhance the LULC mapping accuracy and consistency. We applied the proposed method to the cloud- and rain-prone Pearl River Delta (i.e., Guangdong–Hong Kong–Macao Greater Bay Area, GBA) and used time series Sentinel-2 images as the experimental data. The proposed method enabled seamless LULC mapping at a temporal frequency of 2–5 days, and the production of 10 m resolution annual LULC products in the GBA. The assessment yielded a mean overall accuracy of 87.01% for annual mapping in the four consecutive years of 2019–2022 and outperformed existing mainstream LULC products, including ESA WorldCover (83.98%), Esri Land Cover (85.26%), and Google Dynamic World (85.06%). Our assessment also reveals significant variations in LULC mapping accuracies with different cloud masks, thus underscoring their critical role in time series LULC mapping. The proposed method has the potential to generate seamless and near real-time maps for other regions in the world by using deep models trained on datasets collected globally. This method can provide high-quality LULC data sets at different time intervals for various land and water dynamics in cloud- and rain-prone regions. Notwithstanding the difficulties of obtaining high-quality LULC maps in cloud-prone areas, this paper provides a novel approach for the mapping of LULC dynamics and the provision of reliable annual LULC products.},
+author = {Li, Zhiwei and Weng, Qihao and Zhou, Yuhan and Dou, Peng and Ding, Xiaoli},
+doi = {10.1016/j.rse.2024.114190},
+issn = {00344257},
+journal = {Remote Sensing of Environment},
+keywords = {Land use and land cover, Time series images, Deep learning, Sentinel-2, Cloudy and rainy areas},
+pages = {114190},
+publisher = {Elsevier},
+title = {{Learning spectral-indices-fused deep models for time-series land use and land cover mapping in cloud-prone areas: The case of Pearl River Delta}},
+volume = {308},
+year = {2024},
+month = {jul},
+html = {https://doi.org/10.1016/j.rse.2024.114190},
+pdf = {https://zhiweili.net/assets/pdf/2024.7_RSE_Learning spectral-indices-fused deep models for time-series land use and land cover mapping in cloud-prone areas.pdf},
+preview = {2024.7_RSE.png},
+google_scholar_id={sSrBHYA8nusC},
+dimensions={true},
+selected={true}
+}
+
+
 @article{Zhu2024,
 abbr = {IEEE TGRS},
 abstract = {Recently, deep learning has been widely used for cloud detection in satellite images; however, due to radiometric and spatial resolution differences in images from different sensors and time-consuming process of manually labeling cloud detection datasets, it is difficult to effectively generalize deep learning models for cloud detection in multisensor images. This article propose a weakly supervised learning method for transferring deep models for cloud detection in multisensor images (TransMCD), which leverages the generalization of deep models and the spectral features of clouds to construct pseudo-label dataset to improve the generalization of models. A deep model is first pretrained using a well-annotated cloud detection dataset, which is used to obtain a rough cloud mask of unlabeled target image. The rough mask can be used to determine the spectral threshold adaptively for cloud segmentation of target image. Block-level pseudo labels with high confidence in target image are selected using the rough mask and spectral mask. Unsupervised segmentation technique is used to construct a high-quality pixel-level pseudo-label dataset. Finally, the pseudo-label dataset is used as supervised information for transferring the pretrained model to target image. The TransMCD method was validated by transferring model trained on 16-m Gaofen-1 wide field of view(WFV)images to 8-m Gaofen-1, 4-m Gaofen-2, and 10-m Sentinel-2 images. The F1-score of the transferred models on target images achieves improvements of 1.23%–9.63% over the pretrained models, which is comparable to the fully-supervised models trained with well-annotated target images, suggesting the efficiency of the TransMCD method for cloud detection in multisensor images.},
@@ -48,6 +70,7 @@ google_scholar_id={EUQCXRtRnyEC},
 selected={true}
 }
 
+
 @article{Dou2021,
 abbr = {JAG},
 abstract = {Recently, time series image (TSI) has been reported to be an effective resource to mapping fine land use/land cover (LULC), and deep learning, in particular, has been gaining growing attention in this field. However, deep learning methods using single classifier need further improvement for accurate TSI classification owing to the 1D temporal properties and insufficient dense time series of the remote sensing images. To overcome such disadvantages, we proposed an innovative approach involving construction of TSI and combination of deep learning and multiple classifiers system (MCS). Firstly, we used a normalised difference index (NDI) to establish an NDIs-based TSI and then designed a framework consisting of a deep learning-based feature extractor and multiple classifiers system (MCS) based classification model to classify the TSI. With the new approach, our experiments were conducted on Landsat images located in two counties, Sutter and Kings in California, United States. The experimental results indicate that our proposed method achieves great progress on accuracy improvement and LULC mapping, outperforming classifications using comparative deep learning and non-deep learning methods.},
@@ -68,6 +91,7 @@ preview = {2021.12_JAG.png},
 google_scholar_id={f2IySw72cVMC},
 dimensions={true}
 }
+
 
 @article{Zhang2021,
 abbr = {ISPRS P&RS},
@@ -92,6 +116,7 @@ google_scholar_id={pyW8ca7W8N0C},
 selected={true}
 }
 
+
 @article{Yuan2020,
 abbr = {RSE},
 abstract = {Various forms of machine learning (ML) methods have historically played a valuable role in environmental remote sensing research. With an increasing amount of “big data” from earth observation and rapid advances in ML, increasing opportunities for novel methods have emerged to aid in earth environmental monitoring. Over the last decade, a typical and state-of-the-art ML framework named deep learning (DL), which is developed from the traditional neural network (NN), has outperformed traditional models with considerable improvement in performance. Substantial progress in developing a DL methodology for a variety of earth science applications has been observed. Therefore, this review will concentrate on the use of the traditional NN and DL methods to advance the environmental remote sensing process. First, the potential of DL in environmental remote sensing, including land cover mapping, environmental parameter retrieval, data fusion and downscaling, and information reconstruction and prediction, will be analyzed. A typical network structure will then be introduced. Afterward, the applications of DL environmental monitoring in the atmosphere, vegetation, hydrology, air and land surface temperature, evapotranspiration, solar radiation, and ocean color are specifically reviewed. Finally, challenges and future perspectives will be comprehensively analyzed and discussed.},
@@ -113,6 +138,7 @@ preview = {2020.5_RSE.png},
 google_scholar_id={_xSYboBqXhAC},
 award = {ESI Highly Cited Paper🏆 2020年中国百篇最具影响国际学术论文🏆}
 }
+
 
 @misc{Wang2019,
 abbr = {IEEE JSTARS},
@@ -137,26 +163,6 @@ google_scholar_id={vV6vV6tmYwMC},
 preview = {2020.2_JSTARS.png}
 }
 
-@article{Li2020,
-abbr = {RS},
-abstract = {Urban geographical maps are important to urban planning, urban construction, land-use studies, disaster control and relief, touring and sightseeing, and so on. Satellite remote sensing images are the most important data source for urban geographical maps. However, for optical satellite remote sensing images with high spatial resolution, certain inevitable factors, including cloud, haze, and cloud shadow, severely degrade the image quality. Moreover, the geometrical and radiometric differences amongst multiple high-spatial-resolution images are difficult to eliminate. In this study, we propose a robust and efficient procedure for generating high-resolution and high-quality seamless satellite imagery for large-scale urban regions. This procedure consists of image registration, cloud detection, thin/thick cloud removal, pansharpening, and mosaicking processes. Methodologically, a spatially adaptive method considering the variation of atmospheric scattering, and a stepwise replacement method based on local moment matching are proposed for removing thin and thick clouds, respectively. The effectiveness is demonstrated by a successful case of generating a 0.91-m-resolution image of the main city zone in Nanning, Guangxi Zhuang Autonomous Region, China, using images obtained from the Chinese Beijing-2 and Gaofen-2 high-resolution satellites.},
-author = {Li<sup>#</sup>, Xinghua and Li<sup>#</sup>, Zhiwei and Feng, Ruitao and Luo, Shuang and Zhang, Chi and Jiang, Menghui and Shen, Huanfeng},
-doi = {10.3390/RS12010081},
-issn = {20724292},
-journal = {Remote Sensing},
-keywords = {Cloud detection and removal,High-quality and high-resolution,Mosaicking,Pansharpening,Remote sensing},
-number = {1},
-pages = {81},
-title = {{Generating high-quality and high-resolution seamless satellite imagery for large-scale urban regions}},
-html = {https://www.mdpi.com/2072-4292/12/1/81},
-volume = {12},
-year = {2020},
-month = {jan},
-pdf = {https://zhiweili.net/assets/pdf/2020.1_RS_Generating High-Quality and High-Resolution Seamless Satellite Imagery for Large-Scale Urban Regions_compressed.pdf},
-preview = {2020.1_RS.png},
-google_scholar_id={lSLTfruPkqcC},
-dimensions={true}
-}
 
 @article{Li2019,
 abbr = {RS},
@@ -179,6 +185,7 @@ preview = {2019.8_RS.png},
 google_scholar_id={NaGl4SEjCO4C},
 selected={true}
 }
+
 
 @article{Li2019a,
 abbr = {ISPRS P&RS},
@@ -206,6 +213,7 @@ preview = {2019.4_ISPRS P&RS.png},
 google_scholar_id={BqipwSGYUEgC},
 selected={true}
 }
+
 
 @article{Li2017,
 abbr = {RSE},

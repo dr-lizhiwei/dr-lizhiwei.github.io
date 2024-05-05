@@ -19,8 +19,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-**<font color=brown>I am seeking part-time Research Assistants for 2024!:pushpin:</font>**
-
 I am currently a Research Assistant Professor in the Department of Land Surveying and Geo-Informatics (<a href='https://www.polyu.edu.hk/lsgi/'>LSGI</a>) at The Hong Kong Polytechnic University (<a href='https://www.polyu.edu.hk/'>PolyU</a>). I am also affiliated with the PolyU JC STEM Lab of Earth Observations (POLEIS) and the Research Centre for Artificial Intelligence in Geomatics (RCAIG), both led by [Prof. Qihao Weng](https://qihaoweng.net/).
 
 My research primarily focuses on **Remote Sensing of Cloudy and Rainy Environments**, which involves applying big Earth data and geospatial artificial intelligence (GeoAI) for environment and climate change-related research and applications, especially in cloudy and rainy tropical/subtropical regions. The specific research topics include urban remote sensing, cloud detection and removal, multi-source data fusion, land cover/use mapping, flood monitoring. I have authored more than 20 journal and conference papers in *RSE*, *ISPRS P&RS*, *IEEE TGRS/JSTARS*, etc., with a total of over 2000 citations (as of Feb 2024 in <a href='https://scholar.google.com/citations?user=SlXpfWMAAAAJ&hl=en'>Google Scholar</a>), among which four have been selected as ESI Highly Cited Papers.
