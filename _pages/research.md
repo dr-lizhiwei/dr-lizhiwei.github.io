@@ -11,9 +11,10 @@ horizontal: false
 
 ##### **Grants**  
 
-- **PI**: The Hong Kong Polytechnic University, Near-Real-Time Flood Monitoring in Cloud-Prone Areas Incorporating Multi-Sensor Satellite Imagery, HKD 730,800, 02/2024-01/2026.  (Terminated)&emsp;
-- **PI**: The Hong Kong Polytechnic University, Intelligent Reconstruction and Fusion of Multisource Remote Sensing Data for High-resolution Dynamic Land Use Mapping, HKD 250,000, 09/2022-08/2024.  &emsp;
-- **PI**: National Natural Science Foundation of China (NSFC), Thick Cloud Processing Methods for Time-series Remote Sensing Images in Tensor Space,  CNY 300,000, 01/2022-12/2024.  &emsp;
+- **PI**: Near-Real-Time Flood Monitoring in Cloud-Prone Areas Incorporating Multi-Sensor Satellite Imagery,  The Hong Kong Polytechnic University, HKD 730,800, 02/2024-01/2026.  (Terminated)&emsp;
+- **PI**: Intelligent Reconstruction and Fusion of Multisource Remote Sensing Data for High-resolution Dynamic Land Use Mapping, The Hong Kong Polytechnic University, HKD 250,000, 09/2022-08/2024.  &emsp;
+- **Co-I**: A GeoAI Framework for Urban Flood Hazard Monitoring, Risk Assessment, and Scenario-based Projection, The Hong Kong Polytechnic University, HKD 1,600,000, 06/2022-05/2024.
+- **PI**: Thick Cloud Processing Methods for Time-series Remote Sensing Images in Tensor Space,  National Natural Science Foundation of China (NSFC), CNY 300,000, 01/2022-12/2024.  &emsp;
 
 ##### **Research Interests**  
 
