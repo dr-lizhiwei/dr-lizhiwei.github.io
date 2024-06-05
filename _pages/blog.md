@@ -2,8 +2,8 @@
 layout: default
 permalink: /blog/
 title: Blog
-nav: false
-nav_order: 10
+nav: true
+nav_order: 4
 pagination:
   enabled: true
   collection: posts
@@ -18,7 +18,6 @@ pagination:
 ---
 
 <div class="post">
-
 {% assign blog_name_size = site.blog_name | size %}
 {% assign blog_description_size = site.blog_description | size %}
 
