@@ -2,7 +2,7 @@
 layout: post
 title: 光学卫星影像云与云阴影检测：特征、算法、验证和前景
 date: 2022-07-05
-description: Li Z. et al., 2022, ISPRS Journal of Photogrammetry and Remote Sensing
+description: Li Z. et al., 2022, ISPRS J. Photogramm. Remote Sens.
 tags: 
 thumbnail: assets/img/blogs/2022_cloud detection review/thumbnail.png
 ---
@@ -14,7 +14,7 @@ Li, Z., Shen, H., Weng, Q., Zhang, Y., Dou, P., Zhang, L. (2022). Cloud and clou
 
 #### **摘要**
 
-云的存在阻碍了光学卫星成像系统获取有用的地面观测信息，并对光学卫星影像的处理和应用产生负面影响。因此，云及其伴随阴影的检测是光学卫星影像预处理的一个重要步骤。由于人们对时间序列影像分析和遥感数据挖掘的兴趣，近几十年来，这一领域已成为研究的热点。本综述首先分析了该领域的发展趋势，总结了云与云阴影检测方法在特征、算法、结果验证等方面的研究进展和成果，随后讨论了存在的问题，并在最后提出了未来的展望。本文旨在探索云与云阴影检测领域的新研究趋势和机会，同时为选择最合适的方法来解决光学卫星影像中的云覆盖问题提供参考，这对于多云和多雨地区的遥感至关重要。未来，我们可以预见到准确性和通用性的提升，物理模型与深度学习的结合，以及人工智能和在线大数据处理平台将能进一步提高处理效率并促进时间序列影像的应用。此外，本综述收集了最新的云与云阴影检测的开源工具和数据集，并发起了一个在线项目（Open Satellite Image Cloud Detection Resources，即OpenSICDR），以分享该领域最新的研究成果（https://github.com/dr-lizhiwei/OpenSICDR）。
+云的存在阻碍了光学卫星成像系统获取有用的地面观测信息，并对光学卫星影像的处理和应用产生负面影响。因此，云及其伴随阴影的检测是光学卫星影像预处理的一个重要步骤。由于人们对时间序列影像分析和遥感数据挖掘的兴趣，近几十年来，这一领域已成为研究的热点。本综述首先分析了该领域的发展趋势，总结了云与云阴影检测方法在特征、算法、结果验证等方面的研究进展和成果，随后讨论了存在的问题，并在最后提出了未来的展望。本文旨在探索云与云阴影检测领域的新研究趋势和机会，同时为选择最合适的方法来解决光学卫星影像中的云覆盖问题提供参考，这对于多云和多雨地区的遥感至关重要。未来，我们可以预见到准确性和通用性的提升，物理模型与深度学习的结合，以及人工智能和在线大数据处理平台将能进一步提高处理效率并促进时间序列影像的应用。此外，本综述收集了最新的云与云阴影检测的开源工具和数据集，并发起了一个在线项目（Open Satellite Image Cloud Detection Resources，即OpenSICDR），以分享该领域最新的研究成果（[https://github.com/dr-lizhiwei/OpenSICDR](https://github.com/dr-lizhiwei/OpenSICDR)）。
 
  
 
@@ -22,7 +22,7 @@ Li, Z., Shen, H., Weng, Q., Zhang, Y., Dou, P., Zhang, L. (2022). Cloud and clou
 
 在过去几十年里，随着大量光学卫星数据的发布和新数据源的不断引入，众多研究集中在对不同传感器拍摄的影像进行云与云阴影检测，并开发了众多方法。尽管以前的研究回顾了云与云阴影检测文献，但主要集中在方法的分类、云测量设备以及云与云阴影检测结果的形式。为了系统总结该领域目前的成就和挑战，本研究从特征、算法和验证的角度对云与云阴影检测文献进行了全面回顾，如图1所示。鉴于不同类别的算法可能通过使用相同类型的特征实现云与云阴影检测，且同一类别的算法也可能接受不同类型的特征，因此本综述从特征和算法两个角度分别回顾了不同的云与云阴影检测方法。本综述还总结了云与云阴影检测结果的主要类型及其验证。
 
-<div align=center><img src="../assets/img/blogs/2022_cloud detection review/Fig. 1.png" alt="" width="1000"/></div>
+<div align=center><img src="/assets/img/blogs/2022_cloud detection review//Fig. 1.png" alt="" width="1000"/></div>
 
 <center>图1. 云与云阴影检测：特征、算法和验证</center>  
 
@@ -32,29 +32,29 @@ Li, Z., Shen, H., Weng, Q., Zhang, Y., Dou, P., Zhang, L. (2022). Cloud and clou
 
 我们通过Scopus对光学卫星影像的云与云阴影检测主题进行了文献调查，搜索关键词包括*cloud/cloud shadow AND detection/masking/extraction/screening/identification*，搜索范围仅限于英文期刊论文的标题、关键词和摘要。根据截至2021年12月1日的搜索结果，在人工排除不相关的论文后，最终选择了504篇论文进行文献分析。注意到与云分类有关的论文，这些论文根据云相态和云高度将云进一步划分为不同的类型，没有包括在文献分析中进行讨论。此外，为了保证用于文献分析的论文的高质量，只选择了在正规期刊上发表的论文，并对每篇论文进行了人工检查和确认，以确保其符合本综述的主题。如图1所示，文献分析结果表明，从1985年到2021年的37年间，发表的论文数量及其引用率总体上呈上升趋势，尤其是最近十年，这表明该领域近期受到了广泛关注。图2-5还统计了该领域论文发表的主要国家/地区、机构和期刊。
 
-<div align=center><img src="../assets/img/blogs/2022_cloud detection review/Fig. 2.png" alt="" width="1000"/></div>
+<div align=center><img src="/assets/img/blogs/2022_cloud detection review/Fig. 2.png" alt="" width="600"/></div>
 
 <center>图2. 云与云阴影检测论文的发表数量及其引用次数（1985-2021年）</center>
 
-<div align=center><img src="../assets/img/blogs/2022_cloud detection review/Fig. 3.png" alt="" width="1000"/></div>
+<div align=center><img src="/assets/img/blogs/2022_cloud detection review/Fig. 3.png" alt="" width="600"/></div>
 
 <center>图3. 该领域论文发表的主要国家/地区（发表了>10篇期刊论文）</center>
 
-<div align=center><img src="../assets/img/blogs/2022_cloud detection review/Fig. 4.png" alt="" width="1000"/></div>
+<div align=center><img src="/assets/img/blogs/2022_cloud detection review/Fig. 4.png" alt="" width="600"/></div>
 
 <center>图4. 该领域论文发表的全球主要研究机构（发表了>10篇期刊论文）</center>
 
-<div align=center><img src="../assets/img/blogs/2022_cloud detection review/Fig. 5.png" alt="" width="1000"/></div>
+<div align=center><img src="/assets/img/blogs/2022_cloud detection review/Fig. 5.png" alt="" width="600"/></div>
 
 <center>图5. 该领域论文发表的主要期刊（发表了>10篇期刊论文）</center>
 
 此外，本文统计了涉及不同类型卫星影像的论文数量，以确定这504篇论文中出现的主要影像类型。本文选择了在10篇以上的论文中出现的前12种影像类型，并展示在图6中。其中，根据论文的标题、关键词和摘要中是否出现卫星关键词，对被选取和统计的论文数量进行排序。此外，图6还显示了从1985年到2021年的每5~6年间，与各类影像相关的论文数量分布情况。
 
-<div align=center><img src="../assets/img/blogs/2022_cloud detection review/Fig. 6.png" alt="" width="1000"/></div>
+<div align=center><img src="/assets/img/blogs/2022_cloud detection review/Fig. 6.png" alt="" width="800"/></div>
 
 <center>图6. 该领域不同时期的主要卫星影像类型</center>
 
-<div align=center><img src="../assets/img/blogs/2022_cloud detection review/Fig. 7.png" alt="" width="1000"/></div>
+<div align=center><img src="/assets/img/blogs/2022_cloud detection review/Fig. 7.png" alt="" width="800"/></div>
 
 <center>图7. 在不同时期不同类型的云与云阴影检测方法发展情况</center>
 
