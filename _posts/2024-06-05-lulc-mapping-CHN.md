@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 基于光谱指数融合深度模型的多云地区时间序列土地利用/覆盖制图[in Chinese]
+title: 多云地区时间序列土地利用/覆盖制图 [in Chinese]
 date: 2024-06-05
 description: Li Z. et al., 2024, Remote Sens. Environ.
 tags: 

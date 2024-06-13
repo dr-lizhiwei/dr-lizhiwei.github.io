@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 光学卫星影像云与云阴影检测：特征、算法、验证和前景[in Chinese]
+title: 光学卫星影像云与云阴影检测：特征、算法、验证和前景 [in Chinese]
 date: 2022-07-05
 description: Li Z. et al., 2022, ISPRS J. Photogramm. Remote Sens.
 tags: 

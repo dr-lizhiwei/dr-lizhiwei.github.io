@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Review] Cloud and cloud shadow detection for optical satellite imagery
+title: Cloud and cloud shadow detection for optical satellite imagery - Features, algorithms, validation, and prospects
 date: 2022-07-05
 description: Li Z. et al., 2022, ISPRS J. Photogramm. Remote Sens.
 tags: 
