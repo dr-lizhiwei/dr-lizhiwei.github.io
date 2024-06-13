@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 光学卫星影像云与云阴影检测：特征、算法、验证和前景
+title: [Review] Cloud and cloud shadow detection for optical satellite imagery
 date: 2022-07-05
 description: Li Z. et al., 2022, ISPRS J. Photogramm. Remote Sens.
 tags: 
@@ -12,99 +12,83 @@ Li, Z., Shen, H., Weng, Q., Zhang, Y., Dou, P., Zhang, L. (2022). Cloud and clou
  
 
 
-#### **摘要**
+#### **Abstract**
 
-云的存在阻碍了光学卫星成像系统获取有用的地面观测信息，并对光学卫星影像的处理和应用产生负面影响。因此，云及其伴随阴影的检测是光学卫星影像预处理的一个重要步骤。由于人们对时间序列影像分析和遥感数据挖掘的兴趣，近几十年来，这一领域已成为研究的热点。本综述首先分析了该领域的发展趋势，总结了云与云阴影检测方法在特征、算法、结果验证等方面的研究进展和成果，随后讨论了存在的问题，并在最后提出了未来的展望。本文旨在探索云与云阴影检测领域的新研究趋势和机会，同时为选择最合适的方法来解决光学卫星影像中的云覆盖问题提供参考，这对于多云和多雨地区的遥感至关重要。未来，我们可以预见到准确性和通用性的提升，物理模型与深度学习的结合，以及人工智能和在线大数据处理平台将能进一步提高处理效率并促进时间序列影像的应用。此外，本综述收集了最新的云与云阴影检测的开源工具和数据集，并发起了一个在线项目（Open Satellite Image Cloud Detection Resources，即OpenSICDR），以分享该领域最新的研究成果（[https://github.com/dr-lizhiwei/OpenSICDR](https://github.com/dr-lizhiwei/OpenSICDR)）。
+The presence of clouds prevents optical satellite imaging systems from obtaining useful Earth observation information and negatively affects the processing and application of optical satellite images. Therefore, the detection of clouds and their accompanying shadows is an essential step in preprocessing optical satellite images and has emerged as a popular research topic in recent decades due to the interest in image time series analysis and remote sensing data mining. This review first analyzes the trends of the field, summarizes the progress and achievements in the cloud and cloud shadow detection methods in terms of features, algorithms, and validation of results, and then discusses existing problems, and provides our prospects at the end. We aim at identifying the emerging research trends and opportunities, while providing guidance for selecting the most suitable methods for coping with cloud contaminated problems faced by optical satellite images, an extremely important issue for remote sensing of cloudy and rainy areas. In the future, expected improvements in accuracy and generalizability, the combination of physical models and deep learning, as well as artificial intelligence and online big data processing platforms will be able to further promote processing efficiency and facilitate applications of image time series. In addition, this review collects the latest open-source tools and datasets for cloud and cloud shadow detection and launches an online project (Open Satellite Image Cloud Detection Resources, i.e., OpenSICDR) to share the latest research outputs ([https://github.com/dr-lizhiwei/OpenSICDR](https://github.com/dr-lizhiwei/OpenSICDR)).
 
  
 
-#### **1.** **研究背景**
+#### **1.** **Introduction**
 
-在过去几十年里，随着大量光学卫星数据的发布和新数据源的不断引入，众多研究集中在对不同传感器拍摄的影像进行云与云阴影检测，并开发了众多方法。尽管以前的研究回顾了云与云阴影检测文献，但主要集中在方法的分类、云测量设备以及云与云阴影检测结果的形式。为了系统总结该领域目前的成就和挑战，本研究从特征、算法和验证的角度对云与云阴影检测文献进行了全面回顾，如图1所示。鉴于不同类别的算法可能通过使用相同类型的特征实现云与云阴影检测，且同一类别的算法也可能接受不同类型的特征，因此本综述从特征和算法两个角度分别回顾了不同的云与云阴影检测方法。本综述还总结了云与云阴影检测结果的主要类型及其验证。
+Over the past decades, with the release of massive amounts of optical satellite data and the continuous introduction of new data sources, many studies have focused on cloud and cloud shadow detection (CCS) detection for images taken by different sensors, and many CCS detection methods have been developed. Although the CCS detection literature has been reviewed in previous studies, they mainly focus on the categorization of methodologies, cloud measuring equipment, and forms of CCS detection results. To further conduct a systematic summary of the current achievements and challenges in this field, this study comprehensively reviews the CCS detection literature from the features, algorithms, and validation perspectives as shown in Fig. 1. Different CCS detection methods are reviewed separately from both the features and algorithms perspectives given that algorithms of different categories may achieve CCS detection by using the same type of features and because algorithms of the same category may also accept different types of features. This review also summarizes the main types of CCS detection results and their validation.
 
 <div align=center><img src="/assets/img/blogs/2022_cloud detection review//Fig. 1.png" alt="" width="1000"/></div>
 
-<center>图1. 云与云阴影检测：特征、算法和验证</center>  
+<center>Fig. 1. Cloud and cloud shadow detection in terms of features, algorithms, and validation.</center>  
 
 
 
-#### **2.** 文献分析
+#### **2. Literature analysis** 
 
-我们通过Scopus对光学卫星影像的云与云阴影检测主题进行了文献调查，搜索关键词包括*cloud/cloud shadow AND detection/masking/extraction/screening/identification*，搜索范围仅限于英文期刊论文的标题、关键词和摘要。根据截至2021年12月1日的搜索结果，在人工排除不相关的论文后，最终选择了504篇论文进行文献分析。注意到与云分类有关的论文，这些论文根据云相态和云高度将云进一步划分为不同的类型，没有包括在文献分析中进行讨论。此外，为了保证用于文献分析的论文的高质量，只选择了在正规期刊上发表的论文，并对每篇论文进行了人工检查和确认，以确保其符合本综述的主题。如图1所示，文献分析结果表明，从1985年到2021年的37年间，发表的论文数量及其引用率总体上呈上升趋势，尤其是最近十年，这表明该领域近期受到了广泛关注。图2-5还统计了该领域论文发表的主要国家/地区、机构和期刊。
+We have conducted a literature survey with Scopus (www.scopus.com) on the topic of cloud and cloud shadow detection for optical satellite imagery, and the search keywords include *cloud/cloud shadow AND detection/masking/extraction/screening/identification*, which are limited to title, keywords, and abstract of the journal articles in English. Based on search results as of December 1, 2021, a total of 1425 journal papers were returned from the Scopus database. Eventually, there are 504 papers selected for the literature analysis after manually excluding irrelevant articles. Noted that articles related to cloud classification which further classify clouds into different types according to cloud phase and altitude are not discussed and included in the literature survey. Besides, to ensure the high quality of the papers used for literature analysis, only articles published in formal journals were selected, and each paper was manually checked and confirmed to make sure that it fits the topic of this review. As shown in Fig. 2, the survey result suggests that there is a general increasing trend in the number of published papers and their citations over the past 37 years from 1985 to 2021, especially in the latest decade, which indicates extensive attention was paid to this field recently. Besides, the major countries/region, institutions, and journals in the field are listed in Fig. 2-5.
 
 <div align=center><img src="/assets/img/blogs/2022_cloud detection review/Fig. 2.png" alt="" width="600"/></div>
 
-<center>图2. 云与云阴影检测论文的发表数量及其引用次数（1985-2021年）</center>
+<center>Fig. 2. The number of papers and citations on cloud and cloud shadow detection, 1985–2021.</center>
 
 <div align=center><img src="/assets/img/blogs/2022_cloud detection review/Fig. 3.png" alt="" width="600"/></div>
 
-<center>图3. 该领域论文发表的主要国家/地区（发表了>10篇期刊论文）</center>
+<center>Fig. 3. Major countries/regions (published > 10 journal papers) in the field.</center>
 
 <div align=center><img src="/assets/img/blogs/2022_cloud detection review/Fig. 4.png" alt="" width="600"/></div>
 
-<center>图4. 该领域论文发表的全球主要研究机构（发表了>10篇期刊论文）</center>
+<center>Fig. 4. Major institutions (published > 10 journal papers) in the world.</center>
 
 <div align=center><img src="/assets/img/blogs/2022_cloud detection review/Fig. 5.png" alt="" width="600"/></div>
 
-<center>图5. 该领域论文发表的主要期刊（发表了>10篇期刊论文）</center>
+<center>Fig. 5. Major journals (published > 10 journal papers) in the field.</center>
 
-此外，本文统计了涉及不同类型卫星影像的论文数量，以确定这504篇论文中出现的主要影像类型。本文选择了在10篇以上的论文中出现的前12种影像类型，并展示在图6中。其中，根据论文的标题、关键词和摘要中是否出现卫星关键词，对被选取和统计的论文数量进行排序。此外，图6还显示了从1985年到2021年的每5~6年间，与各类影像相关的论文数量分布情况。
+Moreover, the number of papers with different types of satellite images was counted to determine the major types of images that occurred in these 504 papers. The top twelve types of images occurring in >10 papers are selected and shown in Fig. 6, which are sorted by the number of papers that are selected and counted according to whether the satellite keyword occurs in the title, keywords, and abstract of the paper. Fig. 6 also shows the distributions of the number of papers relevant to each type of image over the past each 5–6 years periods from 1985 to 2021. 
 
 <div align=center><img src="/assets/img/blogs/2022_cloud detection review/Fig. 6.png" alt="" width="800"/></div>
 
-<center>图6. 该领域不同时期的主要卫星影像类型</center>
+<center>Fig. 6. Major types of satellite images over different periods in the field.</center>
 
 <div align=center><img src="/assets/img/blogs/2022_cloud detection review/Fig. 7.png" alt="" width="800"/></div>
 
-<center>图7. 在不同时期不同类型的云与云阴影检测方法发展情况</center>
+<center>Fig. 7. Types of cloud and cloud shadow detection algorithms developed in different periods.</center>
 
-本文还对不同时期不同类型的云与云阴影检测算法进行了文献分析，结果见图7，可看到基于物理规则的算法因其简单性和效率而成为最受欢迎的云与云阴影检测算法类型，在不同时期均被广泛研究。此外，图7中的结果还表明，基于深度学习的方法作为机器学习算法的一个分支，近年来获得了广泛关注，这得益于深度学习在影像分类等任务中的巨大进步以及大量开源数据集的发布。由于卫星数据源的增加和时间序列影像的广泛使用，基于时相变化的算法在过去一段时间内逐渐受到更多的关注。值得注意的是，基于变分模型的算法在最近几年得到了发展，可以预见，这类算法在多时相影像中的一体化云检测和去除方面将有更广泛的应用潜力。
+Literature analysis was also conducted on different types of CCS detection algorithms over different periods, the results shown in Fig. 7 confirmed that physical-rule algorithms benefiting from their simplicity and efficiency are the most popular type of CCS detection algorithms, which have been heavily studied at different periods. In addition, the results shown in Fig. 7 also indicated that DL-based methods as a branch of ML-based algorithms have gained much attention in recent years, benefiting from the great progress of DL in tasks such as image classification and the release of a large number of open-source datasets. Moreover, temporal-changes based algorithms have gradually received more attention in the past periods owing to the increase in satellite data sources and the widespread use of image time series. Notably, variational-model based algorithms have been developed in recent years, and it can be expected that such types of algorithms will have broader application potentials for integrated cloud detection and removal in multi-temporal images.
 
-#### **3. 问题与前景**
+#### **3. Problems and prospects**
 
-尽管目前用于光学卫星影像的云与云阴影检测算法已经取得了很大的进展，但有些问题仍然没有解决，或者需要更好地解决。这篇综述总结了云与云阴影检测中目前面临的问题，以及在准确性、通用性、效率、时间序列影像处理和应用方面的前景。
+Although the current CCS detection algorithms for optical satellite images have witnessed much progress, some problems remain unsolved or need to be better resolved. This review summarizes the current problems faced in CCS detection and prospects in terms of accuracy, generalizability, efficiency, and image time series processing and applications.
 
-##### **1）云与云阴影检测的共性问题与精度提升**
+##### **1) Common problems and accuracy improvement for CCS detection**
 
-薄云检测的结果对云检测算法的总体准确性有很大影响。由于下垫面的不同，类似于厚云和晴空地表之间过渡区域的雾或半透明云的大面积的薄云，具有很大的光谱变异性，因此阻碍了其准确的检测。此外，由于其光谱特性与云相似，包括雪/冰、建筑区和高亮的水体在内的高亮地表在云检测中很容易被误检，特别是在有大面积雪/冰覆盖的地区，鉴于除了从大面积云和高亮地表在边缘区域有轻微差异外，很难从其中心区域提取具有辨识性的特征。此外，考虑到影像中云的几何特征各不相同，输入影像的块大小有限，以及深层模型的感受野，基于卷积神经网络的方法不容易将大面积的云与非云的明亮表面完全和彻底地区分开。为了解决这些问题，将面向对象的影像分析和具有空间注意机制的深度模型结合起来，并引入地理信息和额外的辅助数据，可能有利于大面积云的检测和它们与雪的区分。此外，为不同的局部场景构建单独的模型，并学习不同复杂地表的云检测的场景自适应模型，也可能有助于提高准确性。
+The results of thin cloud detection have a significant impact on the accuracy of different cloud detection algorithms. Large-area thin clouds that are similar to haze or translucent clouds in the transition region between thick clouds and the clear sky surface have large variability due to different underlying surfaces, hence impeding an accurate detection. Moreover, high bright surfaces, including snow/ice, built-up areas, and bright water bodies, can be easily misidentified in cloud detection due to their spectral properties similar to clouds, especially in areas with large-area snow/ice, given the difficulty in extracting identifiable features from the central region of large clouds and bright surfaces but with slight differences in the edge regions. Moreover, given the varying geometric characteristics of clouds in an image, the limited block size of the input image and the receptive field of the deep model, CNN-based algorithms cannot easily separate large-area clouds from non-cloud bright surfaces completely and comprehensively. To address these problems, the combination of object-oriented image analysis (OBIA) and deep models with spatial attention mechanisms and the introduction of geographical information and additional auxiliary data may benefit the detection of large-area clouds and their discrimination from snow. In addition, constructing individual models for different local scenes and learning scene adaptive models for cloud detection in different complex surfaces may also help boost accuracy.
 
-此外，在云阴影检测方面仍有很大的改进空间。例如，广泛使用的Landsat影像的Fmask方法的云阴影检测精度只有70%左右。鉴于云阴影与影像中的云相比通常只占很小的比例，云阴影检测比云检测受到的关注要少。一方面，云阴影很容易与影像中的暗色和低反射率目标（如地形阴影和水体）相混淆，从而使得云阴影的精确检测变得更具有挑战性，特别是对于高空间分辨率的影像，云阴影的特征并不十分明显。云阴影检测的准确性也受到云检测精度，以及基于物理规则的模型在匹配云和其阴影时产生的误差的限制。另一方面，由于受到卫星观测和太阳角度的影响，云阴影在影像中大部分被云遮挡，影像中云阴影的整体面积通常比云小得多，这可能导致云和云阴影样本类别不均衡，在一定程度上降低了基于机器学习算法的云阴影检测精度。在基于深度学习的算法中，云阴影训练样本不足是导致云阴影检测精度低的因素之一。在这方面，鉴于云和云阴影之间的类别不均衡，引入小样本迁移学习将有助于提高云阴影检测的准确性。此外，在多源辅助数据（如DEM）的辅助下，影像中的地形阴影的强度可被估计，并用于减少云阴影的错检。
+In addition, there is still much room for improvement in cloud shadow detection. For example, the cloud shadow accuracy of the widely used Fmask algorithm for Landsat images is only about 70%. Cloud shadow detection has received less attention than cloud detection given that cloud shadows usually account for only a small percentage compared with clouds in images. On the one hand, cloud shadows are easily confused with dark and low-reflectivity targets in images, such as terrain shadows and water bodies, thereby challenging the accurate detection of cloud shadow, especially for high spatial resolution images in which the features of cloud shadow are not sufficiently significant. The cloud shadow detection accuracy is also limited by the accuracy of cloud detection and the errors generated by the physical-rule based models when matching clouds with their shadows. On the other hand, the overall area of cloud shadows in the image is usually much smaller than that of clouds due to the fact that most cloud shadows are obscured by clouds influenced by satellite viewing and solar angles, which may lead to sample categories imbalance and reduce the accuracy of cloud shadow detection for machine-learning based algorithms to some degree. The insufficient cloud shadow training samples in DL-based algorithms is one factor that leads to poor cloud shadow detection accuracy. In this regard, given the category imbalance between clouds and cloud shadows, introducing small sample transfer learning will help improve cloud shadow detection accuracy. Moreover, with the aid of multi-source auxiliary data (e.g., DEM), terrain shadows in images can be predicted and used to reduce the misidentification of cloud shadows.
 
-##### **2）结合物理模型和深度学习用于云与云阴影的检测和去除**
+##### **2) Combination of physical model and deep learning for CCS detection and removal**
 
-基于物理规则和深度学习的算法已被广泛地独立开发用于云与云阴影检测，鉴于其特点和优势，基本上可以分为模型驱动和数据驱动的方法。模型驱动（即基于物理规则和基于变分模型）的方法通常是确定的并基于经验假设，可能难以应对复杂的土地覆盖条件，变分模型的求解效率有待提高。相反，虽然数据驱动（即传统的基于机器学习和基于深度学习）的方法比模型驱动的方法具有更强的特征表达能力，但其性能严重依赖训练数据。考虑到大规模云与云阴影训练样本的获取非常耗时且效率低下，模型驱动和数据驱动方法的结合对于云与云阴影检测来说具有前景，可在降低训练样本需求的同时提升模型性能和效率。在特征和数据方面，物理模型的输出可以作为深度模型的先验知识和输入特征，大气散射规律等物理模型也可以用来模拟云覆盖样本，在一定程度上满足深度模型的样本需求。在方法上，模型驱动（即变分模型）和数据驱动（即深度学习）方法可以以不同的形式结合起来，它们的耦合将结合它们的优势，同时有利于精度和效率的提高。因此，物理模型和深度学习的结合，特别是模型驱动和数据驱动方法的耦合，在云与云阴影检测方面很有前景，值得在未来进一步探索。
+Physical-rule and DL-based algorithms have been widely and individually developed for CCS detection, which can be essentially categorized as model-driven and data-driven methods given their characteristics and advantages, respectively. The model-driven (i.e. physical-rule based and variational-model based) methods are usually definite and are construed based on the empirical assumptions, which may be difficult to cope with complex land cover conditions and the solving efficiency of variational models needs to be improved. On the contrary, while the data-driven (i.e. traditional machine-learning based and DL-based) methods have more strong feature representation capabilities than model-driven methods, their performances rely heavily on training data. Considering that the acquisition of large-scale CCS training samples is time-consuming and inefficient as there are many different types of images, the combination of model-driven and data-driven methods will be promising for CCS detection, and boosting model performance and efficiency while reducing the need for training samples. In terms of features and data, the output of the physical model can be used as the prior knowledge and input features of the deep model, and the physical model such as atmospheric scattering law can also be used to stimulate cloud samples and to meet the sample requirements of the deep model to some degree. In terms of methods, model-driven (i.e. variational model) and data-driven (i.e. deep learning) methods can be combined in different forms, their coupling will combine their strengths and benefit the improvements of accuracy and efficiency simultaneously. Therefore, the combination of the physical model and DL, especially the coupling of model-driven and data-driven methods, are promising for CCS detection and worths further exploration in the future.
 
-此外，通常所说的云检测通常不包括对雾等薄云的检测，而是直接进行去雾和薄云去除，以减少雾和薄云的影响。考虑到雾和云都是影响光学卫星影像质量的退化因素，对云的处理通常由三部分组成，包括去雾/薄云去除、云检测和厚云去除，它们通常独立进行或部分结合。在未来，一个具有前景的考虑是结合物理模型和数据驱动方法，实现影像中薄云和厚云的联合估计，并进行综合的薄/厚云去除，以提高影像质量和可用性。特别地，物理模型可以用来模拟大量的雾和云覆盖的影像样本，用于数据驱动方法（如深度学习）的模型训练，以构建一个综合模型用于同时进行影像中薄云和厚云的去除。随着光学卫星影像数量的快速增长，这样的组合和方法将能够为海量影像的高效云处理提供有力支持。
+In addition, the commonly called cloud detection usually does not include the detection of thin clouds like haze, instead, direct dehazing and thin cloud removal is performed to reduce the effect of haze and thin clouds. Considering that both haze and clouds are degrading factors affecting the quality of optical satellite images, the processing of clouds usually consists of three parts, including dehazing/thin cloud removal, cloud detection, and thick cloud removal, which are usually performed independently or partially coupled. In the future, a promising consideration is to combine physical models and data-driven methods to achieve a joint estimation of cloud thickness for both thin and thick clouds, and conduct an integrated thin/thick cloud removal to improve the image quality and usability. In particular, physical models can be used to simulate a large number of hazy and cloud-covered image samples for model training of data-driven methods, such as deep learning, to construct an integrated model for simultaneous thin and thick cloud removal in images. With the rapidly growing amount of optical satellite images, such a combination and method will be able to provide strong support for efficient cloud processing of massive images.
 
-##### **3）发展多传感器影像云与云阴影检测的统一框架**
+##### **3) Development of a unified framework for CCS detection for multi-sensor images**
 
-由于不同传感器的卫星影像在波段设置和光谱响应方面存在差异，目前大多数云与云阴影检测算法都是针对特定类型的影像开发和应用，从而限制了云与云阴影检测算法对多传感器影像的适用性。鉴于卫星影像数据源的数量不断增加，为以前或新发射卫星的影像开发不同的算法变得效率低下。因此，应开发一个统一的框架来提高云与云阴影检测对多传感器影像的通用性。在这方面，分析多传感器影像的共同的光谱特征和挖掘影像的不变空间特征甚至是时相差异特征，将有利于开发一个统一的框架用于多传感器影像的云与云阴影检测。尽管最近的一些研究试图实现基于深度学习的多传感器云与云阴影检测，但由于模型训练的大量样本需求和不同传感器影像的独特特点，目前基于深度学习的云与云阴影检测算法的应用不能高效地扩展到其他类型的影像。随着深度学习技术的不断进步，基于迁移学习技术（如领域适应）的算法在解决大样本需求方面具有广阔的应用前景，在源域上训练的模型也可以应用于目标域，而不会有太大的精度降低，从而实现多传感器影像的云与云阴影检测目的。此外，通过先进的影像合成技术（如生成对抗网络），基于多个传感器的无云影像模拟云覆盖影像，可以用很少的人力产生大量的训练样本。这样的方法可以满足多传感器模型的训练需求，为构建多传感器影像云与云阴影检测的统一框架提供了新的方案。
+Due to the differences in band settings and spectral responses of satellite images of different sensors, most of the current CCS detection algorithms have been developed and applied to specific types of images, thereby limiting the applicability of CCS detection algorithms for multi-sensor images. Given the increasing number of satellite image data sources, developing different algorithms for images of previously or newly launched satellites becomes inefficient. Therefore, a unified framework should be developed to boost the generalizability of CCS detection for images of multiple sensors. In this regard, analyzing common spectral characteristics and mining the invariant spatial features and even temporal difference features of images will benefit the development of a unified framework for the CCS detection of multi-sensor images. Although several recent studies have attempted to achieve multi-sensor CSS detection based on DL, the application of current DL-based CCS detection algorithms cannot be effectively extended to other types of images due to the large sample requirements for model training and the unique characteristics of images from different sensors. With the continuous advancements of DL techniques, algorithms supported by transferring learning techniques, such as domain adaptation, have promising applications in addressing large sample requirements, in which models trained on the source domain can also be applied to the target domain without much accuracy reduction, and thus achieve the goal of CCS detection for multi-sensor images. In addition, simulating cloudy images based on clear images of multiple sensors through advanced image synthesis techniques, such as GAN, can generate a large number of training samples with very little human effort. Such an approach can be used to meet the training requirements of multi-sensor models, and provide a new scheme for the construction of a unified framework for CCS detection in multi-sensor images.
 
-##### **4）基于人工智能的大规模光学卫星数据在线云处理**
+##### **4) AI-enabled online cloud processing for large-scale optical satellite data**
 
-随着大量光学卫星数据的发布，密集的处理需求促使我们开发更有效的在线云检测算法。在线处理平台，如Google Earth Engine (GEE), 亚马逊Web Services和微软Azure，提供了快速访问和在线处理卫星大数据的机会，以支持其广泛的应用。在这种情况下，在线云检测算法对于实现光学卫星影像的近实时预处理至关重要。最近的研究已经提出了基于在线GEE平台的云检测方法，并取得了令人满意的结果。在未来，在线处理平台和人工智能技术的进一步结合将为大规模卫星数据的处理提供一个新的范式，包括但不限于云检测，并实现大规模对地观测数据的高精度和高效应用。
+With the release of a large amount of optical satellite data, the dense processing requirements motivate us to develop more effective online cloud detection algorithms. Online processing platforms, such as Google Earth Engine (GEE), Amazon Web Services, and Microsoft Azure, provide opportunities to quickly access and process big satellite data online to support their wide range of applications. In this case, online cloud detection algorithms are crucial to achieving a near-real-time pre-processing of optical satellite images. Recent studies have investigated cloud detection in online GEE platforms and achieved satisfactory results. In the future, the further combination of online processing platforms and artificial intelligence (AI) technologies will provide a new paradigm for the processing of large-scale satellite data, including but not limited to cloud detection, and enable the high-precision and efficient application of large-scale Earth observation data.
 
-##### **5）结合云检测/去除与时间序列影像分析**
+##### **5) Integration of cloud detection/removal with image time series analysis**
 
-时间序列影像在地表的连续监测中发挥着重要作用，然而，云覆盖造成了时间序列影像的信息缺失问题。在这方面，云检测和去除对于构成所需区域的清晰的和无缝的影像都至关重要，特别是多云地区和其它降水丰富的地区。鉴于多时相云去除通常利用同一地区的相邻时相影像的辅助信息来重建被云覆盖的区域，在以前的大多数研究中，云检测和云去除被当作独立的过程。因此，集成的多时相云检测和去除将提高处理效率，减少误差积累。一方面，时间序列影像中的时相特征有利于提高云与云阴影检测的准确性，特别是在复杂和高亮的地表区域。另一方面，时间序列影像提供了更长、更连续的观测信息，也有利于云覆盖区域的精确重建。在云检测和云去除的结合方面，时间序列模型和变分模型已经证明了它们的应用潜力，而更先进的技术，如深度学习，值得进一步探索。
+Image time series play an important role in the long-term monitoring of the Earth surface, however, cloud coverage causes the problem of information missing in image time series. In this regard, cloud detection and removal are both essential for the composition of clean and seamless images of desired areas, especially cloudy areas and other areas with abundant rainfall. Given that multi-temporal cloud removal usually utilizes auxiliary information from the adjacent temporal images of the same areas to reconstruct the cloud-covered areas, cloud detection and cloud removal are treated as individual processes in most previous studies. Therefore, the integrated multi-temporal cloud detection and removal will improve processing efficiency and reduce error accumulation. On the one hand, the temporal features in image time series benefit the accuracy improvement of CCS detection, especially in complex and bright land surfaces. On the other hand, image time series, which provide longer and more continuous observation information, also benefit the accurate reconstruction of cloud-covered areas. In terms of the integration of cloud detection and cloud removal, time series models and variational models have demonstrated their application potentials, and more advanced techniques, such as DL, warrant further exploration.
 
+#### **4. Conclusions**
 
-
-#### **4. 结论**
-
-云与云阴影检测是卫星影像预处理和应用的一个重要步骤，也一直是光学遥感领域的一个重要话题。本综述通过文献调查研究了该领域的发展趋势，从特征、算法、验证等方面回顾了云与云阴影检测的研究，总结了存在的问题，并提出了我们对该领域未来发展的展望。可以得出这样的结论：来自辅助数据的光谱、空间、时相和多源特征的结合，已经被证明可以有效地缓解云与云阴影的误检和遗漏问题。就只使用影像本身的信息而言，光谱-空间特征和光谱-空间-时相特征是最有希望实现高精度云与云阴影检测的两类特征。特别地，基于深度学习的方法在有足够训练数据的支持下，在云与云阴影检测方面已被证明比其他类型的算法更有优势。由于获取人工标记的云掩膜很耗时，与光学影像共址的LiDAR/雷达数据和地面相机数据可作为替代来源。通过提高复杂情形下的准确性，以及通过开发一个统一的框架提高跨传感器的通用性，可以进一步改进云与云阴影检测算法。在未来，在研究物理模型和深度学习的结合、探索薄/厚云检测/去除的整合、开发大规模卫星数据的人工智能在线处理方法等方面需要进一步研究，这将促进光学卫星影像的高效处理和精细应用。
-
- 
-
-#### **主要作者简介：**
-
-**李志伟**，博士，香港理工大学土地测量及地理资讯学系研究助理教授。主要研究兴趣为多云多雨环境遥感，研究方向包括卫星影像云检测与去除，多源数据融合，土地覆盖制图，洪水监测等。个人主页：https://zhiweili.net/。
-
- 
-
-**沈焕锋**，武汉大学资源与环境科学学院教授、院长，国家级高层次人才入选者者，主要研究方向为遥感数据质量改善、多源感知数据融合、地学智能等。
-
-
-
-**翁齐浩**，欧洲科学院外籍院士、 美国科学促进会（AAAS）‍会士、电气与电子工程师协会（IEEE）会士、美国地理学会（AAG）会士、美国摄影测量与遥感学会（ASPRS）会士、亚太人工智能学会（AAIA）会士，现任香港理工大学地理信息学和人工智能讲座教授、曾任美国印第安纳州立大学城市与环境变化中心主任和教授和美国航天局高级研究员。现为地球观测组织的全球城市观测和信息系统项目负责人并任《国际摄影测量与遥感学会期刊》（ISPRS J P&RS）主编。翁教授的研究侧重于遥感科学和技术在城市环境与生态系统中的应用、土地利用和土地覆盖的变化和城市化的环境效应等。
+CCS detection is an essential step in satellite image preprocessing and applications and has remained an important topic in the field of optical remote sensing. This review has examined the trends in the field through a literature survey, reviewed the CCS detection studies from the features, algorithms, and validation aspects and summarized the existing problems, and provided our prospects for future development. It can be concluded that the combination of spectral, spatial, temporal, and multi-source features from auxiliary data has been proved effective to alleviate the commission and omission problems of CCS. In terms of using only the information from the images themselves, spectral-spatial features and spectral-spatial-temporal features are the two most promising types of features that enable high-precision CCS detection. Particularly, DL-based methods have been demonstrated their superiority over other types of algorithms in CCS detection with the support of sufficient training data. Collocated LiDAR/radar data and ground-based camera data were alternative sources for validation, as the acquisition of manually labeled masks was time-consuming. Further improvement in CCS detection algorithms can be made by improving accuracy in complex conditions, and by boosting the cross-sensor generalizability by developing a unified framework. Further research is warranted in investigating the combination of physical model and deep learning, exploring the integration of thin/thick cloud detection/removal, and developing AI-enabled online processing methods for large-scale satellite data, which will facilitate efficient processing and fine applications of optical satellite imagery.
 

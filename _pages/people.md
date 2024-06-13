@@ -32,6 +32,6 @@ List of supervised Master students for dissertations or projects:
 | Lai Yiu Tong    | Modeling and Analysis of Rooftop Solar Energy Potentials Using GIS-based Approach – A Case Study of Hong Kong | Ongoing (Exp. Completion: Dec 2024)  |
 | Zeyu Xu         | Harmonizing Optical and SAR Imagery for Enhanced Water Body Extraction: A Comparative and Integrative Approach | Ongoing (Exp. Completion: Dec 2024)  |
 | Jingyi Shi      | Evaluating Climate Change Impacts on Flood Risks in Southeast Asia Through Coupled Hydrological and Climate Modeling | Ongoing (Exp. Completion: Dec 2024)  |
-| Miao Yu         | Flood Risk Assessment and Projection for Southeast Asia under Shared Socioeconomic Pathways Scenarios | Ongoing  (Exp. Completion: May 2025) |
+| Miao Yu         | Flood Risk Assessment and Projection for Southeast Asia under Shared Socioeconomic Pathways Scenarios | Ongoing  (Exp. Completion: Dec 2024) |
 | Yujie Gao       | Physics-Informed Deep Learning for Enhanced Cloud Detection and Removal in Optical Satellite Imagery Time Series | Ongoing (Exp. Completion: May 2025)  |
 
