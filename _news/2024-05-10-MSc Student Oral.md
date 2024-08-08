@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Congratulations to MSc student Huan ZHOU on successfully completing his dissertation oral presentation.:clap::tada:
+Congratulations to MSc student Huan ZHOU on successfully completing the oral presentation of his dissertation entitled "*Unlocking the Potential of Multi-Modal Self-Supervised Learning for Flood Inundation Mapping*".:clap::tada:

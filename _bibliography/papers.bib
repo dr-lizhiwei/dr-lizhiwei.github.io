@@ -4,6 +4,28 @@
 @string{aps = {American Physical Society,}}
 
 @article{Li2024,
+abbr = {ISPRS P&RS},
+abstract = {Floods are among the most devastating natural disasters, posing significant risks to life, property, and infrastructure globally. Earth observation satellites provide data for continuous and extensive flood monitoring, yet limitations exist in the spatial completeness of monitoring using optical images due to cloud cover. Recent studies have developed gap-filling methods for reconstructing cloud-covered areas in water maps. However, these methods are not tailored for and validated in cloudy and rainy flooding scenarios with rapid water extent changes and limited clear-sky observations, leaving room for further improvements. This study investigated and developed a novel reconstruction method for time series flood extent mapping, supporting spatially seamless monitoring of flood extents. The proposed method first identified surface water from time series images using a fine-tuned large foundation model. Then, the cloud-covered areas in the water maps were reconstructed, adhering to the introduced submaximal stability assumption, on the basis of the prior water occurrence data in the Global Surface Water dataset. The reconstructed time series water maps were refined through spatiotemporal Markov random field modeling for the final delineation of flooding areas. The effectiveness of the proposed method was evaluated with Harmonized Landsat and Sentinel-2 datasets under varying cloud cover conditions, enabling seamless flood mapping at 2–3-day frequency and 30 m resolution. Experiments at four global sites confirmed the superiority of the proposed method. It achieved higher reconstruction accuracy with average F1-scores of 0.931 during floods and 0.903 before/after floods, outperforming the typical gap-filling method with average F1-scores of 0.871 and 0.772, respectively. Additionally, the maximum flood extent maps and flood duration maps, which were composed on the basis of the reconstructed water maps, were more accurate than those using the original cloud-contaminated water maps. The benefits of synthetic aperture radar images (e.g., Sentinel-1) for enhancing flood mapping under cloud cover conditions were also discussed. The method proposed in this paper provided an effective way for flood monitoring in cloudy and rainy scenarios, supporting emergency response and disaster management. The code and datasets used in this study have been made available online (https://github.com/dr-lizhiwei/SeamlessFloodMapper).},
+author = {Li, Zhiwei and Xu, Shaofen and Weng, Qihao},
+doi = {10.1016/j.isprsjprs.2024.07.022},
+issn = {09242716},
+journal = {ISPRS Journal of Photogrammetry and Remote Sensing},
+pages = {185-199},
+title = {{Beyond clouds: Seamless flood mapping using Harmonized Landsat and Sentinel-2 time series imagery and water occurrence data}},
+volume = {216},
+year = {2024},
+month = {oct},
+dimensions={true},
+html = {https://doi.org/10.1016/j.isprsjprs.2024.07.022},
+pdf = {https://zhiweili.net/assets/pdf/2024.10_ISPRS P&RS_Beyond clouds：Seamless flood mapping using Harmonized Landsat and Sentinel-2 time series imagery and water occurrence data.pdf},
+code = {https://github.com/dr-lizhiwei/SeamlessFloodMapper},
+google_scholar_id={eflP2zaiRacC},
+preview = {2024.10_ISPRS P&RS.png},
+selected={true}
+}
+
+
+@article{Li2024,
 abstract = {Mapping of highly dynamic changes in land use and land cover (LULC) can be hindered by various cloudy conditions with optical satellite images. These conditions result in discontinuities in high-temporal-density LULC mapping. In this paper, we developed an integrated time series mapping method to enhance the LULC mapping accuracy and frequency in cloud-prone areas by incorporating spectral-indices-fused deep models and time series reconstruction techniques. The proposed method first reconstructed cloud-contaminated pixels through time series filtering, during which the cloud masks initialized by a deep model were refined and updated during the reconstruction process. Then, the reconstructed time series images were fed into a spectral-indices-fused deep model trained on samples collected worldwide for classification. Finally, post-classification processing, including spatio-temporal majority filtering and time series refinement considering land–water interactions, was conducted to enhance the LULC mapping accuracy and consistency. We applied the proposed method to the cloud- and rain-prone Pearl River Delta (i.e., Guangdong–Hong Kong–Macao Greater Bay Area, GBA) and used time series Sentinel-2 images as the experimental data. The proposed method enabled seamless LULC mapping at a temporal frequency of 2–5 days, and the production of 10 m resolution annual LULC products in the GBA. The assessment yielded a mean overall accuracy of 87.01% for annual mapping in the four consecutive years of 2019–2022 and outperformed existing mainstream LULC products, including ESA WorldCover (83.98%), Esri Land Cover (85.26%), and Google Dynamic World (85.06%). Our assessment also reveals significant variations in LULC mapping accuracies with different cloud masks, thus underscoring their critical role in time series LULC mapping. The proposed method has the potential to generate seamless and near real-time maps for other regions in the world by using deep models trained on datasets collected globally. This method can provide high-quality LULC data sets at different time intervals for various land and water dynamics in cloud- and rain-prone regions. Notwithstanding the difficulties of obtaining high-quality LULC maps in cloud-prone areas, this paper provides a novel approach for the mapping of LULC dynamics and the provision of reliable annual LULC products.},
 author = {Li, Zhiwei and Weng, Qihao and Zhou, Yuhan and Dou, Peng and Ding, Xiaoli},
 doi = {10.1016/j.rse.2024.114190},
@@ -21,28 +43,6 @@ pdf = {https://zhiweili.net/assets/pdf/2024.7_RSE_Learning spectral-indices-fuse
 preview = {2024.7_RSE.png},
 google_scholar_id={sSrBHYA8nusC},
 dimensions={true},
-selected={true}
-}
-
-
-@article{Zhu2024,
-abbr = {IEEE TGRS},
-abstract = {Recently, deep learning has been widely used for cloud detection in satellite images; however, due to radiometric and spatial resolution differences in images from different sensors and time-consuming process of manually labeling cloud detection datasets, it is difficult to effectively generalize deep learning models for cloud detection in multisensor images. This article propose a weakly supervised learning method for transferring deep models for cloud detection in multisensor images (TransMCD), which leverages the generalization of deep models and the spectral features of clouds to construct pseudo-label dataset to improve the generalization of models. A deep model is first pretrained using a well-annotated cloud detection dataset, which is used to obtain a rough cloud mask of unlabeled target image. The rough mask can be used to determine the spectral threshold adaptively for cloud segmentation of target image. Block-level pseudo labels with high confidence in target image are selected using the rough mask and spectral mask. Unsupervised segmentation technique is used to construct a high-quality pixel-level pseudo-label dataset. Finally, the pseudo-label dataset is used as supervised information for transferring the pretrained model to target image. The TransMCD method was validated by transferring model trained on 16-m Gaofen-1 wide field of view(WFV)images to 8-m Gaofen-1, 4-m Gaofen-2, and 10-m Sentinel-2 images. The F1-score of the transferred models on target images achieves improvements of 1.23%–9.63% over the pretrained models, which is comparable to the fully-supervised models trained with well-annotated target images, suggesting the efficiency of the TransMCD method for cloud detection in multisensor images.},
-author = {Zhu, Shaocong and Li, Zhiwei and Shen, Huanfeng},
-doi = {10.1109/TGRS.2024.3358824},
-issn = {0196-2892},
-journal = {IEEE Transactions on Geoscience and Remote Sensing},
-pages = {5609518},
-title = {{Transferring Deep Models for Cloud Detection in Multisensor Images via Weakly Supervised Learning}},
-volume = {62},
-year = {2024},
-month = {feb},
-dimensions={true},
-html = {https://ieeexplore.ieee.org/document/10436637/},
-pdf = {https://zhiweili.net/assets/pdf/2024.2_TGRS_Transferring Deep Models for Cloud Detection in Multisensor Images via Weakly Supervised Learning.pdf},
-dataset = {https://github.com/whu-ZSC/GF1-GF2MS-WHU/},
-google_scholar_id={08ZZubdj9fEC},
-preview = {2024.2_TGRS.png},
 selected={true}
 }
 
@@ -68,7 +68,6 @@ project = {https://github.com/dr-lizhiwei/OpenSICDR},
 award = {ESI Highly Cited Paper🏆},
 preview = {2022.6_ISPRS P&RS.png},
 google_scholar_id={EUQCXRtRnyEC},
-selected={true}
 }
 
 
@@ -90,7 +89,7 @@ month = {dec},
 pdf = {https://zhiweili.net/assets/pdf/2021.12_JAG_Time series remote sensing image classification framework using combination of deep learning and multiple classifiers system.pdf},
 preview = {2021.12_JAG.png},
 google_scholar_id={f2IySw72cVMC},
-dimensions={true}
+dimensions={false}
 }
 
 

@@ -10,8 +10,7 @@ nav_order: 5
 ##### **Projects**  
 
 **[1] OpenSICDR: Open Satellite Image Cloud Detection Resources ([Link](https://github.com/dr-lizhiwei/OpenSICDR/))**  
-&emsp;We collect the latest open-source tools and datasets for cloud and cloud shadow detection, and launch this online project (Open Satellite Image Cloud Detection Resources, i.e., OpenSICDR) to promote the sharing of the latest research outputs of the field. If you would like to provide new resources, please kindly contact Dr. Zhiwei Li or submit an update request. 
-
+&emsp;We collect the latest open-source tools and datasets for cloud and cloud shadow detection, and launch this online project (Open Satellite Image Cloud Detection Resources, i.e., OpenSICDR) to promote the sharing of the latest research outputs of the field. If you would like to provide new resources, please kindly contact Dr. Zhiwei Li or submit an update request.<br>
 &emsp;Reference: Zhiwei Li, Huanfeng Shen, Qihao Weng, Yuzhuo Zhang, Peng Dou, Liangpei Zhang. Cloud and cloud shadow detection for optical satellite imagery: Features, algorithms, validation, and prospects. *ISPRS Journal of Photogrammetry and Remote Sensing*, vol. 188, pp. 89-108, 2022. [[PDF](../assets/pdf/2022.6_ISPRS P&RS_Cloud and cloud shadow detection for optical satellite imagery：Features, algorithms, validation, and prospects.pdf)]  
 
 ------
@@ -34,7 +33,7 @@ nav_order: 5
 
 <center>Preview of images in HRC_WHU dataset</center>
 
-**[3] GF1MS-WHU & GF2MS-WHU: GF-1/2 PMS Cloud Detection Datasets ([Link](https://github.com/whu-ZSC/GF1-GF2MS-WHU)) <font color=red><i>New</i></font>**  
+**[3] GF1MS-WHU & GF2MS-WHU: GF-1/2 PMS Cloud Detection Datasets ([Link](https://github.com/whu-ZSC/GF1-GF2MS-WHU)) **  
 &emsp;Two new datasets, GF1MS-WHU and GF2MS-WHU, are introduced for cloud detection. The GF1MS-WHU dataset consists of 141 unlabeled and 33 well-annotated 8-m Gaofen-1 PMS multispectral images. The acquisition of the images in the GF1MS-WHU dataset spanned from June 2014 to December 2020 and encompassed four multispectral bands in the GF-1 PMS imagery. Furthermore, the GF2MS-WHU dataset includes 163 unlabeled and 29 well-annotated 4-m Gaofen-2 multispectral images. The images in the GF2MS-WHU dataset were acquired from June 2014 to October 2020 and included four multispectral bands in the GF-2 PMS imagery. Based on the labeled images in the two datasets, a total of 10,428 and 21,917 fully labeled image patches have been made available.
 
 <div align=center><img src="../assets/img/open_resources/GF1MS_GF2MS_WHU.jpg" alt="GF1_WHU" width="700"/></div>
@@ -54,4 +53,8 @@ nav_order: 5
 &emsp;Reference: Zhiwei Li, Huanfeng Shen, Qing Cheng, Yuhao Liu, Shucheng You, and Zongyi He. Deep learning based cloud detection for medium and high resolution remote sensing images of different sensors. *ISPRS Journal of Photogrammetry and Remote Sensing*, vol. 150, pp. 197–212, 2019. [[PDF](../assets/pdf/2019.4_ISPRS P&RS_Deep learning based cloud detection for medium and high resolution remote sensing images of different sensors.pdf)]  
 
 **[3] Urban Water Extraction by Combining Deep Learning and Google Earth Engine ([GEE Code](https://code.earthengine.google.com/8bec5b26cc38bc4b812aa7b95a3ab8d6), [List of data](http://sendimage.whu.edu.cn/en/wp-content/uploads/2020/01/List_of_data.txt))**  
-&emsp;Reference: Yudie Wang, Zhiwei Li, Chao Zeng, Gui-Song Xia, and Huanfeng Shen. An Urban Water Extraction Method Combining Deep Learning and Google Earth Engine. *IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing*, vol. 13, pp. 768–781, 2020. [[PDF](../assets/pdf/2020.2_JSTARS_An Urban Water Extraction Method Combining Deep Learning and Google Earth Engine.pdf)]  
+&emsp;Reference: Yudie Wang, Zhiwei Li, Chao Zeng, Gui-Song Xia, and Huanfeng Shen. An Urban Water Extraction Method Combining Deep Learning and Google Earth Engine. *IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing*, vol. 13, pp. 768–781, 2020. [[PDF](../assets/pdf/2020.2_JSTARS_An Urban Water Extraction Method Combining Deep Learning and Google Earth Engine.pdf)]
+
+**[4] SeamlessFloodMapper: Seamless Flood Mapping Using Optical Satellite Image Time Series ([Link](https://github.com/dr-lizhiwei/SeamlessFloodMapper)) <font color=red><i>New</i></font>**  
+&emsp;Reference: Zhiwei Li, Shaofen Xu, and Qihao Weng. Beyond Clouds: Beyond clouds: Seamless flood mapping using Harmonized Landsat and Sentinel-2 time series imagery and water occurrence data. *ISPRS Journal of Photogrammetry and Remote Sensing*, 2024. [[PDF](../assets/pdf/2024.10_ISPRS P&RS_Beyond clouds：Seamless flood mapping using Harmonized Landsat and Sentinel-2 time series imagery and water occurrence data.pdf)]  
+
