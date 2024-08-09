@@ -33,7 +33,7 @@ nav_order: 5
 
 <center>Preview of images in HRC_WHU dataset</center>
 
-**[3] GF1MS-WHU & GF2MS-WHU: GF-1/2 PMS Cloud Detection Datasets ([Link](https://github.com/whu-ZSC/GF1-GF2MS-WHU)) **  
+**[3] GF1MS-WHU & GF2MS-WHU: GF-1/2 PMS Cloud Detection Datasets ([Link](https://github.com/whu-ZSC/GF1-GF2MS-WHU))**  
 &emsp;Two new datasets, GF1MS-WHU and GF2MS-WHU, are introduced for cloud detection. The GF1MS-WHU dataset consists of 141 unlabeled and 33 well-annotated 8-m Gaofen-1 PMS multispectral images. The acquisition of the images in the GF1MS-WHU dataset spanned from June 2014 to December 2020 and encompassed four multispectral bands in the GF-1 PMS imagery. Furthermore, the GF2MS-WHU dataset includes 163 unlabeled and 29 well-annotated 4-m Gaofen-2 multispectral images. The images in the GF2MS-WHU dataset were acquired from June 2014 to October 2020 and included four multispectral bands in the GF-2 PMS imagery. Based on the labeled images in the two datasets, a total of 10,428 and 21,917 fully labeled image patches have been made available.
 
 <div align=center><img src="../assets/img/open_resources/GF1MS_GF2MS_WHU.jpg" alt="GF1_WHU" width="700"/></div>

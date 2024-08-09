@@ -20,5 +20,4 @@ nav_order: 3
 
 
 
-<div align=left><img src="../assets/img/teaching_area.png" alt="Teaching Area" width="650"/></div>
-
+<div align=center><img src="../assets/img/teaching_area.png" alt="Teaching Area" width="650"/></div>
