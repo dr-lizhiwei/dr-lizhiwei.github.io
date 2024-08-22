@@ -9,11 +9,11 @@ display_categories:
 horizontal: false
 ---
 
-##### **Grants**  
+##### **Selected Grants**  
 
 - **PI**: Near-Real-Time Flood Monitoring in Cloud-Prone Areas Incorporating Multi-Sensor Satellite Imagery,  The Hong Kong Polytechnic University, HKD 730,800, 02/2024-01/2026. (Terminated)&emsp;
 
-- **PI**: Intelligent Reconstruction and Fusion of Multisource Remote Sensing Data for High-resolution Dynamic Land Use Mapping, The Hong Kong Polytechnic University, HKD 250,000, 09/2022-08/2024.  &emsp;
+- **PI**: Intelligent Reconstruction and Fusion of Multisource Remote Sensing Data for High-resolution Dynamic Land Use Mapping, The Hong Kong Polytechnic University, HKD 250,000, 09/2022-04/2025.  &emsp;
 
 - **Co-I**: A GeoAI Framework for Urban Flood Hazard Monitoring, Risk Assessment, and Scenario-based Projection, The Hong Kong Polytechnic University, HKD 1,600,000, 06/2022-05/2024.
 
@@ -22,29 +22,29 @@ horizontal: false
 
 ##### **Research Interests**  
 
-My research primarily focuses on <u>Remote Sensing of Cloudy and Rainy Environments</u>, which involves applying big Earth data and geospatial artificial intelligence (GeoAI) for environmental research and applications, especially in cloudy and rainy tropical/subtropical regions. Current research topics include but are not limited to the following:
+My research primarily focuses on <u>Remote Sensing of Cloudy and Rainy Environments</u>, leveraging big Earth observation data and geospatial artificial intelligence (GeoAI) to tackle environmental and climate change challenges, particularly in tropical and subtropical regions with frequent cloud cover and heavy rainfall. This work aims to develop innovative solutions for environmental monitoring, disaster management, and sustainable development. My current research areas include but are not limited to the following:
 
 - Cloud Detection ([2017](https://zhiweili.net/assets/pdf/2017.3_RSE_Multi-feature%20combined%20cloud%20and%20cloud%20shadow%20detection%20in%20GaoFen-1%20wide%20field%20of%20view%20imagery.pdf); [2019](https://zhiweili.net/assets/pdf/2019.4_ISPRS%20P&RS_Deep%20learning%20based%20cloud%20detection%20for%20medium%20and%20high%20resolution%20remote%20sensing%20images%20of%20different%20sensors.pdf); [2022](https://zhiweili.net/assets/pdf/2022.6_ISPRS%20P&RS_Cloud%20and%20cloud%20shadow%20detection%20for%20optical%20satellite%20imagery%EF%BC%9AFeatures,%20algorithms,%20validation,%20and%20prospects.pdf)) and Removal ([2019](https://zhiweili.net/assets/pdf/2019.8_RS_Thick%20Cloud%20Removal%20in%20High-Resolution%20Satellite%20Images%20Using%20Stepwise%20Radiometric%20Adjustment%20and%20Residual%20Correction.pdf); [2021](https://zhiweili.net/assets/pdf/2021.7_ISPRS%20P&RS_Combined%20deep%20prior%20with%20low-rank%20tensor%20SVD%20for%20thick%20cloud%20removal%20in%20multitemporal%20images.pdf); [2024](https://zhiweili.net/assets/pdf/2024.10_ISPRS%20P&RS_Beyond%20clouds%EF%BC%9ASeamless%20flood%20mapping%20using%20Harmonized%20Landsat%20and%20Sentinel-2%20time%20series%20imagery%20and%20water%20occurrence%20data.pdf))
 
 - Land Use & Land Cover Mapping ([2021](https://zhiweili.net/assets/pdf/2021.12_JAG_Time%20series%20remote%20sensing%20image%20classification%20framework%20using%20combination%20of%20deep%20learning%20and%20multiple%20classifiers%20system.pdf); [2024](https://zhiweili.net/assets/pdf/2024.7_RSE_Learning%20spectral-indices-fused%20deep%20models%20for%20time-series%20land%20use%20and%20land%20cover%20mapping%20in%20cloud-prone%20areas.pdf))
 
-- Flood Monitoring and Risk Assessment ([2024](https://zhiweili.net/assets/pdf/2024.10_ISPRS%20P&RS_Beyond%20clouds%EF%BC%9ASeamless%20flood%20mapping%20using%20Harmonized%20Landsat%20and%20Sentinel-2%20time%20series%20imagery%20and%20water%20occurrence%20data.pdf); [2024](https://www.taylorfrancis.com/chapters/edit/10.1201/9781003244561-4/urban-flooding-monitoring-management-geospatial-perspective-zhiwei-li-cheolhee-yoo-qihao-weng); [2024](https://zhiweili.net/assets/pdf/Conference%20Papers/2024_IGARSS_Can%20we%20reconstruct%20cloud-covered%20flooding%20areas%20in%20harmonized%20Landsat%20and%20Sentinel-2%20image%20time%20series.pdf))
+- Flood Monitoring ([2024](https://zhiweili.net/assets/pdf/2024.10_ISPRS%20P&RS_Beyond%20clouds%EF%BC%9ASeamless%20flood%20mapping%20using%20Harmonized%20Landsat%20and%20Sentinel-2%20time%20series%20imagery%20and%20water%20occurrence%20data.pdf); [2024](https://www.taylorfrancis.com/chapters/edit/10.1201/9781003244561-4/urban-flooding-monitoring-management-geospatial-perspective-zhiwei-li-cheolhee-yoo-qihao-weng); [2024](https://zhiweili.net/assets/pdf/Conference%20Papers/2024_IGARSS_Can%20we%20reconstruct%20cloud-covered%20flooding%20areas%20in%20harmonized%20Landsat%20and%20Sentinel-2%20image%20time%20series.pdf))
 
 - Geospatial Artificial Intelligence (GeoAI) ([2019](https://zhiweili.net/assets/pdf/2019.4_ISPRS%20P&RS_Deep%20learning%20based%20cloud%20detection%20for%20medium%20and%20high%20resolution%20remote%20sensing%20images%20of%20different%20sensors.pdf); [2020](https://zhiweili.net/assets/pdf/2020.5_RSE_Deep%20learning%20in%20environmental%20remote%20sensing%EF%BC%9AAchievements%20and%20challenges.pdf); [2024](https://zhiweili.net/assets/pdf/2024.7_RSE_Learning%20spectral-indices-fused%20deep%20models%20for%20time-series%20land%20use%20and%20land%20cover%20mapping%20in%20cloud-prone%20areas.pdf))
 
 
 <div class="slideshow-container">
     <div class="mySlides">
-        <img src="../assets/img/research_cloud.jpg" alt="Image 1">
+        <img src="../assets/img/research_cloud.jpg" alt="Cloud Detection and Removal">
     </div>
     <div class="mySlides">
-        <img src="../assets/img/research_lulc.jpg" alt="Image 2">
+        <img src="../assets/img/research_lulc.jpg" alt="Land Use & Land Cover Mapping">
     </div>
     <div class="mySlides">
-        <img src="../assets/img/research_flood.jpg" alt="Image 3">
+        <img src="../assets/img/research_flood.jpg" alt="Flood Monitoring and Risk Assessment">
     </div>
     <div class="mySlides">
-        <img src="../assets/img/research_GeoAI.jpg" alt="Image 4">
+        <img src="../assets/img/research_GeoAI.jpg" alt="Geospatial Artificial Intelligence (GeoAI)">
     </div>
     <!-- Add more slides as needed -->
 </div>
