@@ -9,5 +9,5 @@ nav_order: 7
 
 
 
-We currently have no positions available.
+There are currently no positions available.
 

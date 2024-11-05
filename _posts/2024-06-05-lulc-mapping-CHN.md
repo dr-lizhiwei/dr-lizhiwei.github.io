@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 多云地区时间序列土地利用/覆盖制图 [in Chinese]
+title: 多云地区时间序列土地利用/覆盖制图
 date: 2024-06-05
 description: Li Z. et al., 2024, Remote Sens. Environ.
 tags: 

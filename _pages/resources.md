@@ -29,7 +29,7 @@ nav_order: 5
 &emsp;Reference: Yudie Wang, Zhiwei Li, Chao Zeng, Gui-Song Xia, and Huanfeng Shen. An Urban Water Extraction Method Combining Deep Learning and Google Earth Engine. *IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing*, vol. 13, pp. 768–781, 2020. [[PDF](../assets/pdf/2020.2_JSTARS_An Urban Water Extraction Method Combining Deep Learning and Google Earth Engine.pdf)]
 
 **[4] SeamlessFloodMapper: Seamless Flood Mapping Using Optical Satellite Image Time Series ([Link](https://github.com/dr-lizhiwei/SeamlessFloodMapper)) <font color=red><i>New</i></font>**  
-&emsp;Reference: Zhiwei Li, Shaofen Xu, and Qihao Weng. Beyond Clouds: Beyond clouds: Seamless flood mapping using Harmonized Landsat and Sentinel-2 time series imagery and water occurrence data. *ISPRS Journal of Photogrammetry and Remote Sensing*, 2024. [[PDF](../assets/pdf/2024.10_ISPRS P&RS_Beyond clouds：Seamless flood mapping using Harmonized Landsat and Sentinel-2 time series imagery and water occurrence data.pdf)]  
+&emsp;Reference: Zhiwei Li, Shaofen Xu, and Qihao Weng. Beyond Clouds: Beyond clouds: Seamless flood mapping using Harmonized Landsat and Sentinel-2 time series imagery and water occurrence data. *ISPRS Journal of Photogrammetry and Remote Sensing*, vol. 216, pp. 185–199, 2024. [[PDF](../assets/pdf/2024.10_ISPRS P&RS_Beyond clouds：Seamless flood mapping using Harmonized Landsat and Sentinel-2 time series imagery and water occurrence data.pdf)]
 
 ------
 
