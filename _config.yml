@@ -1,5 +1,8 @@
 # -----------------------------------------------------------------------------
 # Site settings
+
+# Powered by Jekyll with al-folio theme. Hosted by GitHub Pages.
+
 # -----------------------------------------------------------------------------
 
 title: Dr. Zhiwei Li - Homepage
@@ -14,8 +17,8 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 # https://www.revolvermaps.com/livestats/5955mvwzj0a/
 # <font color=white><script type="text/javascript" src="//rf.revolvermaps.com/0/0/9.js?i=5955mvwzj0a&amp;t=Live%20Stats." async="async"></script></font>
 # <script type="text/javascript" src="//rf.revolvermaps.com/0/0/3.js?i=5955mvwzj0a&amp;b=0&amp;s=20&amp;m=2&amp;cl=ffffff&amp;co=010020&amp;cd=aa0000&amp;v0=60&amp;v1=60&amp;r=1" async="async"></script>
-footer_text: >
-  Powered by Jekyll with al-folio theme. Hosted by GitHub Pages.
+footer_text: > 
+
 
 keywords: 李志伟, 香港理工大学, Zhiwei Li, PolyU, The Hong Kong Polytechnic University, Remote Sensing, GeoAI, Cloudy and Rainy, Cloud Detection and Removal, Land Cover & Land Use, Flood # add your own keywords or leave empty
 
@@ -80,7 +83,7 @@ telegram_username: # your Telegram user name
 scholar_userid: SlXpfWMAAAAJ # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-orcid_id: #0000-0001-5635-8499# your ORCID ID
+orcid_id: 0000-0001-5635-8499# your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons

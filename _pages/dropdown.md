@@ -7,6 +7,8 @@ dropdown: true
 children:
   - title: Blog
     permalink: /blog/
+  - title: People
+    permalink: /people/
   - title: Open Positions
     permalink: /positions/
 ---
