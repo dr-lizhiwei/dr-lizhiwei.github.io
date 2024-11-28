@@ -15,7 +15,7 @@ horizontal: false
 
 - **PI**: Intelligent Reconstruction and Fusion of Multisource Remote Sensing Data for High-resolution Dynamic Land Use Mapping, The Hong Kong Polytechnic University, HKD 250,000, 09/2022-04/2025.  &emsp;
 
-- **Co-I**: A GeoAI Framework for Urban Flood Hazard Monitoring, Risk Assessment, and Scenario-based Projection, The Hong Kong Polytechnic University, HKD 1,600,000, 06/2022-05/2024.
+- **Co-I**: A GeoAI Framework for Urban Flood Hazard Monitoring, Risk Assessment, and Scenario-based Projection, The Hong Kong Polytechnic University, HKD 1,600,000, 06/2022-05/2025.
 
 - **PI**: Thick Cloud Processing Methods for Time-series Remote Sensing Images in Tensor Space,  National Natural Science Foundation of China (NSFC), CNY 300,000, 01/2022-12/2024.  &emsp;
 
