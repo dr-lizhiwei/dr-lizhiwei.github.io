@@ -14,17 +14,11 @@ email: zhiwei.li@polyu.edu.hk
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Zhiwei Li, Ph.D. (李志伟 博士), Research Assistant Professor, Department of Land Surveying and Geo-Informatics (LSGI), The Hong Kong Polytechnic University (PolyU), 香港理工大学.
 
-# https://www.revolvermaps.com/livestats/5955mvwzj0a/
-# <font color=white><script type="text/javascript" src="//rf.revolvermaps.com/0/0/9.js?i=5955mvwzj0a&amp;t=Live%20Stats." async="async"></script></font>
-# <script type="text/javascript" src="//rf.revolvermaps.com/0/0/3.js?i=5955mvwzj0a&amp;b=0&amp;s=20&amp;m=2&amp;cl=ffffff&amp;co=010020&amp;cd=aa0000&amp;v0=60&amp;v1=60&amp;r=1" async="async"></script>
 footer_text: > 
 
-
 keywords: 李志伟, 香港理工大学, Zhiwei Li, PolyU, The Hong Kong Polytechnic University, Remote Sensing, GeoAI, Cloudy and Rainy, Cloud Detection and Removal, Land Cover & Land Use, Flood # add your own keywords or leave empty
-
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: webfavicon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
-
 url: https://zhiweili.net/ # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
@@ -183,7 +177,7 @@ collections:
 announcements:
   enabled: true
   scrollable: false # adds a vertical scroll bar if there are more than 3 news items
-  limit: 8 # leave blank to include all the news in the `_news` folder
+  limit: 10 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: true
@@ -366,11 +360,11 @@ jekyll-diagrams:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:    false  # enables google analytics
+enable_google_analytics:    true  # enables google analytics
 enable_cronitor_analytics:  false  # enables cronitor RUM analytics
 enable_google_verification: false  # enables google site verification
 enable_bing_verification:   false  # enables bing site verification
-enable_baidu_verification: true  # enables baidu site verification
+enable_baidu_verification:  true  # enables baidu site verification
 enable_masonry:             false   # enables automatic project cards arrangement
 enable_math:                false   # enables math typesetting (uses MathJax)
 enable_tooltips:            false  # enables automatic tooltip links generated for each section titles on pages and posts
