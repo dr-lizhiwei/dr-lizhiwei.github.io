@@ -9,9 +9,7 @@ nav_order: 6
 
 ##### **Principle Investigator**
 
-Dr. Zhiwei Li, Research Assistant Professor
-
-<br>
+Dr. Zhiwei Li, Research Assistant Professor<br>
 
 ##### **Master Students**
 
@@ -31,7 +29,7 @@ List of supervised Master students for dissertations or projects:
 
 <br>
 
-**Alumni**
+##### **Alumni**
 
 Shaofen Xu, Research Assistant, 07/2023 - 07/2024
 
