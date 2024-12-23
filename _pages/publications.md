@@ -6,7 +6,7 @@ description:
 nav: true
 nav_order: 2
 ---
-##### [<u><b>Google Scholar</b></u>](https://scholar.google.com/citations?user=SlXpfWMAAAAJ&hl=en)		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;			[<u><b>ResearchGate</b></u>](https://www.researchgate.net/profile/Zhiwei_Li22)		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;			[<u><b>Recent Publications</b></u>](/publicationList/)
+##### [<u><b>Google Scholar</b></u>](https://scholar.google.com/citations?user=SlXpfWMAAAAJ&hl=en)		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;			[<u><b>ResearchGate</b></u>](https://www.researchgate.net/profile/Zhiwei_Li22)		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;			[<u><b>Recent Publications</b></u>](/publication list/)
 
 ###### <br>
 
