@@ -7,7 +7,7 @@ tags:
 thumbnail: assets/img/blogs/2022_cloud detection review/thumbnail.png
 ---
 
-Li, Z., Shen, H., Weng, Q., Zhang, Y., Dou, P., Zhang, L. (2022). Cloud and cloud shadow detection for optical satellite imagery: Features, algorithms, validation, and prospects. ISPRS Journal of Photogrammetry and Remote Sensing, 188, 89–108. [[HTML](https://doi.org/10.1016/j.isprsjprs.2022.03.020)] [[PDF]](https://zhiweili.net/assets/pdf/2022.6_ISPRS%20P&RS_Cloud%20and%20cloud%20shadow%20detection%20for%20optical%20satellite%20imagery%EF%BC%9AFeatures,%20algorithms,%20validation,%20and%20prospects.pdf) [[Project]](https://github.com/dr-lizhiwei/OpenSICDR)
+Li, Z., Shen, H., Weng, Q., Zhang, Y., Dou, P., Zhang, L. (2022). Cloud and cloud shadow detection for optical satellite imagery: Features, algorithms, validation, and prospects. *ISPRS Journal of Photogrammetry and Remote Sensing*, 188, 89–108. [[HTML](https://doi.org/10.1016/j.isprsjprs.2022.03.020)] [[PDF]](https://zhiweili.net/assets/pdf/2022.6_ISPRS%20P&RS_Cloud%20and%20cloud%20shadow%20detection%20for%20optical%20satellite%20imagery%EF%BC%9AFeatures,%20algorithms,%20validation,%20and%20prospects.pdf) [[Project]](https://github.com/dr-lizhiwei/OpenSICDR)
 
  
 
