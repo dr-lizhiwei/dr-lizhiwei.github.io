@@ -171,7 +171,7 @@ collections:
     output: true
     permalink: /news/:path/
   projects:
-    output: false #disableproject？
+    output: true #disableproject?
     permalink: /projects/:path/
 
 announcements:

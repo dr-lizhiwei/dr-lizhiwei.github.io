@@ -63,11 +63,12 @@ nav_order: 0
 <br>
 #### **Book Chapter** 
 
-- **Li, Z.**, Yoo, C. and Weng, Q., 2024. Urban Flooding Monitoring and Management in Geospatial Perspective: Data, Techniques, and Platforms. In ***Handbook of Geospatial Approaches to Sustainable Cities*** (pp. 44-57). CRC Press.
+- **Li, Z.**, Yoo, C. and Weng, Q., 2024. Urban Flooding Monitoring and Management in Geospatial Perspective: Data, Techniques, and Platforms. In ***Handbook of Geospatial Approaches to Sustainable Cities*** (pp. 44-57). CRC Press. [[HTML]](https://www.taylorfrancis.com/chapters/edit/10.1201/9781003244561-4/urban-flooding-monitoring-management-geospatial-perspective-zhiwei-li-cheolhee-yoo-qihao-weng)
 
 
 
 <br>
+
 #### **Conference Papers** 
 
 - **Li, Z.**, Xu, S., Weng, Q., 2024. Can we reconstruct cloud-covered flooding areas in harmonized Landsat and Sentinel-2 image time series?, *IEEE International Geoscience and Remote Sensing Symposium (IGARSS)*. pp. 3686–3688, Athens, Greece.
