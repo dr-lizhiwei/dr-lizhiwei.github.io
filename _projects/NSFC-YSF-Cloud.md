@@ -21,10 +21,11 @@ horizontal: false
 <br>
 #### 资助项目
 
-国家自然科学基金青年科学基金项目(42101357)，张量空间下时序遥感影像厚云处理方法研究，2022-01至2024-12
+- 国家自然科学基金青年科学基金项目(42101357)，张量空间下时序遥感影像厚云处理方法研究，2022-01至2024-12
 
 
 <br>
+
 #### 研究成果
 
 - **Li, Z.**, Xu, S. and Weng, Q., 2024. Beyond clouds: Seamless flood mapping using Harmonized Landsat and Sentinel-2 time series imagery and water occurrence data. ***ISPRS Journal of Photogrammetry and Remote Sensing***, 216, 185-199. [[HTML](https://doi.org/10.1016/j.isprsjprs.2024.07.022)] [[PDF](https://zhiweili.net/assets/pdf/2024.10_ISPRS P&RS_Beyond clouds：Seamless flood mapping using Harmonized Landsat and Sentinel-2 time series imagery and water occurrence data.pdf)] [[Code](https://github.com/dr-lizhiwei/SeamlessFloodMapper)]
