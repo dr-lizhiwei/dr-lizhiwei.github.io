@@ -2,7 +2,7 @@
 layout: post
 title: 多云地区时间序列土地利用/覆盖制图
 date: 2024-06-05
-description: Li Z. et al., 2024, Remote Sens. Environ.
+description: Li Z. et al., 2024, Remote Sens. Environ. (中文导读)
 tags: 
 thumbnail: assets/img/blogs/2024_lulc mapping/thumbnail.png
 ---

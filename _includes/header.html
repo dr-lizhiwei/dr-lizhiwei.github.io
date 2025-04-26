@@ -51,6 +51,13 @@
                   {%- endif -%}
                 </a>
               </li>
+              
+              <!-- News -->
+              <li class="nav-item {% if page.url contains '/news/' %}active{% endif %}">
+                <a class="nav-link" href="{{ '/news/' | relative_url }}">News</a>
+              </li>
+              
+              
               {% if site.blog_nav_title %}
               <!-- Blog -->
               <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">

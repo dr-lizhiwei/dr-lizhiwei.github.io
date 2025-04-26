@@ -2,7 +2,7 @@
 layout: page
 permalink: /positions/
 title: Open Positions
-description: 
+description: Open Positions
 nav: false
 nav_order: 7
 ---

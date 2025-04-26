@@ -2,7 +2,7 @@
 layout: page
 permalink: /publication list/
 title: Publication List
-description: 
+description: Publication List
 nav: false
 nav_order: 0
 ---

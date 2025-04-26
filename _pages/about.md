@@ -3,6 +3,7 @@ layout: about
 title: About
 permalink: /
 subtitle: Research Assistant Professor, The Hong Kong Polytechnic University
+description: Zhiwei Li, Ph.D. (李志伟 博士), Research Assistant Professor, Department of Land Surveying and Geo-Informatics (LSGI), The Hong Kong Polytechnic University (PolyU), 香港理工大学.
 
 profile:
   align: right
@@ -18,7 +19,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-**<font color=brown>:pushpin:Call for Manuscripts</font>** - Photogrammetric Engineering & Remote Sensing (PE&RS) ([Link](https://my.asprs.org/PERS/PERS/Default.aspx]))
+**<font color=brown>:pushpin:Call for Manuscripts</font>** - Photogrammetric Engineering & Remote Sensing (PE&RS) ([Link](https://my.asprs.org/PERS]))
 
 I am currently a Research Assistant Professor in the Department of Land Surveying and Geo-Informatics (<a href='https://www.polyu.edu.hk/lsgi/'>LSGI</a>) at The Hong Kong Polytechnic University (<a href='https://www.polyu.edu.hk/'>PolyU</a>). I am also affiliated with the PolyU JC STEM Lab of Earth Observations (POLEIS) and the Research Centre for Artificial Intelligence in Geomatics (RCAIG), both led by [Prof. Qihao Weng](https://qihaoweng.net/).
 

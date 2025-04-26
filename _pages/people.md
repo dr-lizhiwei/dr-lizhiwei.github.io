@@ -2,7 +2,7 @@
 layout: page
 permalink: /people/
 title: People
-description: 
+description: People
 nav: false
 nav_order: 6
 ---
@@ -22,7 +22,7 @@ List of supervised Master students for dissertations or projects:
 | Miao Yu         | Flood Risk Assessment and Future Projections for Southeast Asia Under Different Climate and Socioeconomic Scenarios | Completed in Dec 2024               |
 | Zeyu Xu         | Integrating Optical and SAR Imagery for Enhanced Flood Mapping: Comparative Analysis and Applications | Completed in Dec 2024               |
 | Jingyi Shi      | Flood Risk Assessment and Climate Change Impact Evaluation in Southeast Asia (2000-2020) | Completed in Dec 2024               |
-| Lai Yiu Tong    | Modeling and Analysis of Rooftop Solar Energy Potentials Using GIS-based Approach – A Case Study of Hong Kong<br>**<span style="color: #b509ac;">2025 Esri Young Scholars Award Champion (Hong Kong)</span>** | Completed in Dec 2024               |
+| Lai Yiu Tong    | Modeling and Analysis of Rooftop Solar Energy Potentials Using GIS-based Approach – A Case Study of Hong Kong<br><span style="color: #b509ac;">2025 Esri Young Scholars Award Champion (Hong Kong)</span> | Completed in Dec 2024               |
 | Jinzhuo Xiong   | Use of Random Forest and High-Resolution Satellite Imagery for Urban Flooding Inundation Frequency Mapping: The Case of Southern District, Hong Kong | Completed in Dec 2024               |
 | Huan Zhou       | Unlocking the Potential of Multi-Modal Self-Supervised Learning for Flood Inundation Mapping | Completed in May 2024               |
 | Sukanta Bag     | Evaluating the Impact of Deforestation on the Amazon Rainforest Through Satellite Imagery Analysis | Completed in Dec 2023               |

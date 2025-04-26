@@ -1,7 +1,10 @@
 ---
 permalink: /robots.txt
 ---
+
 User-agent: *
-Disallow:
+Allow: /
+
+Crawl-delay: 5
 
 Sitemap: {{ site.baseurl | prepend: site.url }}/sitemap.xml
