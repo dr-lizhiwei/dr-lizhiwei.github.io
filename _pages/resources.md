@@ -20,7 +20,7 @@ nav_order: 5
 ##### **Code and Tools**
 
 **[1] Software Tool for Cloud and Cloud Shadow Detection in GF-1 WFV Imagery ([Link](https://github.com/dr-lizhiwei/MFC))**  
-&emsp;Reference: Zhiwei Li, Huanfeng Shen, Huifang Li, Guisong Xia, Paolo Gamba, and Liangpei Zhang. Multi-feature combined cloud and cloud shadow detection in GaoFen-1 wide field of view imagery. *Remote Sensing of Environment*, vol. 191, pp. 342–358, 2017. [[PDF](../assets/pdf/2017.3_RSE_Multi-feature combined cloud and cloud shadow detection in GaoFen-1 wide field of view imagery)]  
+&emsp;Reference: Zhiwei Li, Huanfeng Shen, Huifang Li, Guisong Xia, Paolo Gamba, and Liangpei Zhang. Multi-feature combined cloud and cloud shadow detection in GaoFen-1 wide field of view imagery. *Remote Sensing of Environment*, vol. 191, pp. 342–358, 2017. [[PDF](../assets/pdf/2017.3_RSE_Multi-feature combined cloud and cloud shadow detection in GaoFen-1 wide field of view imagery.pdf)]  
 
 **[2] Deep Learning based Cloud Detection for Images of Different Sensors ([Link](https://github.com/dr-lizhiwei/MSCFF))**  
 &emsp;Reference: Zhiwei Li, Huanfeng Shen, Qing Cheng, Yuhao Liu, Shucheng You, and Zongyi He. Deep learning based cloud detection for medium and high resolution remote sensing images of different sensors. *ISPRS Journal of Photogrammetry and Remote Sensing*, vol. 150, pp. 197–212, 2019. [[PDF](../assets/pdf/2019.4_ISPRS P&RS_Deep learning based cloud detection for medium and high resolution remote sensing images of different sensors.pdf)]  
