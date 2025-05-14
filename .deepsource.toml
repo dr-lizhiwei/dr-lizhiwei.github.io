@@ -6,5 +6,26 @@ name = "ruby"
 [[analyzers]]
 name = "javascript"
 
+  [analyzers.meta]
+  plugins = [
+    "react",
+    "vue",
+    "ember",
+    "meteor",
+    "angularjs",
+    "angular"
+  ]
+  environment = [
+    "jasmine",
+    "mocha",
+    "vitest",
+    "cypress",
+    "jest",
+    "browser",
+    "mongo",
+    "jquery",
+    "nodejs"
+  ]
+
 [[analyzers]]
 name = "shell"
