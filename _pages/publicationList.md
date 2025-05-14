@@ -2,7 +2,6 @@
 layout: page
 permalink: /publication list/
 title: Publication List
-description: Publication List
 nav: false
 nav_order: 0
 ---
@@ -35,14 +34,13 @@ nav_order: 0
 
 11. Dou, P., Shen, H., **Li, Z\***. and Guan, X., 2021. Time series remote sensing image classification framework using combination of deep learning and multiple classifiers system. ***International Journal of Applied Earth Observation and Geoinformation***, 103, 102477. [[HTML](https://doi.org/10.1016/j.jag.2021.102477)] [[PDF](https://zhiweili.net/assets/pdf/2021.12_JAG_Time series remote sensing image classification framework using combination of deep learning and multiple classifiers system.pdf)]
 
-12. Zhang, Q., Yuan, Q., **Li, Z\***, Sun, F. and Zhang, L., 2021. Combined deep prior with low-rank tensor SVD for thick cloud removal in multitemporal images. ***ISPRS Journal of Photogrammetry and Remote Sensing***, 177, 161-173. [[HTML](https://doi.org/10.1016/j.isprsjprs.2021.04.021)] [[PDF](https://zhiweili.net/assets/pdf/2021.7_ISPRS P&RS_Combined deep prior with low-rank tensor SVD for thick cloud removal in multitemporal images.pdf)] [[Dataset](https://drive.google.com/file/d/1LlvUKtUWAKoF6R0igbREwvP2Wfja9UBv/view?usp=sharing)]
+12. Zhang, Q., Yuan, Q.\*, **Li, Z\***, Sun, F. and Zhang, L., 2021. Combined deep prior with low-rank tensor SVD for thick cloud removal in multitemporal images. ***ISPRS Journal of Photogrammetry and Remote Sensing***, 177, 161-173. [[HTML](https://doi.org/10.1016/j.isprsjprs.2021.04.021)] [[PDF](https://zhiweili.net/assets/pdf/2021.7_ISPRS P&RS_Combined deep prior with low-rank tensor SVD for thick cloud removal in multitemporal images.pdf)] [[Dataset](https://drive.google.com/file/d/1LlvUKtUWAKoF6R0igbREwvP2Wfja9UBv/view?usp=sharing)]
 
 13. Dou, P., Shen, H., **Li, Z.\***, Guan, X. and Huang, W., 2021. Remote Sensing Image Classification Using Deep–Shallow Learning. ***IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing***, 14, 3070-3083. [[HTML](https://doi.org/10.1109/JSTARS.2021.3062635)] [[PDF](https://zhiweili.net/assets/pdf/2021.3_JSTARS_Remote Sensing Image Classification Using Deep–Shallow Learning.pdf)]
 
 14. Yuan, Q., Shen, H., Li, T., **Li, Z.**, Li, S., Jiang, Y., Xu, H., Tan, W., Yang, Q., Wang, J. and Gao, J., 2020. Deep learning in environmental remote sensing: Achievements and challenges. ***Remote Sensing of Environment***, 241, 111716. [[HTML](https://doi.org/10.1016/j.rse.2020.111716)] [[PDF](https://zhiweili.net/assets/pdf/2020.5_RSE_Deep learning in environmental remote sensing：Achievements and challenges.pdf)] (**<span style="color: #b509ac;">ESI Highly Cited Paper</span>**🏆 **<span style="color: #b509ac;">2020年中国百篇最具影响国际学术论文</span>**🏆)
 
-
-15. Zhang, Q., Yuan, Q., Li, J., **Li, Z.**, Shen, H. and Zhang, L., 2020. Thick cloud and cloud shadow removal in multitemporal imagery using progressively spatio-temporal patch group deep learning. ***ISPRS Journal of Photogrammetry and Remote Sensing***, 162, 148-160. [[HTML](https://doi.org/10.1016/j.isprsjprs.2020.02.008)] [[PDF](https://zhiweili.net/assets/pdf/2020.4_ISPRS P&RS_Thick cloud and cloud shadow removal in multitemporal imagery using progressively spatio-temporal patch group deep learning.pdf)] [[Code](https://github.com/qzhang95/PSTCR)] [[Dataset](https://drive.google.com/file/d/1LlvUKtUWAKoF6R0igbREwvP2Wfja9UBv/view?usp=sharing)]
+15. Zhang, Q., Yuan, Q., Li, J., **Li, Z.**, Shen, H. and Zhang, L., 2020. Thick cloud and cloud shadow removal in multitemporal imagery using progressively spatio-temporal patch group deep learning. ***ISPRS Journal of Photogrammetry and Remote Sensing***, 162, 148-160. [[HTML](https://doi.org/10.1016/j.isprsjprs.2020.02.008)] [[PDF](https://zhiweili.net/assets/pdf/2020.4_ISPRS P&RS_Thick cloud and cloud shadow removal in multitemporal imagery using progressively spatio-temporal patch group deep learning.pdf)] [[Code](https://github.com/qzhang95/PSTCR)] [[Dataset](https://drive.google.com/file/d/1LlvUKtUWAKoF6R0igbREwvP2Wfja9UBv/view?usp=sharing)] (**<span style="color: #b509ac;">ESI Highly Cited Paper</span>**🏆)
 
 16. Wang, Y., **Li, Z.**, Zeng, C., Xia, G.S. and Shen, H., 2020. An Urban Water Extraction Method Combining Deep Learning and Google Earth Engine. ***IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing***, 13, 769-782. [[HTML](https://doi.org/10.1109/JSTARS.2020.2971783)] [[PDF](https://zhiweili.net/assets/pdf/2020.2_JSTARS_An Urban Water Extraction Method Combining Deep Learning and Google Earth Engine.pdf)] [[Code](https://code.earthengine.google.com/8bec5b26cc38bc4b812aa7b95a3ab8d6)] [[Dataset](http://sendimage.whu.edu.cn/en/wp-content/uploads/2020/01/List_of_data.txt)]
 
@@ -75,6 +73,8 @@ nav_order: 0
 - **Li, Z.**, Xu, S., Weng, Q., 2024. Can we reconstruct cloud-covered flooding areas in harmonized Landsat and Sentinel-2 image time series?, *IEEE International Geoscience and Remote Sensing Symposium (IGARSS)*. pp. 3686–3688, Athens, Greece.
 
 - **Li, Z.**, Shen, H., Wei, Y., Cheng, Q., Yuan, Q., 2018. Cloud detection by fusing multi-scale convolutional features, *ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences*. pp. 149–152, Beijing, China.
+
+- Luo, S., Li, H., Chen, Y., **Li, Z.**, Wei, Y., Shen, H., 2018. Multi-scale residual convolutional neural network for shadow detection in high resolution remote sensing images, *Asian Conference on Remote Sensing (ACRS)*. pp. 605–613, Kuala Lumpur, Malaysia.
 
 - Zhang, C., **Li, Z.**, Cheng, Q., Li, X., Shen, H., 2017. Cloud removal by fusing multi-source and multi-temporal images, *IEEE International Geoscience and Remote Sensing Symposium (IGARSS)*. pp. 2577–2580, Texas, USA.
 
