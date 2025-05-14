@@ -236,16 +236,20 @@
               ></span>
             {%- endif %}
             {% if site.enable_publication_badges.google_scholar and entry_has_google_scholar_badge and entry_has_dimensions_badge %}
-              <a
-                href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user={{ site.data.socials.scholar_userid }}&citation_for_view={{ site.data.socials.scholar_userid }}:{{ entry.google_scholar_id }}"
-                aria-label="Google Scholar link"
-                role="button"
-              >
-                <img
-                  src="https://img.shields.io/badge/scholar-{% google_scholar_citations site.data.socials.scholar_userid entry.google_scholar_id %}-4285F4?logo=googlescholar&labelColor=beige"
-                  alt="{% google_scholar_citations site.data.socials.scholar_userid entry.google_scholar_id %} Google Scholar citations"
+<!--              {% assign citations = google_scholar_citations site.scholar_userid entry.google_scholar_id %}-->
+              {% capture citations %}{% google_scholar_citations site.scholar_userid entry.google_scholar_id %}{% endcapture %}
+              {% if citations and citations != "0" and citations != "N/A" %}
+                <a
+                  href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user={{ site.scholar_userid }}&citation_for_view={{ site.scholar_userid }}:{{ entry.google_scholar_id }}"
+                  aria-label="Google Scholar link"
+                  role="button"
                 >
-              </a>
+                  <img
+                    src="https://img.shields.io/badge/Scholar-{% google_scholar_citations site.scholar_userid entry.google_scholar_id %}-4285F4?logo=googlescholar&labelColor=beige"
+                    alt="{% google_scholar_citations site.scholar_userid entry.google_scholar_id %} Google Scholar citations"
+                  >
+                </a>
+              {% endif %}
             {% endif %}
           </div>
           {%- endif %}

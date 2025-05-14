@@ -2,7 +2,7 @@
 layout: post
 title: 光学卫星影像云与云阴影检测：特征、算法、验证和前景
 date: 2022-07-05
-description: Li Z. et al., 2022, ISPRS J. Photogramm. Remote Sens. (中文导读)
+description: Li Z. et al., 2022, ISPRS J. Photogramm. Remote Sens.
 tags: 
 thumbnail: assets/img/blogs/2022_cloud detection review/thumbnail.png
 ---
