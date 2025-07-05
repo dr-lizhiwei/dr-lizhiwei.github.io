@@ -10,7 +10,7 @@ profile:
   image: dr_lizhiwei.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p><b>Office</b>: Room 1001-2, Engineering Bldg. 4</p>
+    <p><b>Office</b>: Rm 1001-2, Engineering Bldg. 4</p>
     <p><b>Email</b>: <a href="mailto:zhiwei.li@unist.ac.kr">zhiwei.li@unist.ac.kr</a></p>
 
 news: true  # includes a list of news items
