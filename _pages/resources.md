@@ -27,8 +27,11 @@ nav_order: 5
 **[3] Urban Water Extraction by Combining Deep Learning and Google Earth Engine ([GEE Code](https://code.earthengine.google.com/8bec5b26cc38bc4b812aa7b95a3ab8d6), [List of data](https://zhiweili.net/assets/share/OTOP-MSCN/List_of_data.txt))**  
 &emsp;Reference: Yudie Wang, Zhiwei Li, Chao Zeng, Gui-Song Xia, and Huanfeng Shen. An Urban Water Extraction Method Combining Deep Learning and Google Earth Engine. *IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing*, vol. 13, pp. 768–781, 2020. [[PDF](../assets/pdf/2020.2_JSTARS_An Urban Water Extraction Method Combining Deep Learning and Google Earth Engine.pdf)]
 
-**[4] SeamlessFloodMapper: Seamless Flood Mapping Using Optical Satellite Image Time Series ([Link](https://github.com/dr-lizhiwei/SeamlessFloodMapper)) <font color=red><i>New</i></font>**  
-&emsp;Reference: Zhiwei Li, Shaofen Xu, and Qihao Weng. Beyond Clouds: Beyond clouds: Seamless flood mapping using Harmonized Landsat and Sentinel-2 time series imagery and water occurrence data. *ISPRS Journal of Photogrammetry and Remote Sensing*, vol. 216, pp. 185–199, 2024. [[PDF](../assets/pdf/2024.10_ISPRS P&RS_Beyond clouds：Seamless flood mapping using Harmonized Landsat and Sentinel-2 time series imagery and water occurrence data.pdf)]
+**[4] SeamlessFloodMapper: Seamless Flood Mapping Using Optical Satellite Image Time Series ([Link](https://github.com/dr-lizhiwei/SeamlessFloodMapper))**  
+&emsp;Reference: Zhiwei Li, Shaofen Xu, and Qihao Weng. Beyond Clouds: Seamless flood mapping using Harmonized Landsat and Sentinel-2 time series imagery and water occurrence data. *ISPRS Journal of Photogrammetry and Remote Sensing*, vol. 216, pp. 185–199, 2024. [[PDF](../assets/pdf/2024.10_ISPRS P&RS_Beyond clouds：Seamless flood mapping using Harmonized Landsat and Sentinel-2 time series imagery and water occurrence data.pdf)]
+
+**[5] TerrainFloodSense: Improving seamless flood mapping with cloudy satellite imagery via water occurrence and terrain data fusion ([Link](https://github.com/dr-lizhiwei/TerrainFloodSense)) <font color=red><i>New</i></font>**  
+&emsp;Reference: Zhiwei Li, Shaofen Xu, and Qihao Weng. TerrainFloodSense: Improving seamless flood mapping with cloudy satellite imagery via water occurrence and terrain data fusion. *International Journal of Applied Earth Observations and Geoinformation*, vol. 144, pp. 104855, 2025. [[PDF](../assets/pdf/2025.11_JAG_TerrainFloodSense：Improving seamless flood mapping with cloudy satellite imagery via water occurrence and terrain data fusion.pdf)]
 
 ------
 

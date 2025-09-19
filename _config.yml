@@ -10,12 +10,12 @@ firstline_name: Zhiwei Li, Ph.D. (李志伟 博士)
 first_name: Zhiwei Li
 middle_name:
 last_name:
-email: zhiwei.li@polyu.edu.hk
+email: zhiwei.li@unist.ac.kr
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
 
 footer_text: > 
 
-keywords: 李志伟, 香港理工大学, Zhiwei Li, PolyU, The Hong Kong Polytechnic University, Remote Sensing, GeoAI, Cloudy and Rainy Environments, Cloud Detection and Removal, Land Cover & Land Use, Flood # add your own keywords or leave empty
+keywords: 李志伟, Zhiwei Li, UNIST, Ulsan National Institute of Science and Technology, Remote Sensing, Geospatial Intelligence, Cloudy and Rainy Environments, Cloud Detection and Removal, Land Cover & Land Use, Flood # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: webfavicon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 url: https://zhiweili.net/ # the base hostname & protocol for your site
@@ -176,7 +176,7 @@ collections:
 announcements:
   enabled: true
   scrollable: false # adds a vertical scroll bar if there are more than 3 news items
-  limit: 8 # leave blank to include all the news in the `_news` folder
+  limit: 10 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: true

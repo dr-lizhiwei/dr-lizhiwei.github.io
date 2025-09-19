@@ -3,6 +3,50 @@
 
 @string{aps = {American Physical Society,}}
 
+
+@article{Li2025,
+abbr = {JAG},
+abstract = {Extreme flood disasters are intensified by climate change, exposing an increasing share of the global population to flood hazards. Accurate monitoring of inundation extents during floods is crucial for disaster management and impact assessment. While remote sensing can provide strong support for flood monitoring, optical satellite images often face significant challenges due to weather conditions and infrequent revisits, particularly in cloudy and rainy regions. To address this limitation and achieve seamless flood mapping with cloudy satellite images, this paper proposes TerrainFloodSense, a novel method that fuses water occurrence with terrain data to enhance the reconstruction of cloud-covered flooding areas, especially under extreme and unprecedented flood scenarios. Specifically, TerrainFloodSense first generates enhanced water occurrence data by Bayesian fusion of terrain indices, including Digital Surface Model (DSM) along with Height Above the Nearest Drainage (HAND), and historical water occurrence data. Then, enhanced water occurrence data are used to fill gaps caused by clouds in water maps derived from optical satellite images, guided by the submaximal stability assumption. The basic idea is that prior terrain information can be incorporated into the initial water occurrence data to enhance the ability to predict the inundation probabilities for both regular pre-flood water and extreme floodwater and to help reconstruction of cloud-covered flooding areas even under extreme flooding scenarios. Simulated experiments and applications in large-area flood mapping cases confirmed that TerrainFloodSense significantly outperformed existing methods, achieving absolute accuracy improvements of 2.95%–8.86% in overall accuracy and 0.038–0.087 increases in F1-Score under extreme flooding scenarios. This study demonstrated that the fusion of water occurrence and terrain data can effectively improve seamless flood mapping by using optical satellite images, supporting disaster monitoring and impact assessment in cloudy and rainy environments. The code associated with this study has been made publicly accessible via https://github.com/RCAIG/TerrainFloodSense.},
+author = {Li, Zhiwei and Xu, Shaofen and Weng, Qihao},
+doi = {10.1016/j.jag.2025.104855},
+issn = {1872-826X},
+journal = {International Journal of Applied Earth Observation and Geoinformation},
+pages = {104855},
+title = {{TerrainFloodSense: Improving seamless flood mapping with cloudy satellite imagery via water occurrence and terrain data fusion}},
+volume = {144},
+year = {2025},
+month = {nov},
+dimensions={true},
+html = {https://doi.org/10.1016/j.jag.2025.104855},
+pdf = {https://zhiweili.net/assets/pdf/2025.11_JAG_TerrainFloodSense：Improving seamless flood mapping with cloudy satellite imagery via water occurrence and terrain data fusion.pdf},
+code = {https://github.com/dr-lizhiwei/TerrainFloodSense},
+google_scholar_id={mvPsJ3kp5DgC},
+preview = {2025.11_JAG.png},
+selected={true}
+}
+
+
+@article{Weng2024,
+abbr = {npj Urban Sustainability},
+abstract = {Advances in artificial intelligence (AI) and Earth observation (EO) have transformed urban studies. This paper provides a commentary on how the AI-EO integration offers advancements in urban studies and applications. We conclude that AI will provide a deeper interpretation and autonomous identification of urban issues and the creation of customized urban designs. Open issues remain, especially in integrating diverse geospatial big data, data security, and developing a general analytical framework.},
+author = {Weng, Qihao and Li, Zhiwei and Cao, Yinxai and Lu, Xiaoyan and Gamba, Paolo and Zhu, Xiaoxiang and Xu, Yonghao and Zhang, Fan and Qin, Rongjun and Yang, Micheal. Y. and Ma, Peifeng and Huang, Wei and Yin, Tiangang and Zheng, Qiming and Zhou, Yuhan and Asner, Greg},
+doi = {10.1038/s42949-024-00188-3},
+issn = {2661-8001},
+journal = {npj Urban Sustainability},
+pages = {50},
+title = {{How will ai transform urban observing, sensing, imaging, and mapping?}},
+volume = {4},
+year = {2024},
+month = {nov},
+dimensions={true},
+html = {https://doi.org/10.1038/s42949-024-00188-3},
+pdf = {https://zhiweili.net/assets/pdf/2024.11_npj Urban Sustainability_How will AI transform urban observing, sensing, imaging, and mapping.pdf},
+google_scholar_id={BrmTIyaxlBUC},
+preview = {2024.11_npj Urban Sustainability.png},
+selected={true}
+}
+
+
 @article{Li2024,
 abbr = {ISPRS P&RS},
 abstract = {Floods are among the most devastating natural disasters, posing significant risks to life, property, and infrastructure globally. Earth observation satellites provide data for continuous and extensive flood monitoring, yet limitations exist in the spatial completeness of monitoring using optical images due to cloud cover. Recent studies have developed gap-filling methods for reconstructing cloud-covered areas in water maps. However, these methods are not tailored for and validated in cloudy and rainy flooding scenarios with rapid water extent changes and limited clear-sky observations, leaving room for further improvements. This study investigated and developed a novel reconstruction method for time series flood extent mapping, supporting spatially seamless monitoring of flood extents. The proposed method first identified surface water from time series images using a fine-tuned large foundation model. Then, the cloud-covered areas in the water maps were reconstructed, adhering to the introduced submaximal stability assumption, on the basis of the prior water occurrence data in the Global Surface Water dataset. The reconstructed time series water maps were refined through spatiotemporal Markov random field modeling for the final delineation of flooding areas. The effectiveness of the proposed method was evaluated with Harmonized Landsat and Sentinel-2 datasets under varying cloud cover conditions, enabling seamless flood mapping at 2–3-day frequency and 30 m resolution. Experiments at four global sites confirmed the superiority of the proposed method. It achieved higher reconstruction accuracy with average F1-scores of 0.931 during floods and 0.903 before/after floods, outperforming the typical gap-filling method with average F1-scores of 0.871 and 0.772, respectively. Additionally, the maximum flood extent maps and flood duration maps, which were composed on the basis of the reconstructed water maps, were more accurate than those using the original cloud-contaminated water maps. The benefits of synthetic aperture radar images (e.g., Sentinel-1) for enhancing flood mapping under cloud cover conditions were also discussed. The method proposed in this paper provided an effective way for flood monitoring in cloudy and rainy scenarios, supporting emergency response and disaster management. The code and datasets used in this study have been made available online (https://github.com/dr-lizhiwei/SeamlessFloodMapper).},
@@ -117,53 +161,6 @@ google_scholar_id={pyW8ca7W8N0C}
 }
 
 
-@article{Yuan2020,
-abbr = {RSE},
-abstract = {Various forms of machine learning (ML) methods have historically played a valuable role in environmental remote sensing research. With an increasing amount of “big data” from earth observation and rapid advances in ML, increasing opportunities for novel methods have emerged to aid in earth environmental monitoring. Over the last decade, a typical and state-of-the-art ML framework named deep learning (DL), which is developed from the traditional neural network (NN), has outperformed traditional models with considerable improvement in performance. Substantial progress in developing a DL methodology for a variety of earth science applications has been observed. Therefore, this review will concentrate on the use of the traditional NN and DL methods to advance the environmental remote sensing process. First, the potential of DL in environmental remote sensing, including land cover mapping, environmental parameter retrieval, data fusion and downscaling, and information reconstruction and prediction, will be analyzed. A typical network structure will then be introduced. Afterward, the applications of DL environmental monitoring in the atmosphere, vegetation, hydrology, air and land surface temperature, evapotranspiration, solar radiation, and ocean color are specifically reviewed. Finally, challenges and future perspectives will be comprehensively analyzed and discussed.},
-author = {Yuan, Qiangqiang and Shen, Huanfeng and Li, Tongwen and Li, Zhiwei and Li, Shuwen and Jiang, Yun and Xu, Hongzhang and Tan, Weiwei and Yang, Qianqian and Wang, Jiwen and Gao, Jianhao and Zhang, Liangpei},
-doi = {10.1016/j.rse.2020.111716},
-issn = {00344257},
-journal = {Remote Sensing of Environment},
-keywords = {Deep learning,Environmental remote sensing,Neural network,Parameter retrieval},
-pages = {111716},
-publisher = {Elsevier},
-title = {{Deep learning in environmental remote sensing: Achievements and challenges}},
-html = {https://linkinghub.elsevier.com/retrieve/pii/S0034425720300857},
-volume = {241},
-year = {2020},
-month = {may},
-pdf = {https://zhiweili.net/assets/pdf/2020.5_RSE_Deep learning in environmental remote sensing：Achievements and challenges.pdf},
-dimensions={true},
-preview = {2020.5_RSE.png},
-google_scholar_id={_xSYboBqXhAC},
-award = {ESI Highly Cited Paper🏆 2020年中国百篇最具影响国际学术论文🏆}
-}
-
-
-@misc{Wang2019,
-abbr = {IEEE JSTARS},
-abstract = {Urban water is important for the urban ecosystem. Accurate and efficient detection of urban water with remote sensing data is of great significance for urban management and planning. In this article, we proposed a new method by combining Google Earth Engine (GEE) with a multiscale convolutional neural network (MSCNN) to extract urban water from Landsat images, which can be summarized as 'offline training and online prediction' (OTOP). That is, the training of MSCNN is completed offline, and the process of urban water extraction is implemented on GEE with the trained parameters of MSCNN. The OTOP can give full play to the respective advantages of GEE and the convolutional neural network (CNN), and can make the use of deep learning method in GEE more flexible. The proposed method can process the available satellite images with high performance, without data download and storage, and the overall performance of urban water extraction in the test areas is also higher than that of the modified normalized difference water index (MNDWI) and random forest classifier. The results of the extended validation in the other major cities of China also showed that OTOP is robust and can be used to extract different types of urban water, which benefits from the structural design and training of MSCNN. Therefore, OTOP is especially suitable for the study of large-scale and long-term urban water change detection in the background of urbanization.},
-author = {Wang, Yudie and Li, Zhiwei and Zeng, Chao and Xia, Gui Song and Shen, Huanfeng},
-booktitle = {IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
-doi = {10.1109/JSTARS.2020.2971783},
-issn = {21511535},
-journal = {IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
-keywords = {Convolutional neural network,google earth engine,urban water,water extraction},
-pages = {768--781},
-title = {{An Urban Water Extraction Method Combining Deep Learning and Google Earth Engine}},
-volume = {13},
-year = {2020},
-month = {feb},
-pdf = {https://zhiweili.net/assets/pdf/2020.2_JSTARS_An Urban Water Extraction Method Combining Deep Learning and Google Earth Engine.pdf},
-dimensions={true},
-html = {https://ieeexplore.ieee.org/document/8989826},
-code = {https://code.earthengine.google.com/8bec5b26cc38bc4b812aa7b95a3ab8d6},
-dataset = {https://zhiweili.net/assets/share/OTOP-MSCN/List_of_data.txt},
-google_scholar_id={vV6vV6tmYwMC},
-preview = {2020.2_JSTARS.png}
-}
-
-
 @article{Li2019,
 abbr = {RS},
 abstract = {Cloud cover is a common problem in optical satellite imagery, which leads to missing information in images as well as a reduction in the data usability. In this paper, a thick cloud removal method based on stepwise radiometric adjustment and residual correction (SRARC) is proposed, which is aimed at effectively removing the clouds in high-resolution images for the generation of high-quality and spatially contiguous urban geographical maps. The basic idea of SRARC is that the complementary information in adjacent temporal satellite images can be utilized for the seamless recovery of cloud-contaminated areas in the target image after precise radiometric adjustment. To this end, the SRARC method first optimizes the given cloud mask of the target image based on superpixel segmentation, which is conducted to ensure that the labeled cloud boundaries go through homogeneous areas of the target image, to ensure a seamless reconstruction. Stepwise radiometric adjustment is then used to adjust the radiometric information of the complementary areas in the auxiliary image, step by step, and clouds in the target image can be removed by the replacement with the adjusted complementary areas. Finally, residual correction based on global optimization is used to further reduce the radiometric differences between the recovered areas and the cloud-free areas. The final cloud removal results are then generated. High-resolution images with different spatial resolutions and land-cover change patterns were used in both simulated and real-data cloud removal experiments. The results suggest that SRARC can achieve a better performance than the other compared methods, due to the superiority of the radiometric adjustment and spatial detail preservation. SRARC is thus a promising approach that has the potential for routine use, to support applications based on high-resolution satellite images.},
@@ -186,7 +183,7 @@ google_scholar_id={NaGl4SEjCO4C}
 }
 
 
-@article{Li2019a,
+@article{Li2019,
 abbr = {ISPRS P&RS},
 abstract = {Cloud detection is an important preprocessing step for the precise application of optical satellite imagery. In this paper, we propose a deep learning based cloud detection method named multi-scale convolutional feature fusion (MSCFF) for remote sensing images of different sensors. In the network architecture of MSCFF, the symmetric encoder-decoder module, which provides both local and global context by densifying feature maps with trainable convolutional filter banks, is utilized to extract multi-scale and high-level spatial features. The feature maps of multiple scales are then up-sampled and concatenated, and a novel multi-scale feature fusion module is designed to fuse the features of different scales for the output. The two output feature maps of the network are cloud and cloud shadow maps, which are in turn fed to binary classifiers outside the model to obtain the final cloud and cloud shadow mask. The MSCFF method was validated on hundreds of globally distributed optical satellite images, with spatial resolutions ranging from 0.5 to 50 m, including Landsat-5/7/8, Gaofen-1/2/4, Sentinel-2, Ziyuan-3, CBERS-04, Huanjing-1, and collected high-resolution images exported from Google Earth. The experimental results show that MSCFF achieves a higher accuracy than the traditional rule-based cloud detection methods and the state-of-the-art deep learning models, especially in bright surface covered areas. The effectiveness of MSCFF means that it has great promise for the practical application of cloud detection for multiple types of medium and high-resolution remote sensing images. Our established global high-resolution cloud detection validation dataset has been made available online (http://sendimage.whu.edu.cn/en/mscff/).},
 archivePrefix = {arXiv},
