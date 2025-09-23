@@ -59,11 +59,15 @@ horizontal: false
 
 - 改进的无缝洪水制图(TerrainFloodSense): [https://github.com/dr-lizhiwei/TerrainFloodSense](https://github.com/dr-lizhiwei/TerrainFloodSense)
 
+
 **2）研究成果媒体报道**
 
 - 香港理工大学新闻：[https://www.polyu.edu.hk/pair/publications/issue-11/ra02---novel-remote-sensing-image-classification-for-land-use-and-land-cover-mapping/](https://www.polyu.edu.hk/pair/publications/issue-11/ra02---novel-remote-sensing-image-classification-for-land-use-and-land-cover-mapping/)
-- NASA MODIS Science论文收录：https://modis.gsfc.nasa.gov/sci_team/pubs/abstract_new.php?id=54374
-- NASA Landsat Science精选论文收录：https://landsat.gsfc.nasa.gov/news/publications/
+
+- NASA MODIS Science论文收录：[https://modis.gsfc.nasa.gov/sci_team/pubs/abstract_new.php?id=54374](https://modis.gsfc.nasa.gov/sci_team/pubs/abstract_new.php?id=54374)
+
+- NASA Landsat Science精选论文收录：[https://landsat.gsfc.nasa.gov/news/publications/](https://landsat.gsfc.nasa.gov/news/publications/)
+
 
 **3）研究成果科普介绍**
 
