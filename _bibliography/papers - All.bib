@@ -4,6 +4,57 @@
 @string{aps = {American Physical Society,}}
 
 
+
+
+@article{Yuan2020,
+abbr = {RSE},
+abstract = {Various forms of machine learning (ML) methods have historically played a valuable role in environmental remote sensing research. With an increasing amount of “big data” from earth observation and rapid advances in ML, increasing opportunities for novel methods have emerged to aid in earth environmental monitoring. Over the last decade, a typical and state-of-the-art ML framework named deep learning (DL), which is developed from the traditional neural network (NN), has outperformed traditional models with considerable improvement in performance. Substantial progress in developing a DL methodology for a variety of earth science applications has been observed. Therefore, this review will concentrate on the use of the traditional NN and DL methods to advance the environmental remote sensing process. First, the potential of DL in environmental remote sensing, including land cover mapping, environmental parameter retrieval, data fusion and downscaling, and information reconstruction and prediction, will be analyzed. A typical network structure will then be introduced. Afterward, the applications of DL environmental monitoring in the atmosphere, vegetation, hydrology, air and land surface temperature, evapotranspiration, solar radiation, and ocean color are specifically reviewed. Finally, challenges and future perspectives will be comprehensively analyzed and discussed.},
+author = {Yuan, Qiangqiang and Shen, Huanfeng and Li, Tongwen and Li, Zhiwei and Li, Shuwen and Jiang, Yun and Xu, Hongzhang and Tan, Weiwei and Yang, Qianqian and Wang, Jiwen and Gao, Jianhao and Zhang, Liangpei},
+doi = {10.1016/j.rse.2020.111716},
+issn = {00344257},
+journal = {Remote Sensing of Environment},
+keywords = {Deep learning,Environmental remote sensing,Neural network,Parameter retrieval},
+pages = {111716},
+publisher = {Elsevier},
+title = {{Deep learning in environmental remote sensing: Achievements and challenges}},
+html = {https://linkinghub.elsevier.com/retrieve/pii/S0034425720300857},
+volume = {241},
+year = {2020},
+month = {may},
+pdf = {https://zhiweili.net/assets/pdf/2020.5_RSE_Deep learning in environmental remote sensing：Achievements and challenges.pdf},
+dimensions={true},
+preview = {2020.5_RSE.png},
+google_scholar_id={_xSYboBqXhAC},
+award = {ESI Highly Cited Paper🏆 2020年中国百篇最具影响国际学术论文🏆}
+}
+
+
+
+@article{Wang2019,
+abbr = {IEEE JSTARS},
+abstract = {Urban water is important for the urban ecosystem. Accurate and efficient detection of urban water with remote sensing data is of great significance for urban management and planning. In this article, we proposed a new method by combining Google Earth Engine (GEE) with a multiscale convolutional neural network (MSCNN) to extract urban water from Landsat images, which can be summarized as 'offline training and online prediction' (OTOP). That is, the training of MSCNN is completed offline, and the process of urban water extraction is implemented on GEE with the trained parameters of MSCNN. The OTOP can give full play to the respective advantages of GEE and the convolutional neural network (CNN), and can make the use of deep learning method in GEE more flexible. The proposed method can process the available satellite images with high performance, without data download and storage, and the overall performance of urban water extraction in the test areas is also higher than that of the modified normalized difference water index (MNDWI) and random forest classifier. The results of the extended validation in the other major cities of China also showed that OTOP is robust and can be used to extract different types of urban water, which benefits from the structural design and training of MSCNN. Therefore, OTOP is especially suitable for the study of large-scale and long-term urban water change detection in the background of urbanization.},
+author = {Wang, Yudie and Li, Zhiwei and Zeng, Chao and Xia, Gui Song and Shen, Huanfeng},
+booktitle = {IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
+doi = {10.1109/JSTARS.2020.2971783},
+issn = {21511535},
+journal = {IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
+keywords = {Convolutional neural network,google earth engine,urban water,water extraction},
+pages = {768--781},
+title = {{An Urban Water Extraction Method Combining Deep Learning and Google Earth Engine}},
+volume = {13},
+year = {2020},
+month = {feb},
+pdf = {https://zhiweili.net/assets/pdf/2020.2_JSTARS_An Urban Water Extraction Method Combining Deep Learning and Google Earth Engine.pdf},
+dimensions={true},
+html = {https://ieeexplore.ieee.org/document/8989826},
+code = {https://code.earthengine.google.com/8bec5b26cc38bc4b812aa7b95a3ab8d6},
+dataset = {https://zhiweili.net/assets/share/OTOP-MSCN/List_of_data.txt},
+google_scholar_id={vV6vV6tmYwMC},
+preview = {2020.2_JSTARS.png}
+}
+
+
+
 @article{Li2024,
 abbr = {ISPRS P&RS},
 abstract = {Floods are among the most devastating natural disasters, posing significant risks to life, property, and infrastructure globally. Earth observation satellites provide data for continuous and extensive flood monitoring, yet limitations exist in the spatial completeness of monitoring using optical images due to cloud cover. Recent studies have developed gap-filling methods for reconstructing cloud-covered areas in water maps. However, these methods are not tailored for and validated in cloudy and rainy flooding scenarios with rapid water extent changes and limited clear-sky observations, leaving room for further improvements. This study investigated and developed a novel reconstruction method for time series flood extent mapping, supporting spatially seamless monitoring of flood extents. The proposed method first identified surface water from time series images using a fine-tuned large foundation model. Then, the cloud-covered areas in the water maps were reconstructed, adhering to the introduced submaximal stability assumption, on the basis of the prior water occurrence data in the Global Surface Water dataset. The reconstructed time series water maps were refined through spatiotemporal Markov random field modeling for the final delineation of flooding areas. The effectiveness of the proposed method was evaluated with Harmonized Landsat and Sentinel-2 datasets under varying cloud cover conditions, enabling seamless flood mapping at 2–3-day frequency and 30 m resolution. Experiments at four global sites confirmed the superiority of the proposed method. It achieved higher reconstruction accuracy with average F1-scores of 0.931 during floods and 0.903 before/after floods, outperforming the typical gap-filling method with average F1-scores of 0.871 and 0.772, respectively. Additionally, the maximum flood extent maps and flood duration maps, which were composed on the basis of the reconstructed water maps, were more accurate than those using the original cloud-contaminated water maps. The benefits of synthetic aperture radar images (e.g., Sentinel-1) for enhancing flood mapping under cloud cover conditions were also discussed. The method proposed in this paper provided an effective way for flood monitoring in cloudy and rainy scenarios, supporting emergency response and disaster management. The code and datasets used in this study have been made available online (https://github.com/dr-lizhiwei/SeamlessFloodMapper).},

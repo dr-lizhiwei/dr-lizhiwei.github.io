@@ -18,7 +18,7 @@ nav_order: 5
 
 ##### **Code and Tools**
 
-**[1] Software Tool for Cloud and Cloud Shadow Detection in GF-1 WFV Imagery ([Link](https://github.com/dr-lizhiwei/MFC))**  
+**[1] Software Tool for Cloud and Cloud Shadow Detection in GaoFen-1 WFV Imagery ([Link](https://github.com/dr-lizhiwei/MFC))**  
 &emsp;Reference: Zhiwei Li, Huanfeng Shen, Huifang Li, Guisong Xia, Paolo Gamba, and Liangpei Zhang. Multi-feature combined cloud and cloud shadow detection in GaoFen-1 wide field of view imagery. *Remote Sensing of Environment*, vol. 191, pp. 342–358, 2017. [[PDF](../assets/pdf/2017.3_RSE_Multi-feature combined cloud and cloud shadow detection in GaoFen-1 wide field of view imagery.pdf)]  
 
 **[2] Deep Learning based Cloud Detection for Images of Different Sensors ([Link](https://github.com/dr-lizhiwei/MSCFF))**  
@@ -30,7 +30,7 @@ nav_order: 5
 **[4] SeamlessFloodMapper: Seamless Flood Mapping Using Optical Satellite Image Time Series ([Link](https://github.com/dr-lizhiwei/SeamlessFloodMapper))**  
 &emsp;Reference: Zhiwei Li, Shaofen Xu, and Qihao Weng. Beyond Clouds: Seamless flood mapping using Harmonized Landsat and Sentinel-2 time series imagery and water occurrence data. *ISPRS Journal of Photogrammetry and Remote Sensing*, vol. 216, pp. 185–199, 2024. [[PDF](../assets/pdf/2024.10_ISPRS P&RS_Beyond clouds：Seamless flood mapping using Harmonized Landsat and Sentinel-2 time series imagery and water occurrence data.pdf)]
 
-**[5] TerrainFloodSense: Improving seamless flood mapping with cloudy satellite imagery via water occurrence and terrain data fusion ([Link](https://github.com/dr-lizhiwei/TerrainFloodSense)) <font color=red><i>New</i></font>**  
+**[5] TerrainFloodSense: Improving Seamless Flood Mapping with Cloudy Satellite Imagery via Multi-Source Data Fusion ([Link](https://github.com/dr-lizhiwei/TerrainFloodSense)) <font color=red><i>New</i></font>**  
 &emsp;Reference: Zhiwei Li, Shaofen Xu, and Qihao Weng. TerrainFloodSense: Improving seamless flood mapping with cloudy satellite imagery via water occurrence and terrain data fusion. *International Journal of Applied Earth Observations and Geoinformation*, vol. 144, pp. 104855, 2025. [[PDF](../assets/pdf/2025.11_JAG_TerrainFloodSense：Improving seamless flood mapping with cloudy satellite imagery via water occurrence and terrain data fusion.pdf)]
 
 ------
