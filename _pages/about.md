@@ -19,7 +19,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-**<font color=brown>📢Call for Manuscripts</font>** - Article Collection *Remote Sensing in Cloudy and Rainy Environments: Challenges, Advances, and Applications* in GIScience & Remote Sensing ([Link](https://think.taylorandfrancis.com/article_collections/remote-sensing-in-cloudy-and-rainy-environments-challenges-advances-and-applications/))
+**<font color=brown>📢Call for Manuscripts</font>** - *“Remote Sensing in Cloudy and Rainy Environments: Challenges, Advances, and Applications”* in GIScience & Remote Sensing ([Link](https://think.taylorandfrancis.com/article_collections/remote-sensing-in-cloudy-and-rainy-environments-challenges-advances-and-applications/))
 
 **<font color=brown>:pushpin:Call for Manuscripts</font>** - Photogrammetric Engineering & Remote Sensing (PE&RS) ([Link](https://my.asprs.org/PERS))
 
