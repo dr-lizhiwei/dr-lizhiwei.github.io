@@ -23,7 +23,7 @@ My research focuses on **Remote Sensing of Cloudy and Rainy Environments**, leve
 
 <div class="slideshow-container">
     <div class="mySlides">
-        <img src="../assets/img/research_cloud.jpg" alt="Cloud Detection and Removal">
+        <img src="../assets/img/research.gif" alt="Research Framework">
     </div>
     <div class="mySlides">
         <img src="../assets/img/research_lulc.jpg" alt="Land Use & Land Cover Mapping">
@@ -49,7 +49,7 @@ My research focuses on **Remote Sensing of Cloudy and Rainy Environments**, leve
             slideIndex = 1; // Restart from the first slide
         }
         slides[slideIndex - 1].style.display = "block";
-        setTimeout(showSlides, 3000); // Change image every 3 seconds
+        setTimeout(showSlides, 5000); // Change image every 5 seconds
     }
     
     showSlides();
