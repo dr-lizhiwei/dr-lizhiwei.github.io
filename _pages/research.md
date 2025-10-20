@@ -26,6 +26,9 @@ My research focuses on **Remote Sensing of Cloudy and Rainy Environments**, leve
         <img src="../assets/img/research.gif" alt="Research Framework">
     </div>
     <div class="mySlides">
+        <img src="../assets/img/research_cloud.jpg" alt="Land Use & Land Cover Mapping">
+    </div>
+    <div class="mySlides">
         <img src="../assets/img/research_lulc.jpg" alt="Land Use & Land Cover Mapping">
     </div>
     <div class="mySlides">
