@@ -22,7 +22,7 @@ My research focuses on **Remote Sensing of Cloudy and Rainy Environments**, leve
 - Flood Monitoring and Risk Assessment ([2024](https://www.taylorfrancis.com/chapters/edit/10.1201/9781003244561-4/urban-flooding-monitoring-management-geospatial-perspective-zhiwei-li-cheolhee-yoo-qihao-weng); [2024](https://zhiweili.net/assets/pdf/2024.10_ISPRS%20P&RS_Beyond%20clouds%EF%BC%9ASeamless%20flood%20mapping%20using%20Harmonized%20Landsat%20and%20Sentinel-2%20time%20series%20imagery%20and%20water%20occurrence%20data.pdf); [2025](https://zhiweili.net/assets/pdf/2025.11_JAG_TerrainFloodSense：Improving seamless flood mapping with cloudy satellite imagery via water occurrence and terrain data fusion.pdf))
 
 <div class="slideshow-container">
-    <div class="mySlides" data-duration="10000">
+    <div class="mySlides" data-duration="15000">
         <img src="../assets/img/research.gif" alt="Research Framework">
     </div>
     <div class="mySlides">
