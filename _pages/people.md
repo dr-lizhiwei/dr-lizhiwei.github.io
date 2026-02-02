@@ -8,15 +8,15 @@ nav_order: 6
 
 ##### **Principle Investigator**
 
-Dr. Zhiwei Li, Research Assistant Professor<br>
+Dr. Zhiwei Li, Tenure-Track Professor<br>
 
 ##### **Master Students**
 
-List of supervised Master students for dissertations or projects:
+List of supervised Master students for dissertations or projects at HKPolyU:
 
 | Name            | Thesis/Project Title                                         | Status                             |
 | --------------- | ------------------------------------------------------------ | ---------------------------------- |
-| Peiyuan Zheng   | Coupled Hydrodynamic and Deep Learning Modeling for Urban Flood Simulation: A Case Study of Wong Tai Sin District, Hong Kong | Ongoing (Exp. Completion: Dec 2025) |
+| Peiyuan Zheng   | Coupled Hydrodynamic and Deep Learning Modeling for Urban Flood Simulation: A Case Study of Wong Tai Sin District, Hong Kong | Completed in Dec 2025 |
 | Yujie Gao       | Physics-Informed Deep Learning for Enhanced Cloud Removal in Optical Satellite Imagery Time Series | Completed in May 2025 |
 | Miao Yu         | Flood Risk Assessment and Future Projections for Southeast Asia Under Different Climate and Socioeconomic Scenarios | Completed in Dec 2024              |
 | Zeyu Xu         | Integrating Optical and SAR Imagery for Enhanced Flood Mapping: Comparative Analysis and Applications | Completed in Dec 2024              |

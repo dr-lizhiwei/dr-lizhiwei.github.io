@@ -19,7 +19,7 @@ My research focuses on **Remote Sensing of Cloudy and Rainy Environments**, leve
 
 - Land Cover/Use Mapping ([2021](https://zhiweili.net/assets/pdf/2021.12_JAG_Time%20series%20remote%20sensing%20image%20classification%20framework%20using%20combination%20of%20deep%20learning%20and%20multiple%20classifiers%20system.pdf); [2024](https://zhiweili.net/assets/pdf/2024.7_RSE_Learning%20spectral-indices-fused%20deep%20models%20for%20time-series%20land%20use%20and%20land%20cover%20mapping%20in%20cloud-prone%20areas.pdf))  &emsp;
 
-- Flood Monitoring and Risk Assessment ([2024](https://www.taylorfrancis.com/chapters/edit/10.1201/9781003244561-4/urban-flooding-monitoring-management-geospatial-perspective-zhiwei-li-cheolhee-yoo-qihao-weng); [2024](https://zhiweili.net/assets/pdf/2024.10_ISPRS%20P&RS_Beyond%20clouds%EF%BC%9ASeamless%20flood%20mapping%20using%20Harmonized%20Landsat%20and%20Sentinel-2%20time%20series%20imagery%20and%20water%20occurrence%20data.pdf); [2025](https://zhiweili.net/assets/pdf/2025.11_JAG_TerrainFloodSense：Improving seamless flood mapping with cloudy satellite imagery via water occurrence and terrain data fusion.pdf))
+- Flood Monitoring and Resilience Assessment ([2024](https://www.taylorfrancis.com/chapters/edit/10.1201/9781003244561-4/urban-flooding-monitoring-management-geospatial-perspective-zhiwei-li-cheolhee-yoo-qihao-weng); [2024](https://zhiweili.net/assets/pdf/2024.10_ISPRS%20P&RS_Beyond%20clouds%EF%BC%9ASeamless%20flood%20mapping%20using%20Harmonized%20Landsat%20and%20Sentinel-2%20time%20series%20imagery%20and%20water%20occurrence%20data.pdf); [2025](https://zhiweili.net/assets/pdf/2025.11_JAG_TerrainFloodSense：Improving seamless flood mapping with cloudy satellite imagery via water occurrence and terrain data fusion.pdf))
 
 <div class="slideshow-container">
     <div class="mySlides" data-duration="15000">
@@ -115,6 +115,7 @@ My research focuses on **Remote Sensing of Cloudy and Rainy Environments**, leve
 <br>
 
 ##### **Selected Grants**  
+- **Project Manager**: AI-Driven, GIS-Compatible Vehicle Type Detection System Riding on Fusion of Satellite, CCTV, and Geospatial Data, Hong Kong Smart Traffic Fund, HKD 3,230,831, 2025-2027.
 
 - **Co-PI**: A Pilot Study of Geospatial AI and Big Data for Smart City Applications: Foundation Model and Specific Methodologies, The Hong Kong Polytechnic University, HKD 820,000, 03/2025-02/2027.
 
@@ -124,3 +125,4 @@ My research focuses on **Remote Sensing of Cloudy and Rainy Environments**, leve
 
 - **PI**: Thick Cloud Processing Methods for Time-series Remote Sensing Images in Tensor Space, National Natural Science Foundation of China (NSFC), CNY 300,000, 01/2022-12/2024.
 
+,,
