@@ -10,12 +10,12 @@ firstline_name: Zhiwei Li, Ph.D. (李志伟 博士)
 first_name: Zhiwei Li
 middle_name:
 last_name:
-email: zhiwei.li@unist.ac.kr
+email: lizw@whu.edu.cn
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
 
 footer_text: > 
 
-keywords: 李志伟, Zhiwei Li, UNIST, Ulsan National Institute of Science and Technology, Remote Sensing, Geospatial Intelligence, Cloudy and Rainy Environments, Cloud Detection and Removal, Land Cover & Land Use, Flood # add your own keywords or leave empty
+keywords: 李志伟, Zhiwei Li, WHU, Wuhan University, Remote Sensing, Geospatial Intelligence, Cloudy and Rainy Environments, Cloud Detection and Removal, Land Cover & Land Use, Flood # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: webfavicon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 url: https://zhiweili.net/ # the base hostname & protocol for your site
@@ -85,7 +85,7 @@ osf_id: # your OSF ID
 research_gate_profile: Zhiwei-Li-21 # your profile on ResearchGate
 scopus_id: # your profile on Scopus
 blogger_url: # your blogger URL
-work_url: https://jszy.whu.edu.cn/li_zhi_wei # work page URL
+work_url: https://jszy.whu.edu.cn/li_zhi_wei/ # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
