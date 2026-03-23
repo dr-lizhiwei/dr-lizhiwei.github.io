@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Tenure-Track Professor, Wuhan University (<a href='https://jszy.whu.edu.cn/li_zhi_wei'>中文主页</a>)
+subtitle: Tenure-Track Professor, Wuhan University [<a href='https://jszy.whu.edu.cn/li_zhi_wei'>中文主页</a>]
 description: Zhiwei Li, Ph.D. (李志伟 博士), Tenure-Track Professor, Wuhan University
 
 profile:
