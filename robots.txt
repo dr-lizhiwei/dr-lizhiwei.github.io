@@ -3,4 +3,4 @@ Allow: /
 
 Crawl-delay: 5
 
-Sitemap: https://zhiweili.net//sitemap.xml
+Sitemap: https://zhiweili.net/sitemap.xml
