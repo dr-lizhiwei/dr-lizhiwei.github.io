@@ -124,5 +124,3 @@ My research focuses on **Remote Sensing of Cloudy and Rainy Environments**, leve
 - **PI**: Intelligent Reconstruction and Fusion of Multisource Remote Sensing Data for High-resolution Dynamic Land Use Mapping, The Hong Kong Polytechnic University, HKD 250,000, 09/2022-04/2025.
 
 - **PI**: Thick Cloud Processing Methods for Time-series Remote Sensing Images in Tensor Space, National Natural Science Foundation of China (NSFC), CNY 300,000, 01/2022-12/2024.
-
-,,
