@@ -6,13 +6,13 @@ nav: false
 nav_order: 7
 ---
 
-### Chinese Applications
+<h5 class="mt-4 mb-3">Chinese Applications</h5>
 
 Applicants from mainland China can refer to this [page](https://jszy.whu.edu.cn/li_zhi_wei) for information on available MSc and PhD positions.
 
 
 
-### International Applications
+<h5 class="mt-5 mb-3">International Applications</h5>
 
 Applications from international students are welcome for both **PhD** and **MSc** programs.
 

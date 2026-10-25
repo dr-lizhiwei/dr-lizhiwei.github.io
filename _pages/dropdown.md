@@ -8,8 +8,9 @@ sitemap: false
 children:
   - title: Blog
     permalink: /blog/
-  - title: People
-    permalink: /people/
+  # Restore this entry to show People in the menu again.
+  # - title: People
+  #   permalink: /people/
   - title: Open Positions
     permalink: /positions/
 ---
