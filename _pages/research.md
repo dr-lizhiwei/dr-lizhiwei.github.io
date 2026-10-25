@@ -115,9 +115,9 @@ My research focuses on **Remote Sensing of Cloudy and Rainy Environments**, leve
 <br>
 
 ##### **Selected Grants**  
-- **Project Manager**: AI-Driven, GIS-Compatible Vehicle Type Detection System Riding on Fusion of Satellite, CCTV, and Geospatial Data, Hong Kong Smart Traffic Fund, HKD 3,230,831, 2025-2027.
+- **PI**: Dynamic-Baseline-Constrained and Vision–Language-Model-Assisted Seamless Probabilistic Flood Mapping from Multi-Source Remote Sensing, National Natural Science Foundation of China (NSFC), CNY 480,000, 01/2027-12/2030.
 
-- **Co-PI**: A Pilot Study of Geospatial AI and Big Data for Smart City Applications: Foundation Model and Specific Methodologies, The Hong Kong Polytechnic University, HKD 820,000, 03/2025-02/2027.
+- **Project Manager**: AI-Driven, GIS-Compatible Vehicle Type Detection System Riding on Fusion of Satellite, CCTV, and Geospatial Data, Hong Kong Smart Traffic Fund, HKD 3,230,831, 2025-2027.
 
 - **PI**: Near-Real-Time Flood Monitoring in Cloud-Prone Areas Incorporating Multi-Sensor Satellite Imagery, The Hong Kong Polytechnic University, HKD 730,800, 02/2024-01/2026. (Terminated)
 
