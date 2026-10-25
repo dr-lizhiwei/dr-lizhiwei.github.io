@@ -9,6 +9,6 @@ Our new paper entitled *Rooftop solar supports carbon-neutral transition in Hong
 
 The paper has been selected as a **Featured Article** and highlighted on the journal homepage! ⭐ ([Link](https://www.nature.com/commssustain/))
 
-<figure class="mt-3 mb-2" style="max-width: 520px;">
-  <img src="/assets/img/news/2026-10-03-communications-sustainability-featured.png" alt="Communications Sustainability homepage featuring our rooftop solar paper" width="2563" height="1740" class="img-fluid rounded z-depth-1" loading="lazy" decoding="async" data-zoomable>
+<figure class="mt-3 mb-2" style="width: 100%; max-width: 360px;">
+  <img src="/assets/img/news/2026-10-03-communications-sustainability-featured.png" alt="Communications Sustainability homepage featuring our rooftop solar paper" width="2563" height="1740" class="img-fluid rounded z-depth-1" style="display: block; width: 100%; max-width: 100%; height: auto;" loading="lazy" decoding="async" data-zoomable>
 </figure>
