@@ -22,7 +22,7 @@ Li, Z., Shen, H., Weng, Q., Zhang, Y., Dou, P., Zhang, L. (2022). Cloud and clou
 
 在过去几十年里，随着大量光学卫星数据的发布和新数据源的不断引入，众多研究集中在对不同传感器拍摄的影像进行云与云阴影检测，并开发了众多方法。尽管以前的研究回顾了云与云阴影检测文献，但主要集中在方法的分类、云测量设备以及云与云阴影检测结果的形式。为了系统总结该领域目前的成就和挑战，本研究从特征、算法和验证的角度对云与云阴影检测文献进行了全面回顾，如图1所示。鉴于不同类别的算法可能通过使用相同类型的特征实现云与云阴影检测，且同一类别的算法也可能接受不同类型的特征，因此本综述从特征和算法两个角度分别回顾了不同的云与云阴影检测方法。本综述还总结了云与云阴影检测结果的主要类型及其验证。
 
-<div align=center><img src="/assets/img/blogs/2022_cloud detection review//Fig. 1.png" alt="" width="1000"/></div>
+<div align=center><img src="/assets/img/blogs/2022_cloud detection review/Fig. 1.png" alt="" width="1000"/></div>
 
 <center>图1. 云与云阴影检测：特征、算法和验证</center>  
 

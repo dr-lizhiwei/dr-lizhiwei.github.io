@@ -6,7 +6,7 @@ nav: false
 nav_order: 6
 ---
 
-##### **Principle Investigator**
+##### **Principal Investigator**
 
 Dr. Zhiwei Li, Tenure-Track Professor<br>
 

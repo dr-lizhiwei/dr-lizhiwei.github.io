@@ -22,7 +22,7 @@ The presence of clouds prevents optical satellite imaging systems from obtaining
 
 Over the past decades, with the release of massive amounts of optical satellite data and the continuous introduction of new data sources, many studies have focused on cloud and cloud shadow detection (CCS) detection for images taken by different sensors, and many CCS detection methods have been developed. Although the CCS detection literature has been reviewed in previous studies, they mainly focus on the categorization of methodologies, cloud measuring equipment, and forms of CCS detection results. To further conduct a systematic summary of the current achievements and challenges in this field, this study comprehensively reviews the CCS detection literature from the features, algorithms, and validation perspectives as shown in Fig. 1. Different CCS detection methods are reviewed separately from both the features and algorithms perspectives given that algorithms of different categories may achieve CCS detection by using the same type of features and because algorithms of the same category may also accept different types of features. This review also summarizes the main types of CCS detection results and their validation.
 
-<div align=center><img src="/assets/img/blogs/2022_cloud detection review//Fig. 1.png" alt="" width="1000"/></div>
+<div align=center><img src="/assets/img/blogs/2022_cloud detection review/Fig. 1.png" alt="" width="1000"/></div>
 
 <center>Fig. 1. Cloud and cloud shadow detection in terms of features, algorithms, and validation.</center>  
 
