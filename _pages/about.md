@@ -4,6 +4,7 @@ title: About
 permalink: /
 subtitle: Tenure-Track Professor, Wuhan University
 description: Zhiwei Li, Ph.D. (李志伟 博士), Tenure-Track Professor, Wuhan University
+seo_description: Zhiwei Li (李志伟), Tenure-Track Professor at Wuhan University, researches remote sensing, GeoAI, cloud detection and removal, land cover mapping, and flood monitoring.
 
 profile:
   align: right

@@ -17,9 +17,13 @@
 {% endif %}
 
   <!-- Bootstrap Table -->
+  {% if page_has_table %}
   <script defer src="https://unpkg.com/bootstrap-table@{{ site.bootstrap-table.version }}/dist/bootstrap-table.min.js"></script>
+  {% endif %}
 
   <!-- Load Common JS -->
   <script src="{{ '/assets/js/no_defer.js' | relative_url | bust_file_cache }}"></script>
   <script defer src="{{ '/assets/js/common.js' | relative_url | bust_file_cache }}"></script>
+  {% if page_has_code %}
   <script defer src="{{ '/assets/js/copy_code.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
+  {% endif %}

@@ -1,0 +1,23 @@
+{%- assign seo_url = page.url | replace: 'index.html', '' | absolute_url -%}
+{%- assign seo_lang = page.lang | default: site.lang | default: 'en' -%}
+{%- capture seo_person_name -%}{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}{%- endcapture -%}
+{%- assign seo_person_name = seo_person_name | normalize_whitespace | strip -%}
+{%- assign seo_description = page.seo_description | default: page.description -%}
+{%- if seo_description == blank -%}
+  {%- if page.collection == 'news' -%}
+    {%- assign seo_description = page.content | markdownify | strip_html | normalize_whitespace | truncate: 190 -%}
+  {%- elsif page.layout contains 'archive' -%}
+    {%- capture seo_description -%}Research articles and paper summaries from {{ page.date | date: '%Y' }} by {{ seo_person_name }}, covering remote sensing, GeoAI, cloud detection, land cover mapping, and flood monitoring.{%- endcapture -%}
+  {%- else -%}
+    {%- assign seo_description = site.description -%}
+  {%- endif -%}
+{%- endif -%}
+{%- assign seo_description = seo_description | strip_html | normalize_whitespace | strip -%}
+{%- assign seo_image = page.og_image | default: page.thumbnail | default: site.og_image -%}
+{%- if seo_image != blank -%}
+  {%- assign seo_image = seo_image | absolute_url -%}
+{%- endif -%}
+{%- assign seo_translations = nil -%}
+{%- if page.translation_key -%}
+  {%- assign seo_translations = site.posts | where: 'translation_key', page.translation_key -%}
+{%- endif -%}

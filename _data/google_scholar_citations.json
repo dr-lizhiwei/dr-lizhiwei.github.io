@@ -1,0 +1,155 @@
+{
+  "scholar_userid": "SlXpfWMAAAAJ",
+  "profile_url": "https://scholar.google.com/citations?user=SlXpfWMAAAAJ&hl=en&pagesize=100&sortby=pubdate",
+  "updated_at": "2026-10-27T04:50:42+00:00",
+  "publications": {
+    "J-pR_7NvFogC": {
+      "title": "Rooftop solar supports carbon-neutral transition in Hong Kong’s building sector",
+      "citations": 0
+    },
+    "1qzjygNMrQYC": {
+      "title": "A joint thin and thick cloud removal method for high-resolution optical satellite images",
+      "citations": 0
+    },
+    "V3AGJWp-ZtQC": {
+      "title": "Weakly supervised cloud detection combining spectral features and multi-scale deep network",
+      "citations": 2
+    },
+    "mvPsJ3kp5DgC": {
+      "title": "TerrainFloodSense: Improving seamless flood mapping with cloudy satellite imagery via water occurrence and terrain data fusion",
+      "citations": 8
+    },
+    "BrmTIyaxlBUC": {
+      "title": "How will AI transform urban observing, sensing, imaging, and mapping?",
+      "citations": 36
+    },
+    "eflP2zaiRacC": {
+      "title": "Beyond clouds: Seamless flood mapping using Harmonized Landsat and Sentinel-2 time series imagery and water occurrence data",
+      "citations": 39
+    },
+    "8AbLer7MMksC": {
+      "title": "A Unified Cloud Detection Method for Suomi-NPP VIIRS Day and Night PAN Imagery",
+      "citations": 9
+    },
+    "LPZeul_q3PIC": {
+      "title": "Can we reconstruct cloud-covered flooding areas in harmonized Landsat and Sentinel-2 image time series?",
+      "citations": 4
+    },
+    "sSrBHYA8nusC": {
+      "title": "Learning spectral-indices-fused deep models for time-series land use and land cover mapping in cloud-prone areas: The case of Pearl River Delta",
+      "citations": 46
+    },
+    "VOx2b1Wkg3QC": {
+      "title": "L1 Regularization based Temporal Reconstruction Method for MODIS Surface Reflectance Data",
+      "citations": 0
+    },
+    "B3FOqHPlNUQC": {
+      "title": "Large-scale land use/land cover extraction from Landsat imagery using feature relationships matrix based deep-shallow learning",
+      "citations": 61
+    },
+    "tS2w5q8j5-wC": {
+      "title": "First retrieval of daily 160 m aerosol optical depth over urban areas using Gaofen-1/6 synergistic observations: Algorithm development and validation",
+      "citations": 13
+    },
+    "vRqMK49ujn8C": {
+      "title": "Urban Flooding Monitoring and Management in Geospatial Perspective: Data, Techniques, and Platforms",
+      "citations": 3
+    },
+    "08ZZubdj9fEC": {
+      "title": "Transferring Deep Models for Cloud Detection in Multi-Sensor Images via Weakly Supervised Learning",
+      "citations": 16
+    },
+    "WbkHhVStYXYC": {
+      "title": "Deep learning based time series land use and land cover mapping in cloud-prone areas",
+      "citations": 0
+    },
+    "XiSMed-E-HIC": {
+      "title": "Polyline simplification using a region proposal network integrating raster and vector features",
+      "citations": 14
+    },
+    "u9iWguZQMMsC": {
+      "title": "A fast two-step algorithm for large-area thick cloud removal in high-resolution images",
+      "citations": 10
+    },
+    "eJXPG6dFmWUC": {
+      "title": "Multi-factor Weighting Optimal Band Combination Analysis for Remote Sensing Mapping",
+      "citations": 0
+    },
+    "fQNAKQ3IYiAC": {
+      "title": "Threshold Adaptive Cloud Detection for FY-3D Images Using CALIPSO Data as Reference",
+      "citations": 0
+    },
+    "EUQCXRtRnyEC": {
+      "title": "Cloud and cloud shadow detection for optical satellite imagery: Features, algorithms, validation, and prospects",
+      "citations": 282
+    },
+    "f2IySw72cVMC": {
+      "title": "Time series remote sensing image classification framework using combination of deep learning and multiple classifiers system",
+      "citations": 84
+    },
+    "pyW8ca7W8N0C": {
+      "title": "Combined deep prior with low-rank tensor SVD for thick cloud removal in multitemporal images",
+      "citations": 126
+    },
+    "D03iK_w7-QYC": {
+      "title": "Remote sensing image classification using deep–shallow learning",
+      "citations": 30
+    },
+    "_xSYboBqXhAC": {
+      "title": "Deep learning in environmental remote sensing: Achievements and challenges",
+      "citations": 2036
+    },
+    "cFHS6HbyZ2cC": {
+      "title": "Thick cloud and cloud shadow removal in multitemporal imagery using progressively spatio-temporal patch group deep learning",
+      "citations": 239
+    },
+    "vV6vV6tmYwMC": {
+      "title": "An Urban Water Extraction Method Combining Deep Learning and Google Earth Engine",
+      "citations": 207
+    },
+    "lSLTfruPkqcC": {
+      "title": "Generating high-quality and high-resolution seamless satellite imagery for large-scale urban regions",
+      "citations": 31
+    },
+    "NaGl4SEjCO4C": {
+      "title": "Thick Cloud Removal in High-Resolution Satellite Images Using Stepwise Radiometric Adjustment and Residual Correction",
+      "citations": 75
+    },
+    "q3oQSFYPqjQC": {
+      "title": "HRC_WHU: High-resolution cloud cover validation data",
+      "citations": 5
+    },
+    "BqipwSGYUEgC": {
+      "title": "Deep learning based cloud detection for medium and high resolution remote sensing images of different sensors",
+      "citations": 437
+    },
+    "RGFaLdJalmkC": {
+      "title": "A Spatiotemporal Fusion Based Cloud Removal Method for Remote Sensing Images With Land Cover Changes",
+      "citations": 99
+    },
+    "YFjsv_pBGBYC": {
+      "title": "Estimation of ultrahigh resolution PM2. 5 concentrations in urban areas using 160 m Gaofen-1 AOD retrievals",
+      "citations": 116
+    },
+    "NMxIlDl6LWMC": {
+      "title": "Cloud detection by fusing multi-scale convolutional features",
+      "citations": 46
+    },
+    "l7t_Zn2s7bgC": {
+      "title": "Multi-scale residual convolutional neural network for shadow detection in high resolution remote sensing images",
+      "citations": 2
+    },
+    "hMod-77fHWUC": {
+      "title": "Cloud removal by fusing multi-source and multi-temporal images",
+      "citations": 22
+    },
+    "a0OBvERweLwC": {
+      "title": "Multi-feature combined cloud and cloud shadow detection in GaoFen-1 wide field of view imagery",
+      "citations": 360
+    },
+    "qjMakFHDy7sC": {
+      "title": "Automatic cloud and cloud shadow detection in GF-1 WFV imagery using multiple features",
+      "citations": 3
+    }
+  }
+}

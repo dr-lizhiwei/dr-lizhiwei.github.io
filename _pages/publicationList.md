@@ -2,13 +2,15 @@
 layout: page
 permalink: /publication list/
 title: Publication List
+seo_description: Complete publication list of Zhiwei Li, including journal articles, a book chapter, conference papers, and links to available full-text PDFs.
 nav: false
 nav_order: 0
 ---
 **Google Scholar: [https://scholar.google.com/citations?user=SlXpfWMAAAAJ](https://scholar.google.com/citations?user=SlXpfWMAAAAJ)**
 
 
-#### **International Journal Papers**
+## **International Journal Papers**
+{: .h4}
 
 (\* corresponding author, # co-first author)
 
@@ -68,7 +70,8 @@ nav_order: 0
 
 <br>
 
-#### **Book Chapter** 
+## **Book Chapter**
+{: .h4}
 
 - **Li, Z.**, Yoo, C. and Weng, Q., 2024. Urban Flooding Monitoring and Management in Geospatial Perspective: Data, Techniques, and Platforms. In ***Handbook of Geospatial Approaches to Sustainable Cities*** (pp. 44-57). CRC Press. [[HTML]](https://www.taylorfrancis.com/chapters/edit/10.1201/9781003244561-4/urban-flooding-monitoring-management-geospatial-perspective-zhiwei-li-cheolhee-yoo-qihao-weng)
 
@@ -76,7 +79,8 @@ nav_order: 0
 
 <br>
 
-#### **Conference Papers** 
+## **Conference Papers**
+{: .h4}
 
 - **Li, Z.**, Xu, S., Weng, Q., 2024. Can we reconstruct cloud-covered flooding areas in harmonized Landsat and Sentinel-2 image time series?, *IEEE International Geoscience and Remote Sensing Symposium (IGARSS)*. pp. 3686–3688, Athens, Greece.
 

@@ -2,15 +2,18 @@
 layout: page
 permalink: /people/
 title: People
+seo_description: Zhiwei Li and students supervised on remote sensing, cloud removal, land cover mapping, rooftop solar assessment, and flood monitoring research projects.
 nav: false
 nav_order: 6
 ---
 
-##### **Principal Investigator**
+## **Principal Investigator**
+{: .h5}
 
 Dr. Zhiwei Li, Tenure-Track Professor<br>
 
-##### **Master Students**
+## **Master Students**
+{: .h5}
 
 List of supervised Master students for dissertations or projects at HKPolyU:
 
@@ -29,7 +32,8 @@ List of supervised Master students for dissertations or projects at HKPolyU:
 
 <br>
 
-##### **Alumni**
+## **Alumni**
+{: .h5}
 
 Shaofen Xu, Research Assistant, 07/2023 - 07/2024
 

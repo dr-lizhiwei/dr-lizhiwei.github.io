@@ -57,7 +57,11 @@ table.table a {
 
 figure,
 img {
-  max-width: 90vw;
+  max-width: 100%;
+}
+
+img {
+  height: auto;
 }
 
 blockquote {
@@ -741,16 +745,58 @@ footer.sticky-bottom {
       }
 
       .badges {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.25rem 0.5rem;
         padding-bottom: 0.5rem;
-        span {
-          display: inline-block;
-          color: $black-color;
-          height: 100%;
-          padding-right: 0.5rem;
-          vertical-align: middle;
+
+        > span {
+          display: inline-flex;
+          align-items: center;
+          line-height: 1;
+          padding: 0;
+        }
+
+        > span:empty {
+          display: none;
+        }
+
+        .scholar-badge {
+          display: inline-flex;
+          align-items: center;
+          overflow: hidden;
+          height: 18px;
+          border: 1px solid #d9dde3;
+          border-radius: 2px;
+          background: #fff;
+          font: 11px/16px Verdana, sans-serif;
+          white-space: nowrap;
+          text-decoration: none;
+
+          .scholar-label {
+            display: inline-flex;
+            align-items: center;
+            gap: 3px;
+            padding: 0 5px;
+            color: #000;
+
+            i {
+              color: #4285f4;
+              font-size: 12px;
+              line-height: 1;
+            }
+          }
+
+          .scholar-count {
+            padding: 0 5px;
+            border-left: 1px solid #d9dde3;
+            color: #000;
+            text-align: center;
+          }
 
           &:hover {
-            text-decoration: underline;
+            border-color: #a8c7fa;
           }
         }
       }

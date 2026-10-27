@@ -57,13 +57,10 @@ let setTheme = (theme) => {
 };
 
 let setHighlight = (theme) => {
-  if (theme == "dark") {
-    document.getElementById("highlight_theme_light").media = "none";
-    document.getElementById("highlight_theme_dark").media = "";
-  } else {
-    document.getElementById("highlight_theme_dark").media = "none";
-    document.getElementById("highlight_theme_light").media = "";
-  }
+  const lightTheme = document.getElementById("highlight_theme_light");
+  const darkTheme = document.getElementById("highlight_theme_dark");
+  if (lightTheme) lightTheme.media = theme == "dark" ? "none" : "";
+  if (darkTheme) darkTheme.media = theme == "dark" ? "" : "none";
 };
 
 let setGiscusTheme = (theme) => {

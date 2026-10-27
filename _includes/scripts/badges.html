@@ -1,6 +1,6 @@
-{%- if site.enable_publication_badges.altmetric %}
+{%- if site.enable_publication_badges.altmetric and page_has_altmetric %}
   <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
 {%- endif %}
-{%- if site.enable_publication_badges.dimensions %}
+{%- if site.enable_publication_badges.dimensions and page_has_dimensions %}
   <script async src="https://badge.dimensions.ai/badge.js"></script>
 {%- endif %}

@@ -1,0 +1,18 @@
+{%- assign page_has_table = false -%}
+{%- if content contains '<table' -%}
+  {%- unless page.url == '/' or page.url == '/news/' -%}
+    {%- assign page_has_table = true -%}
+  {%- endunless -%}
+{%- endif -%}
+{%- assign page_has_code = false -%}
+{%- if content contains '<pre' -%}
+  {%- assign page_has_code = true -%}
+{%- endif -%}
+{%- assign page_has_altmetric = false -%}
+{%- if content contains 'class="altmetric-embed"' -%}
+  {%- assign page_has_altmetric = true -%}
+{%- endif -%}
+{%- assign page_has_dimensions = false -%}
+{%- if content contains '__dimensions_badge_embed__' -%}
+  {%- assign page_has_dimensions = true -%}
+{%- endif -%}

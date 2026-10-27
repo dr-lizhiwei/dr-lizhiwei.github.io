@@ -3,31 +3,37 @@ layout: post
 title: Rooftop solar supports carbon-neutral transition in Hong Kong’s building sector
 date: 2026-10-03
 description: Tong L.Y. et al., 2026, Communications Sustainability.
+seo_description: A building-level assessment of Hong Kong rooftop solar potential, accounting for clouds, shading, financial payback, and lifecycle carbon benefits, with code and data.
 lang: en
+translation_key: rooftop-solar-hong-kong
 tags:
 thumbnail: assets/img/blogs/2026-rooftop-solar/thumbnail.png
 ---
 
 Tong, L.Y., Li, Z., Yoo, C., Jia, S., Zhu, R., & Im, J. (2026). Rooftop solar supports carbon-neutral transition in Hong Kong’s building sector. *Communications Sustainability*, 1, 156. [[HTML](https://doi.org/10.1038/s44458-026-00157-0)] [[PDF]({{ '/assets/pdf/2026.10_Communications Sustainability_Rooftop solar supports carbon-neutral transition in Hong Kong’s building sector.pdf' | relative_url }})]
 
-#### **Highlights**
+## **Highlights**
+{: .h4}
 
 - Map rooftop solar resources at 0.5 m resolution for **338,550 buildings** across Hong Kong.
 - Combine detailed urban morphology, high-frequency satellite cloud observations, and ground measurements.
 - Estimate **3.77 TWh of annual electricity potential** and **24.9 billion kg of net CO₂ reduction over a 25-year system lifetime** under the study assumptions.
 - Assess how installation costs, feed-in tariffs, and building electricity demand affect deployment opportunities.
 
-#### **Abstract**
+## **Abstract**
+{: .h4}
 
 How much can rooftop solar contribute to decarbonizing a densely built, frequently cloudy city? This study develops an integrated assessment of rooftop solar energy potential in Hong Kong, connecting high-resolution solar radiation mapping with electricity generation, financial feasibility, and lifecycle carbon accounting. LiDAR-derived surface models describe rooftop geometry and shading, while Himawari-8/9 cloud observations and ground measurements support the estimation of solar radiation under actual sky conditions. The resulting assessment covers 338,550 buildings over 2016–2024. It identifies a citywide technical potential of 3.77 TWh per year after accounting for temperature-related efficiency losses. The results also show that economic returns depend strongly on installation costs and policy support. Building-level maps help identify where rooftop solar could offer the strongest energy, financial, and carbon benefits.
 
-#### **1. Introduction**
+## **1. Introduction**
+{: .h4}
 
 Rooftops offer space for renewable electricity generation in cities where land is scarce. However, the amount of sunlight reaching a roof depends on its orientation, slope, surrounding buildings, terrain, and atmospheric conditions. In Hong Kong, tall buildings and complex relief create substantial shading, while clouds change both the amount and timing of incoming solar radiation.
 
 A useful assessment must connect these physical constraints with practical deployment questions: how much electricity could a roof generate, how long would an investment take to repay, and how much carbon could be saved after accounting for the manufacture and disposal of the system? We address these questions within one building-level framework.
 
-#### **2. Data and methodology**
+## **2. Data and methodology**
+{: .h4}
 
 The assessment combines 0.5 m LiDAR-derived digital surface models, building footprints, Himawari-8/9 cloud optical thickness, and ground observations of solar radiation and temperature. The analysis represents the 2016–2024 period.
 
@@ -39,9 +45,11 @@ The workflow has three main components:
 
 The **0.5 m resolution describes the rooftop radiation mapping grid**. The cloud optical thickness product has a native resolution of **5 km**. Resampling it to the rooftop grid aligns the inputs but does not add spatial detail to the cloud observations.
 
-#### **3. Results and analysis**
+## **3. Results and analysis**
+{: .h4}
 
-##### **3.1 Clouds and urban form shape rooftop solar resources**
+### **3.1 Clouds and urban form shape rooftop solar resources**
+{: .h5}
 
 All-sky GSR is approximately **50% lower than clear-sky GSR on average**. Cloud attenuation is strongest in summer, showing why clear-sky assumptions can substantially overestimate solar resources in cloudy cities.
 
@@ -52,7 +60,8 @@ The maps also reveal strong variations within the city. Shaded slopes and dense 
   <figcaption class="caption">Fig. 1 from the paper. Mean annual all-sky rooftop GSR at 0.5 m resolution, with detailed examples in Tsim Sha Tsui and Kai Tak–Kowloon Bay.</figcaption>
 </figure>
 
-##### **3.2 Citywide and building-level electricity potential**
+### **3.2 Citywide and building-level electricity potential**
+{: .h5}
 
 After incorporating temperature-dependent photovoltaic efficiency, the estimated annual technical potential decreases from 3.85 to **3.77 TWh**. This corresponds to approximately **8.28% of Hong Kong’s electricity consumption** under the demand baseline used in the study. The estimate assumes full use of the deployable area defined above.
 
@@ -63,7 +72,8 @@ Large roofs, including those around Hong Kong International Airport, stand out i
   <figcaption class="caption">Fig. 2 from the paper. Building-level annual rooftop SEP around Victoria Harbour, Sha Tin, the airport–Tung Chung area, and Kai Tak–Kowloon Bay.</figcaption>
 </figure>
 
-##### **3.3 Economic returns depend on costs and policy**
+### **3.3 Economic returns depend on costs and policy**
+{: .h5}
 
 The paper compares two installation-cost scenarios, with and without feed-in tariffs (FiT). Mean financial payback periods are summarized below.
 
@@ -79,7 +89,8 @@ Financial payback is the time needed for cumulative discounted net revenue to re
   <figcaption class="caption">Fig. 5 from the paper. Spatial patterns of financial payback under four cost–policy scenarios and mean carbon payback.</figcaption>
 </figure>
 
-##### **3.4 Lifecycle carbon benefits and commercial buildings**
+### **3.4 Lifecycle carbon benefits and commercial buildings**
+{: .h5}
 
 Lifecycle accounting includes emissions from production, transportation, maintenance, and decommissioning. The estimated **net carbon reduction is 24.9 billion kg CO₂ over the assumed 25-year system lifetime**. The mean **carbon payback period is 8.18 years**: the time required for cumulative emissions avoided by displacing grid electricity to offset the system’s lifecycle emissions. Financial payback measures investment recovery, while carbon payback measures the carbon balance.
 
@@ -95,7 +106,8 @@ For the **sample of 2,695 commercial buildings with electricity-use data**, 18.9
   <figcaption class="caption">Fig. 6 from the paper. Potential contributions to electricity-demand reduction across the 2,695 commercial buildings analyzed.</figcaption>
 </figure>
 
-#### **4. Discussion and limitations**
+## **4. Discussion and limitations**
+{: .h4}
 
 The framework connects rooftop-scale mapping with decisions about where to deploy solar, how policy affects investment, and how supply-chain emissions affect net carbon benefits. It also shows why cloud dynamics should be included explicitly when assessing solar resources in subtropical cities.
 
@@ -103,11 +115,13 @@ The estimates depend on assumptions about usable roof area, system performance, 
 
 Structural capacity, rooftop equipment and other obstacles, fire-safety setbacks, and building-specific installation constraints also require assessment. Transferring the framework to another city requires local meteorological observations, building data, electricity-demand information, economic parameters, and emission factors.
 
-#### **5. Conclusions**
+## **5. Conclusions**
+{: .h4}
 
 Rooftop solar offers a substantial contribution to Hong Kong’s low-carbon transition under the modeled deployment scenarios. Detailed building information and cloud observations make the assessment more realistic, while economic and lifecycle analyses show where technical potential can translate into practical benefits. The resulting maps provide a basis for prioritizing buildings and districts for further investigation.
 
-#### **Code and resources**
+## **Code and resources**
+{: .h4}
 
 - [GSR estimation code and pretrained model](https://github.com/Jimmy-Tong/Rooftop_SEP_HK/)
 - [Figure source data and sample model inputs](https://doi.org/10.6084/m9.figshare.33349182)

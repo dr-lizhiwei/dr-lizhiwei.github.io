@@ -64,7 +64,7 @@ max_width: 960px
 # Display links to the page with a preview object on social media.
 serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: true # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+og_image: /assets/img/dr_lizhiwei.jpg # Default share image; posts use their own thumbnail
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -125,7 +125,7 @@ baidu_site_verification: codeva-VhAM0AReUZ # <meta name="baidu-site-verification
 # -----------------------------------------------------------------------------
 
 blog_name: #al-folio # blog_name will be displayed in your blog page
-blog_nav_title: #Blog # your blog must have a title for it to be displayed in the nav bar
+blog_nav_title: # Blog remains available under More
 blog_description: #a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 

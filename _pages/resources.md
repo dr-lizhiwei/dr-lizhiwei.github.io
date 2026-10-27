@@ -2,11 +2,13 @@
 layout: page
 permalink: /resources/
 title: Resources
+seo_description: Open remote sensing software and datasets from Zhiwei Li and collaborators, including cloud detection tools, SeamlessFloodMapper, TerrainFloodSense, and rooftop solar radiation models.
 nav: true
 nav_order: 5
 ---
 
-##### **Projects**  
+## **Projects**
+{: .h5}
 
 **[1] OpenSICDR: Open Satellite Image Cloud Detection Resources ([Link](https://github.com/dr-lizhiwei/OpenSICDR/))**  
 &emsp;We collect the latest open-source tools and datasets for cloud and cloud shadow detection, and launch this online project (Open Satellite Image Cloud Detection Resources, i.e., OpenSICDR) to promote the sharing of the latest research outputs of the field. If you would like to provide new resources, please kindly contact Dr. Zhiwei Li or submit an update request.<br>
@@ -16,7 +18,8 @@ nav_order: 5
 
 <br>
 
-##### **Code and Tools**
+## **Code and Tools**
+{: .h5}
 
 **[1] Software Tool for Cloud and Cloud Shadow Detection in GaoFen-1 WFV Imagery ([Link](https://github.com/dr-lizhiwei/MFC))**  
 &emsp;Reference: Zhiwei Li, Huanfeng Shen, Huifang Li, Guisong Xia, Paolo Gamba, and Liangpei Zhang. Multi-feature combined cloud and cloud shadow detection in GaoFen-1 wide field of view imagery. *Remote Sensing of Environment*, vol. 191, pp. 342–358, 2017. [[PDF](../assets/pdf/2017.3_RSE_Multi-feature combined cloud and cloud shadow detection in GaoFen-1 wide field of view imagery.pdf)]  
@@ -30,19 +33,23 @@ nav_order: 5
 **[4] SeamlessFloodMapper: Seamless Flood Mapping Using Optical Satellite Image Time Series ([Link](https://github.com/dr-lizhiwei/SeamlessFloodMapper))**  
 &emsp;Reference: Zhiwei Li, Shaofen Xu, and Qihao Weng. Beyond Clouds: Seamless flood mapping using Harmonized Landsat and Sentinel-2 time series imagery and water occurrence data. *ISPRS Journal of Photogrammetry and Remote Sensing*, vol. 216, pp. 185–199, 2024. [[PDF](../assets/pdf/2024.10_ISPRS P&RS_Beyond clouds：Seamless flood mapping using Harmonized Landsat and Sentinel-2 time series imagery and water occurrence data.pdf)]
 
-**[5] TerrainFloodSense: Improving Seamless Flood Mapping with Cloudy Satellite Imagery via Multi-Source Data Fusion ([Link](https://github.com/dr-lizhiwei/TerrainFloodSense)) <font color=red><i>New</i></font>**  
+**[5] TerrainFloodSense: Improving Seamless Flood Mapping with Cloudy Satellite Imagery via Multi-Source Data Fusion ([Link](https://github.com/dr-lizhiwei/TerrainFloodSense))**<br>
 &emsp;Reference: Zhiwei Li, Shaofen Xu, and Qihao Weng. TerrainFloodSense: Improving seamless flood mapping with cloudy satellite imagery via water occurrence and terrain data fusion. *International Journal of Applied Earth Observations and Geoinformation*, vol. 144, pp. 104855, 2025. [[PDF](../assets/pdf/2025.11_JAG_TerrainFloodSense：Improving seamless flood mapping with cloudy satellite imagery via water occurrence and terrain data fusion.pdf)]
+
+**[6] Solar Radiation Estimation for Rooftop Solar Assessment in Hong Kong ([Code](https://github.com/Jimmy-Tong/Rooftop_SEP_HK/), [Data](https://doi.org/10.6084/m9.figshare.33349182)) <font color=red><i>New</i></font>**<br>
+&emsp;Reference: Lai Yiu Tong, Zhiwei Li, Cheolhee Yoo, Siqi Jia, Rui Zhu, and Jungho Im. Rooftop solar supports carbon-neutral transition in Hong Kong's building sector. *Communications Sustainability*, vol. 1, article 156, 2026. [[PDF]({{ '/assets/pdf/2026.10_Communications Sustainability_Rooftop solar supports carbon-neutral transition in Hong Kong’s building sector.pdf' | relative_url }})]
 
 ------
 
 <br>
 
-##### **Datasets**  
+## **Datasets**
+{: .h5}
 
 **[1] GF1_WHU: GF-1 WFV Cloud and Cloud Shadow Detection Dataset ([Link](https://github.com/dr-lizhiwei/GF1_WHU/))**  
 &emsp;The Gaofen-1 cloud and cloud shadow detection dataset, termed GF1_WHU, was created by researchers at Wuhan University. It has been used for the performance evaluation of cloud detection methods for Gaofen-1 WFV images, which have a 16-m spatial resolution and four multispectral bands spanning the visible to the near-infrared spectral regions. This data collection includes 108 Level2A scenes collected from different global land-cover types under varying cloud conditions. All associated reference masks label both cloud and cloud shadow. 
 
-<div align=center><img src="../assets/img/open_resources/GF1_WHU.jpg" alt="GF1_WHU" width="600"/></div>
+<div align=center><img src="../assets/img/open_resources/GF1_WHU.jpg" alt="GF1_WHU" width="1844" height="990" style="width: 100%; max-width: 600px; height: auto;" loading="lazy" decoding="async"></div>
 
 <center>Global distribution of images in GF1_WHU dataset (base map credit: NASA Visible Earth)</center>  
 
@@ -51,7 +58,7 @@ nav_order: 5
 **[2] HRC_WHU: High-resolution Cloud Detection Dataset ([Link](https://github.com/dr-lizhiwei/HRC_WHU))**  
 &emsp;The high-resolution cloud detection dataset, termed HRC_WHU, comprises 150 high-resolution images acquired with three RGB channels and a resolution varying from 0.5 to 15 meters across different global regions. The images were collected from Google Earth, where satellite images, aerial photography, and geographic information system data are superimposed to map the Earth onto a 3D globe. The associated reference cloud masks were digitized by experts specializing in remote sensing image interpretation from Wuhan University.
 
-<div align=center><img src="../assets/img/open_resources/HRC_WHU.jpg" alt="HRC_WHU" width="600"/></div>
+<div align=center><img src="../assets/img/open_resources/HRC_WHU.jpg" alt="HRC_WHU" width="1280" height="1326" style="width: 100%; max-width: 600px; height: auto;" loading="lazy" decoding="async"></div>
 
 <center>Preview of images in HRC_WHU dataset</center>
 
@@ -60,7 +67,7 @@ nav_order: 5
 **[3] GF1MS-WHU & GF2MS-WHU: GF-1/2 PMS Cloud Detection Datasets ([GitHub](https://github.com/whu-ZSC/GF1-GF2MS-WHU), [IEEE DataPort](https://ieee-dataport.org/documents/gf1ms-whu-and-gf2ms-whu))**  
 &emsp;Two new datasets, GF1MS-WHU and GF2MS-WHU, are introduced for cloud detection. The GF1MS-WHU dataset consists of 141 unlabeled and 33 well-annotated 8-m Gaofen-1 PMS multispectral images. The acquisition of the images in the GF1MS-WHU dataset spanned from June 2014 to December 2020 and encompassed four multispectral bands in the GF-1 PMS imagery. Furthermore, the GF2MS-WHU dataset includes 163 unlabeled and 29 well-annotated 4-m Gaofen-2 multispectral images. The images in the GF2MS-WHU dataset were acquired from June 2014 to October 2020 and included four multispectral bands in the GF-2 PMS imagery. Based on the labeled images in the two datasets, a total of 10,428 and 21,917 fully labeled image patches have been made available.
 
-<div align=center><img src="../assets/img/open_resources/GF1MS_GF2MS_WHU.jpg" alt="GF1_WHU" width="700"/></div>
+<div align=center><img src="../assets/img/open_resources/GF1MS_GF2MS_WHU.jpg" alt="Image distribution and labeled cloud examples in GF1MS-WHU and GF2MS-WHU" width="1920" height="706" style="width: 100%; max-width: 700px; height: auto;" loading="lazy" decoding="async"></div>
 
 <center>Distribution and examples of well-annotated images in GF1MS-WHU and GF2MS-WHU datasets</center>  
 

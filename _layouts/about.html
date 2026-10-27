@@ -28,10 +28,11 @@ layout: default
               path=profile_image_path
               class=profile_image_class
               alt="Dr. Zhiwei Li"
+              loading="eager"
               cache_bust=true -%}
             {% endif -%}
             {%- if page.profile.more_info %}
-            <div class="more-info" style="font-family: 'Roboto', 'Roboto Slab', 'Material Icons', sans-serif;">
+            <div class="more-info" style="font-family: 'Roboto', sans-serif;">
               {{ page.profile.more_info }}
             </div>
             {%- endif %}
@@ -45,7 +46,7 @@ layout: default
           <!-- News -->
           {% if page.news and site.announcements.enabled -%}
 <!--            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></h2>-->
-            <h4><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></h4>
+            <h2 class="h4 mt-4"><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></h2>
             {%- include news.html limit=true %}
           {%- endif %}
 
@@ -59,14 +60,14 @@ layout: default
           <!-- Latest posts -->
           {% if page.latest_posts -%}
 <!--            <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">Latest Posts</a></h2>-->
-            <h4><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">Latest Posts</a></h4>
+            <h2 class="h4"><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">Latest Posts</a></h2>
             {%- include latest_posts.html %}
           {%- endif %}
 
           <!-- Selected papers -->
           {% if page.selected_papers -%}
 <!--            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Selected Publications</a></h2>-->
-            <h4><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Recent Publications</a></h4>
+            <h2 class="h4"><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Recent Publications</a></h2>
             {%- include selected_papers.html %}
           {%- endif %}
 

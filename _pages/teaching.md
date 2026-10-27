@@ -2,16 +2,19 @@
 layout: page
 permalink: /teaching/
 title: Teaching
+seo_description: Courses and training taught by Zhiwei Li in remote sensing image processing, big Earth data, geospatial AI, and surveying, including graduate teaching at HKPolyU.
 nav: true
 nav_order: 3
 ---
 
-##### **Subject Lecturer**  
+## **Subject Lecturer**
+{: .h5}
 
 - Spring 2023/2024 & Fall 2024, *Remote Sensing Image Processing*, LSGI536, Graduate Subject, 3 Credits, The Hong Kong Polytechnic University
 
 
-##### **Guest Lecturer**
+## **Guest Lecturer**
+{: .h5}
 
 - Spring 2025, *Advanced Surveying*, LSGI548, Graduate Subject, 3 Credits, The Hong Kong Polytechnic University
 
@@ -22,4 +25,4 @@ nav_order: 3
 - 08/2022, *Remote Sensing and Machine Learning*, 3-Day Training Course for the Lands Department of The Government of the Hong Kong Special Administrative Region, The Hong Kong Polytechnic University
 
 
-<div align=center><img src="../assets/img/teaching_area.png" alt="Teaching Area" width="650"/></div>
+<div align=center><img src="../assets/img/teaching_area.png" alt="Teaching Area" width="1753" height="568" style="width: 100%; max-width: 650px; height: auto;" loading="lazy" decoding="async"></div>

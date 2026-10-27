@@ -2,17 +2,19 @@
 layout: page
 permalink: /positions/
 title: Open Positions
+seo_description: MSc and PhD research opportunities with Zhiwei Li at Wuhan University in remote sensing, GeoAI, cloud detection, land cover mapping, and flood monitoring, with application requirements.
 nav: false
 nav_order: 7
 ---
 
-<h5 class="mt-4 mb-3">Chinese Applications</h5>
+
+<h2 class="h5 mt-4 mb-3">Chinese Applications</h2>
 
 Applicants from mainland China can refer to this [page](https://jszy.whu.edu.cn/li_zhi_wei) for information on available MSc and PhD positions.
 
 
 
-<h5 class="mt-5 mb-3">International Applications</h5>
+<h2 class="h5 mt-5 mb-3">International Applications</h2>
 
 Applications from international students are welcome for both **PhD** and **MSc** programs.
 

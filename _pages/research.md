@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Research
+seo_description: Research by Zhiwei Li on remote sensing of cloudy and rainy environments, GeoAI, cloud detection and removal, land cover mapping, and seamless flood monitoring.
 permalink: /research/
 nav: true
 nav_order: 1
@@ -9,7 +10,8 @@ horizontal: false
 ---
 
 
-##### **Research Interests**  
+## **Research Interests**
+{: .h5}
 
 My research focuses on **Remote Sensing of Cloudy and Rainy Environments**, leveraging big Earth observation data and geospatial artificial intelligence (GeoAI) to address environmental and climate change challenges, particularly in tropical and subtropical regions prone to frequent cloud cover and heavy rainfall. This research aims to overcome cloud cover limitations in satellite imagery, enabling more reliable applications while advancing innovative solutions for environmental monitoring, disaster management, and sustainable development. My specific research interests include:
 
@@ -23,16 +25,16 @@ My research focuses on **Remote Sensing of Cloudy and Rainy Environments**, leve
 
 <div class="slideshow-container">
     <div class="mySlides" data-duration="15000">
-        <img src="../assets/img/research.gif" alt="Research Framework">
+        <img src="../assets/img/research.gif" alt="Research Framework" width="853" height="480" style="height: auto;" loading="eager" decoding="async">
     </div>
     <div class="mySlides">
-        <img src="../assets/img/research_cloud.jpg" alt="Land Use & Land Cover Mapping">
+        <img src="../assets/img/research_cloud.jpg" alt="Cloud detection and removal in satellite imagery" width="4000" height="2250" style="height: auto;" loading="lazy" decoding="async">
     </div>
     <div class="mySlides">
-        <img src="../assets/img/research_lulc.jpg" alt="Land Use & Land Cover Mapping">
+        <img src="../assets/img/research_lulc.jpg" alt="Land Use &amp; Land Cover Mapping" width="4000" height="2250" style="height: auto;" loading="lazy" decoding="async">
     </div>
     <div class="mySlides">
-        <img src="../assets/img/research_flood.jpg" alt="Flood Monitoring and Risk Assessment">
+        <img src="../assets/img/research_flood.jpg" alt="Flood Monitoring and Risk Assessment" width="4000" height="2250" style="height: auto;" loading="lazy" decoding="async">
     </div>
     <!-- Add more slides as needed -->
 </div>
@@ -114,7 +116,8 @@ My research focuses on **Remote Sensing of Cloudy and Rainy Environments**, leve
 
 <br>
 
-##### **Selected Grants**  
+## **Selected Grants**
+{: .h5}
 - **PI**: Dynamic-Baseline-Constrained and Vision–Language-Model-Assisted Seamless Probabilistic Flood Mapping from Multi-Source Remote Sensing, National Natural Science Foundation of China (NSFC), CNY 480,000, 01/2027-12/2030.
 
 - **Project Manager**: AI-Driven, GIS-Compatible Vehicle Type Detection System Riding on Fusion of Satellite, CCTV, and Geospatial Data, Hong Kong Smart Traffic Fund, HKD 3,230,831, 2025-2027.

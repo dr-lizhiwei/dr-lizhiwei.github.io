@@ -2,6 +2,7 @@
 layout: default
 permalink: /blog/
 title: Blog
+seo_description: Paper summaries and research notes by Zhiwei Li on cloud detection, land cover mapping, seamless flood monitoring, and rooftop solar assessment, in English and Chinese.
 nav: false
 nav_order: 4
 pagination:
@@ -18,13 +19,16 @@ pagination:
 ---
 
 <div class="post">
+  <header class="post-header">
+    <h1 class="post-title" style="font-size: 24px;">{{ page.title }}</h1>
+  </header>
 {% assign blog_name_size = site.blog_name | size %}
 {% assign blog_description_size = site.blog_description | size %}
 
 {% if blog_name_size > 0 or blog_description_size > 0 %}
 
   <div class="header-bar">
-    <h3 >{{ site.blog_name }}</h3>
+    <h3>{{ site.blog_name }}</h3>
     <h4>{{ site.blog_description }}</h4>
   </div>
 
@@ -130,7 +134,7 @@ pagination:
 <div class="row">
           <div class="col-sm-9">
 {% endif %}
-        <h3>
+        <h2 class="h5 font-weight-light">
         {% if post.redirect == blank %}
           <a class="post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
         {% elsif post.redirect contains '://' %}
@@ -141,7 +145,7 @@ pagination:
         {% else %}
           <a class="post-title" href="{{ post.redirect | relative_url }}">{{ post.title }}</a>
         {% endif %}
-      </h3>
+      </h2>
       <p>{{ post.description }}</p>
       <p class="post-meta">
         {{ post.date | date: '%B %d, %Y' }}
@@ -176,7 +180,8 @@ pagination:
 </div>
 
   <div class="col-sm-3">
-    <img class="card-img" src="{{post.thumbnail | relative_url}}" style="object-fit: cover; height: 90%" alt="image">
+    {% assign thumbnail_size = post.thumbnail | image_dimensions %}
+    <img class="card-img" src="{{ post.thumbnail | relative_url }}" width="{{ thumbnail_size[0] }}" height="{{ thumbnail_size[1] }}" style="object-fit: cover; height: 90%" alt="{{ post.title | escape }}" loading="lazy" decoding="async">
   </div>
 
 </div>

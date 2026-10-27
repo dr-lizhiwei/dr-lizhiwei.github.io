@@ -21,6 +21,8 @@ jobs:
     steps:
     - name: Checkout 🛎️
       uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
@@ -39,9 +41,12 @@ jobs:
         npm install -g mermaid.cli
         npm install -g purgecss
         export JEKYLL_ENV=production
+        python3 bin/update_scholar_citations.py
         bundle exec jekyll build --lsi
         purgecss -c purgecss.config.js
+        python3 -m unittest discover -s bin -p 'test_*.py'
         python3 bin/check_site.py _site --site-url https://zhiweili.net
+        python3 bin/check_seo.py _site
     - name: Deploy 🚀
       if: github.event_name != 'pull_request'
       uses: JamesIves/github-pages-deploy-action@v4
