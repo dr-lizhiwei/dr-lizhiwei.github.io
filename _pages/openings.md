@@ -34,7 +34,7 @@ Research and supervision can be conducted **in English**.
 ####  Admission Requirements
 
 - A Master's degree in Remote Sensing, GIS, Geography, Geomatics, Environmental Science, Computer Science, or a related discipline.
-- At least **one first-author paper **published, accepted, or under major revision in an SCI-indexed journal.
+- At least **one first-author paper** published, accepted, or under major revision in an SCI-indexed journal.
 - Relevant research experience in remote sensing, GIS, deep learning, or GeoAI.
 - Good programming skills, preferably in Python, and strong motivation for independent research.
 
