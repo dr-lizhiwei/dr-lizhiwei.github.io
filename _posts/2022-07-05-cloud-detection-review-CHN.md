@@ -27,9 +27,10 @@ Li, Z., Shen, H., Weng, Q., Zhang, Y., Dou, P., Zhang, L. (2022). Cloud and clou
 
 在过去几十年里，随着大量光学卫星数据的发布和新数据源的不断引入，众多研究集中在对不同传感器拍摄的影像进行云与云阴影检测，并开发了众多方法。尽管以前的研究回顾了云与云阴影检测文献，但主要集中在方法的分类、云测量设备以及云与云阴影检测结果的形式。为了系统总结该领域目前的成就和挑战，本研究从特征、算法和验证的角度对云与云阴影检测文献进行了全面回顾，如图1所示。鉴于不同类别的算法可能通过使用相同类型的特征实现云与云阴影检测，且同一类别的算法也可能接受不同类型的特征，因此本综述从特征和算法两个角度分别回顾了不同的云与云阴影检测方法。本综述还总结了云与云阴影检测结果的主要类型及其验证。
 
-<div align=center><img src="/assets/img/blogs/2022_cloud detection review/Fig. 1.png" alt="图1. 云与云阴影检测：特征、算法和验证" width="1340" height="467" style="width: 100%; max-width: 1000px; height: auto;" loading="lazy" decoding="async"></div>
-
-<center>图1. 云与云阴影检测：特征、算法和验证</center>  
+<figure class="my-4 text-center">
+  <img class="img-fluid" src="/assets/img/blogs/2022_cloud detection review/Fig. 1.png" alt="图1. 云与云阴影检测：特征、算法和验证" width="1340" height="467" style="width: 100%; max-width: 1000px; height: auto;" loading="lazy" decoding="async" data-zoomable>
+  <figcaption class="caption">图1. 云与云阴影检测：特征、算法和验证</figcaption>
+</figure>
 
 
 
@@ -38,31 +39,37 @@ Li, Z., Shen, H., Weng, Q., Zhang, Y., Dou, P., Zhang, L. (2022). Cloud and clou
 
 我们通过Scopus对光学卫星影像的云与云阴影检测主题进行了文献调查，搜索关键词包括*cloud/cloud shadow AND detection/masking/extraction/screening/identification*，搜索范围仅限于英文期刊论文的标题、关键词和摘要。根据截至2021年12月1日的搜索结果，在人工排除不相关的论文后，最终选择了504篇论文进行文献分析。注意到与云分类有关的论文，这些论文根据云相态和云高度将云进一步划分为不同的类型，没有包括在文献分析中进行讨论。此外，为了保证用于文献分析的论文的高质量，只选择了在正规期刊上发表的论文，并对每篇论文进行了人工检查和确认，以确保其符合本综述的主题。如图1所示，文献分析结果表明，从1985年到2021年的37年间，发表的论文数量及其引用率总体上呈上升趋势，尤其是最近十年，这表明该领域近期受到了广泛关注。图2-5还统计了该领域论文发表的主要国家/地区、机构和期刊。
 
-<div align=center><img src="/assets/img/blogs/2022_cloud detection review/Fig. 2.png" alt="图2. 云与云阴影检测论文的发表数量及其引用次数（1985-2021年）" width="1890" height="708" style="width: 100%; max-width: 600px; height: auto;" loading="lazy" decoding="async"></div>
+<figure class="my-4 text-center">
+  <img class="img-fluid" src="/assets/img/blogs/2022_cloud detection review/Fig. 2.png" alt="图2. 云与云阴影检测论文的发表数量及其引用次数（1985-2021年）" width="1890" height="708" style="width: 100%; max-width: 600px; height: auto;" loading="lazy" decoding="async" data-zoomable>
+  <figcaption class="caption">图2. 云与云阴影检测论文的发表数量及其引用次数（1985-2021年）</figcaption>
+</figure>
 
-<center>图2. 云与云阴影检测论文的发表数量及其引用次数（1985-2021年）</center>
+<figure class="my-4 text-center">
+  <img class="img-fluid" src="/assets/img/blogs/2022_cloud detection review/Fig. 3.png" alt="图3. 该领域论文发表的主要国家/地区（发表了&gt;10篇期刊论文）" width="1595" height="567" style="width: 100%; max-width: 600px; height: auto;" loading="lazy" decoding="async" data-zoomable>
+  <figcaption class="caption">图3. 该领域论文发表的主要国家/地区（发表了>10篇期刊论文）</figcaption>
+</figure>
 
-<div align=center><img src="/assets/img/blogs/2022_cloud detection review/Fig. 3.png" alt="图3. 该领域论文发表的主要国家/地区（发表了&gt;10篇期刊论文）" width="1595" height="567" style="width: 100%; max-width: 600px; height: auto;" loading="lazy" decoding="async"></div>
+<figure class="my-4 text-center">
+  <img class="img-fluid" src="/assets/img/blogs/2022_cloud detection review/Fig. 4.png" alt="图4. 该领域论文发表的全球主要研究机构（发表了&gt;10篇期刊论文）" width="1890" height="591" style="width: 100%; max-width: 600px; height: auto;" loading="lazy" decoding="async" data-zoomable>
+  <figcaption class="caption">图4. 该领域论文发表的全球主要研究机构（发表了>10篇期刊论文）</figcaption>
+</figure>
 
-<center>图3. 该领域论文发表的主要国家/地区（发表了>10篇期刊论文）</center>
-
-<div align=center><img src="/assets/img/blogs/2022_cloud detection review/Fig. 4.png" alt="图4. 该领域论文发表的全球主要研究机构（发表了&gt;10篇期刊论文）" width="1890" height="591" style="width: 100%; max-width: 600px; height: auto;" loading="lazy" decoding="async"></div>
-
-<center>图4. 该领域论文发表的全球主要研究机构（发表了>10篇期刊论文）</center>
-
-<div align=center><img src="/assets/img/blogs/2022_cloud detection review/Fig. 5.png" alt="图5. 该领域论文发表的主要期刊（发表了&gt;10篇期刊论文）" width="1890" height="591" style="width: 100%; max-width: 600px; height: auto;" loading="lazy" decoding="async"></div>
-
-<center>图5. 该领域论文发表的主要期刊（发表了>10篇期刊论文）</center>
+<figure class="my-4 text-center">
+  <img class="img-fluid" src="/assets/img/blogs/2022_cloud detection review/Fig. 5.png" alt="图5. 该领域论文发表的主要期刊（发表了&gt;10篇期刊论文）" width="1890" height="591" style="width: 100%; max-width: 600px; height: auto;" loading="lazy" decoding="async" data-zoomable>
+  <figcaption class="caption">图5. 该领域论文发表的主要期刊（发表了>10篇期刊论文）</figcaption>
+</figure>
 
 此外，本文统计了涉及不同类型卫星影像的论文数量，以确定这504篇论文中出现的主要影像类型。本文选择了在10篇以上的论文中出现的前12种影像类型，并展示在图6中。其中，根据论文的标题、关键词和摘要中是否出现卫星关键词，对被选取和统计的论文数量进行排序。此外，图6还显示了从1985年到2021年的每5~6年间，与各类影像相关的论文数量分布情况。
 
-<div align=center><img src="/assets/img/blogs/2022_cloud detection review/Fig. 6.png" alt="图6. 该领域不同时期的主要卫星影像类型" width="1878" height="901" style="width: 100%; max-width: 800px; height: auto;" loading="lazy" decoding="async"></div>
+<figure class="my-4 text-center">
+  <img class="img-fluid" src="/assets/img/blogs/2022_cloud detection review/Fig. 6.png" alt="图6. 该领域不同时期的主要卫星影像类型" width="1878" height="901" style="width: 100%; max-width: 800px; height: auto;" loading="lazy" decoding="async" data-zoomable>
+  <figcaption class="caption">图6. 该领域不同时期的主要卫星影像类型</figcaption>
+</figure>
 
-<center>图6. 该领域不同时期的主要卫星影像类型</center>
-
-<div align=center><img src="/assets/img/blogs/2022_cloud detection review/Fig. 7.png" alt="图7. 在不同时期不同类型的云与云阴影检测方法发展情况" width="1890" height="945" style="width: 100%; max-width: 800px; height: auto;" loading="lazy" decoding="async"></div>
-
-<center>图7. 在不同时期不同类型的云与云阴影检测方法发展情况</center>
+<figure class="my-4 text-center">
+  <img class="img-fluid" src="/assets/img/blogs/2022_cloud detection review/Fig. 7.png" alt="图7. 在不同时期不同类型的云与云阴影检测方法发展情况" width="1890" height="945" style="width: 100%; max-width: 800px; height: auto;" loading="lazy" decoding="async" data-zoomable>
+  <figcaption class="caption">图7. 在不同时期不同类型的云与云阴影检测方法发展情况</figcaption>
+</figure>
 
 本文还对不同时期不同类型的云与云阴影检测算法进行了文献分析，结果见图7，可看到基于物理规则的算法因其简单性和效率而成为最受欢迎的云与云阴影检测算法类型，在不同时期均被广泛研究。此外，图7中的结果还表明，基于深度学习的方法作为机器学习算法的一个分支，近年来获得了广泛关注，这得益于深度学习在影像分类等任务中的巨大进步以及大量开源数据集的发布。由于卫星数据源的增加和时间序列影像的广泛使用，基于时相变化的算法在过去一段时间内逐渐受到更多的关注。值得注意的是，基于变分模型的算法在最近几年得到了发展，可以预见，这类算法在多时相影像中的一体化云检测和去除方面将有更广泛的应用潜力。
 
@@ -116,7 +123,7 @@ Li, Z., Shen, H., Weng, Q., Zhang, Y., Dou, P., Zhang, L. (2022). Cloud and clou
 
  
 
-**沈焕锋**，武汉大学资源与环境科学学院教授、院长，国家级高层次人才入选者者，主要研究方向为遥感数据质量改善、多源感知数据融合、地学智能等。
+**沈焕锋**，武汉大学资源与环境科学学院教授、院长，国家级高层次人才入选者，主要研究方向为遥感数据质量改善、多源感知数据融合、地学智能等。
 
 
 

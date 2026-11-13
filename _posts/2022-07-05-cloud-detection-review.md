@@ -27,9 +27,10 @@ The presence of clouds prevents optical satellite imaging systems from obtaining
 
 Over the past decades, with the release of massive amounts of optical satellite data and the continuous introduction of new data sources, many studies have focused on cloud and cloud shadow detection (CCS) detection for images taken by different sensors, and many CCS detection methods have been developed. Although the CCS detection literature has been reviewed in previous studies, they mainly focus on the categorization of methodologies, cloud measuring equipment, and forms of CCS detection results. To further conduct a systematic summary of the current achievements and challenges in this field, this study comprehensively reviews the CCS detection literature from the features, algorithms, and validation perspectives as shown in Fig. 1. Different CCS detection methods are reviewed separately from both the features and algorithms perspectives given that algorithms of different categories may achieve CCS detection by using the same type of features and because algorithms of the same category may also accept different types of features. This review also summarizes the main types of CCS detection results and their validation.
 
-<div align=center><img src="/assets/img/blogs/2022_cloud detection review/Fig. 1.png" alt="Fig. 1. Cloud and cloud shadow detection in terms of features, algorithms, and validation." width="1340" height="467" style="width: 100%; max-width: 1000px; height: auto;" loading="lazy" decoding="async"></div>
-
-<center>Fig. 1. Cloud and cloud shadow detection in terms of features, algorithms, and validation.</center>  
+<figure class="my-4 text-center">
+  <img class="img-fluid" src="/assets/img/blogs/2022_cloud detection review/Fig. 1.png" alt="Fig. 1. Cloud and cloud shadow detection in terms of features, algorithms, and validation." width="1340" height="467" style="width: 100%; max-width: 1000px; height: auto;" loading="lazy" decoding="async" data-zoomable>
+  <figcaption class="caption">Fig. 1. Cloud and cloud shadow detection in terms of features, algorithms, and validation.</figcaption>
+</figure>
 
 
 
@@ -38,31 +39,37 @@ Over the past decades, with the release of massive amounts of optical satellite 
 
 We have conducted a literature survey with Scopus (www.scopus.com) on the topic of cloud and cloud shadow detection for optical satellite imagery, and the search keywords include *cloud/cloud shadow AND detection/masking/extraction/screening/identification*, which are limited to title, keywords, and abstract of the journal articles in English. Based on search results as of December 1, 2021, a total of 1425 journal papers were returned from the Scopus database. Eventually, there are 504 papers selected for the literature analysis after manually excluding irrelevant articles. Noted that articles related to cloud classification which further classify clouds into different types according to cloud phase and altitude are not discussed and included in the literature survey. Besides, to ensure the high quality of the papers used for literature analysis, only articles published in formal journals were selected, and each paper was manually checked and confirmed to make sure that it fits the topic of this review. As shown in Fig. 2, the survey result suggests that there is a general increasing trend in the number of published papers and their citations over the past 37 years from 1985 to 2021, especially in the latest decade, which indicates extensive attention was paid to this field recently. Besides, the major countries/region, institutions, and journals in the field are listed in Fig. 2-5.
 
-<div align=center><img src="/assets/img/blogs/2022_cloud detection review/Fig. 2.png" alt="Fig. 2. The number of papers and citations on cloud and cloud shadow detection, 1985–2021." width="1890" height="708" style="width: 100%; max-width: 600px; height: auto;" loading="lazy" decoding="async"></div>
+<figure class="my-4 text-center">
+  <img class="img-fluid" src="/assets/img/blogs/2022_cloud detection review/Fig. 2.png" alt="Fig. 2. The number of papers and citations on cloud and cloud shadow detection, 1985–2021." width="1890" height="708" style="width: 100%; max-width: 600px; height: auto;" loading="lazy" decoding="async" data-zoomable>
+  <figcaption class="caption">Fig. 2. The number of papers and citations on cloud and cloud shadow detection, 1985–2021.</figcaption>
+</figure>
 
-<center>Fig. 2. The number of papers and citations on cloud and cloud shadow detection, 1985–2021.</center>
+<figure class="my-4 text-center">
+  <img class="img-fluid" src="/assets/img/blogs/2022_cloud detection review/Fig. 3.png" alt="Fig. 3. Major countries/regions (published &gt; 10 journal papers) in the field." width="1595" height="567" style="width: 100%; max-width: 600px; height: auto;" loading="lazy" decoding="async" data-zoomable>
+  <figcaption class="caption">Fig. 3. Major countries/regions (published > 10 journal papers) in the field.</figcaption>
+</figure>
 
-<div align=center><img src="/assets/img/blogs/2022_cloud detection review/Fig. 3.png" alt="Fig. 3. Major countries/regions (published &gt; 10 journal papers) in the field." width="1595" height="567" style="width: 100%; max-width: 600px; height: auto;" loading="lazy" decoding="async"></div>
+<figure class="my-4 text-center">
+  <img class="img-fluid" src="/assets/img/blogs/2022_cloud detection review/Fig. 4.png" alt="Fig. 4. Major institutions (published &gt; 10 journal papers) in the world." width="1890" height="591" style="width: 100%; max-width: 600px; height: auto;" loading="lazy" decoding="async" data-zoomable>
+  <figcaption class="caption">Fig. 4. Major institutions (published > 10 journal papers) in the world.</figcaption>
+</figure>
 
-<center>Fig. 3. Major countries/regions (published > 10 journal papers) in the field.</center>
-
-<div align=center><img src="/assets/img/blogs/2022_cloud detection review/Fig. 4.png" alt="Fig. 4. Major institutions (published &gt; 10 journal papers) in the world." width="1890" height="591" style="width: 100%; max-width: 600px; height: auto;" loading="lazy" decoding="async"></div>
-
-<center>Fig. 4. Major institutions (published > 10 journal papers) in the world.</center>
-
-<div align=center><img src="/assets/img/blogs/2022_cloud detection review/Fig. 5.png" alt="Fig. 5. Major journals (published &gt; 10 journal papers) in the field." width="1890" height="591" style="width: 100%; max-width: 600px; height: auto;" loading="lazy" decoding="async"></div>
-
-<center>Fig. 5. Major journals (published > 10 journal papers) in the field.</center>
+<figure class="my-4 text-center">
+  <img class="img-fluid" src="/assets/img/blogs/2022_cloud detection review/Fig. 5.png" alt="Fig. 5. Major journals (published &gt; 10 journal papers) in the field." width="1890" height="591" style="width: 100%; max-width: 600px; height: auto;" loading="lazy" decoding="async" data-zoomable>
+  <figcaption class="caption">Fig. 5. Major journals (published > 10 journal papers) in the field.</figcaption>
+</figure>
 
 Moreover, the number of papers with different types of satellite images was counted to determine the major types of images that occurred in these 504 papers. The top twelve types of images occurring in >10 papers are selected and shown in Fig. 6, which are sorted by the number of papers that are selected and counted according to whether the satellite keyword occurs in the title, keywords, and abstract of the paper. Fig. 6 also shows the distributions of the number of papers relevant to each type of image over the past each 5–6 years periods from 1985 to 2021. 
 
-<div align=center><img src="/assets/img/blogs/2022_cloud detection review/Fig. 6.png" alt="Fig. 6. Major types of satellite images over different periods in the field." width="1878" height="901" style="width: 100%; max-width: 800px; height: auto;" loading="lazy" decoding="async"></div>
+<figure class="my-4 text-center">
+  <img class="img-fluid" src="/assets/img/blogs/2022_cloud detection review/Fig. 6.png" alt="Fig. 6. Major types of satellite images over different periods in the field." width="1878" height="901" style="width: 100%; max-width: 800px; height: auto;" loading="lazy" decoding="async" data-zoomable>
+  <figcaption class="caption">Fig. 6. Major types of satellite images over different periods in the field.</figcaption>
+</figure>
 
-<center>Fig. 6. Major types of satellite images over different periods in the field.</center>
-
-<div align=center><img src="/assets/img/blogs/2022_cloud detection review/Fig. 7.png" alt="Fig. 7. Types of cloud and cloud shadow detection algorithms developed in different periods." width="1890" height="945" style="width: 100%; max-width: 800px; height: auto;" loading="lazy" decoding="async"></div>
-
-<center>Fig. 7. Types of cloud and cloud shadow detection algorithms developed in different periods.</center>
+<figure class="my-4 text-center">
+  <img class="img-fluid" src="/assets/img/blogs/2022_cloud detection review/Fig. 7.png" alt="Fig. 7. Types of cloud and cloud shadow detection algorithms developed in different periods." width="1890" height="945" style="width: 100%; max-width: 800px; height: auto;" loading="lazy" decoding="async" data-zoomable>
+  <figcaption class="caption">Fig. 7. Types of cloud and cloud shadow detection algorithms developed in different periods.</figcaption>
+</figure>
 
 Literature analysis was also conducted on different types of CCS detection algorithms over different periods, the results shown in Fig. 7 confirmed that physical-rule algorithms benefiting from their simplicity and efficiency are the most popular type of CCS detection algorithms, which have been heavily studied at different periods. In addition, the results shown in Fig. 7 also indicated that DL-based methods as a branch of ML-based algorithms have gained much attention in recent years, benefiting from the great progress of DL in tasks such as image classification and the release of a large number of open-source datasets. Moreover, temporal-changes based algorithms have gradually received more attention in the past periods owing to the increase in satellite data sources and the widespread use of image time series. Notably, variational-model based algorithms have been developed in recent years, and it can be expected that such types of algorithms will have broader application potentials for integrated cloud detection and removal in multi-temporal images.
 
@@ -88,7 +95,7 @@ In addition, the commonly called cloud detection usually does not include the de
 ### **3) Development of a unified framework for CCS detection for multi-sensor images**
 {: .h5}
 
-Due to the differences in band settings and spectral responses of satellite images of different sensors, most of the current CCS detection algorithms have been developed and applied to specific types of images, thereby limiting the applicability of CCS detection algorithms for multi-sensor images. Given the increasing number of satellite image data sources, developing different algorithms for images of previously or newly launched satellites becomes inefficient. Therefore, a unified framework should be developed to boost the generalizability of CCS detection for images of multiple sensors. In this regard, analyzing common spectral characteristics and mining the invariant spatial features and even temporal difference features of images will benefit the development of a unified framework for the CCS detection of multi-sensor images. Although several recent studies have attempted to achieve multi-sensor CSS detection based on DL, the application of current DL-based CCS detection algorithms cannot be effectively extended to other types of images due to the large sample requirements for model training and the unique characteristics of images from different sensors. With the continuous advancements of DL techniques, algorithms supported by transferring learning techniques, such as domain adaptation, have promising applications in addressing large sample requirements, in which models trained on the source domain can also be applied to the target domain without much accuracy reduction, and thus achieve the goal of CCS detection for multi-sensor images. In addition, simulating cloudy images based on clear images of multiple sensors through advanced image synthesis techniques, such as GAN, can generate a large number of training samples with very little human effort. Such an approach can be used to meet the training requirements of multi-sensor models, and provide a new scheme for the construction of a unified framework for CCS detection in multi-sensor images.
+Due to the differences in band settings and spectral responses of satellite images of different sensors, most of the current CCS detection algorithms have been developed and applied to specific types of images, thereby limiting the applicability of CCS detection algorithms for multi-sensor images. Given the increasing number of satellite image data sources, developing different algorithms for images of previously or newly launched satellites becomes inefficient. Therefore, a unified framework should be developed to boost the generalizability of CCS detection for images of multiple sensors. In this regard, analyzing common spectral characteristics and mining the invariant spatial features and even temporal difference features of images will benefit the development of a unified framework for the CCS detection of multi-sensor images. Although several recent studies have attempted to achieve multi-sensor CCS detection based on DL, the application of current DL-based CCS detection algorithms cannot be effectively extended to other types of images due to the large sample requirements for model training and the unique characteristics of images from different sensors. With the continuous advancements of DL techniques, algorithms supported by transferring learning techniques, such as domain adaptation, have promising applications in addressing large sample requirements, in which models trained on the source domain can also be applied to the target domain without much accuracy reduction, and thus achieve the goal of CCS detection for multi-sensor images. In addition, simulating cloudy images based on clear images of multiple sensors through advanced image synthesis techniques, such as GAN, can generate a large number of training samples with very little human effort. Such an approach can be used to meet the training requirements of multi-sensor models, and provide a new scheme for the construction of a unified framework for CCS detection in multi-sensor images.
 
 ### **4) AI-enabled online cloud processing for large-scale optical satellite data**
 {: .h5}

@@ -51,22 +51,22 @@ horizontal: false
 
 **1）项目数据集与代码分享**
 
-- 开放卫星影像云检测资源(OpenSICDR): [https://github.com/dr-lizhiwei/OpenSICDR](https://github.com/dr-lizhiwei/OpenSICDR)
+- [开放卫星影像云检测资源（OpenSICDR）](https://github.com/dr-lizhiwei/OpenSICDR)
 
-- 高分一号与高分二号影像云检测数据集 (GF1MS-WHU & GF2MS-WHU): [https://ieee-dataport.org/documents/gf1ms-whu-and-gf2ms-whu](https://ieee-dataport.org/documents/gf1ms-whu-and-gf2ms-whu)
+- [高分一号与高分二号影像云检测数据集（GF1MS-WHU & GF2MS-WHU）](https://ieee-dataport.org/documents/gf1ms-whu-and-gf2ms-whu)
 
-- 无缝洪水制图(SeamlessFloodMapper): [https://github.com/dr-lizhiwei/SeamlessFloodMapper](https://github.com/dr-lizhiwei/SeamlessFloodMapper)
+- [无缝洪水制图（SeamlessFloodMapper）](https://github.com/dr-lizhiwei/SeamlessFloodMapper)
 
-- 改进的无缝洪水制图(TerrainFloodSense): [https://github.com/dr-lizhiwei/TerrainFloodSense](https://github.com/dr-lizhiwei/TerrainFloodSense)
+- [改进的无缝洪水制图（TerrainFloodSense）](https://github.com/dr-lizhiwei/TerrainFloodSense)
 
 
 **2）研究成果媒体报道**
 
-- 香港理工大学新闻：[https://www.polyu.edu.hk/pair/publications/issue-11/ra02---novel-remote-sensing-image-classification-for-land-use-and-land-cover-mapping/](https://www.polyu.edu.hk/pair/publications/issue-11/ra02---novel-remote-sensing-image-classification-for-land-use-and-land-cover-mapping/)
+- [香港理工大学新闻](https://www.polyu.edu.hk/pair/publications/issue-11/ra02---novel-remote-sensing-image-classification-for-land-use-and-land-cover-mapping/)
 
-- NASA MODIS Science论文收录：[https://modis.gsfc.nasa.gov/sci_team/pubs/abstract_new.php?id=54374](https://modis.gsfc.nasa.gov/sci_team/pubs/abstract_new.php?id=54374)
+- [NASA MODIS Science 论文收录](https://modis.gsfc.nasa.gov/sci_team/pubs/abstract_new.php?id=54374)
 
-- NASA Landsat Science精选论文收录：[https://landsat.gsfc.nasa.gov/news/publications/](https://landsat.gsfc.nasa.gov/news/publications/)
+- [NASA Landsat Science 精选论文收录](https://landsat.gsfc.nasa.gov/news/publications/)
 
 
 **3）研究成果科普介绍**

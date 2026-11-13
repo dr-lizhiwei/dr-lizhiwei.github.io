@@ -181,7 +181,7 @@ pagination:
 
   <div class="col-sm-3">
     {% assign thumbnail_size = post.thumbnail | image_dimensions %}
-    <img class="card-img" src="{{ post.thumbnail | relative_url }}" width="{{ thumbnail_size[0] }}" height="{{ thumbnail_size[1] }}" style="object-fit: cover; height: 90%" alt="{{ post.title | escape }}" loading="lazy" decoding="async">
+    <img class="card-img img-fluid" src="{{ post.thumbnail | relative_url }}" width="{{ thumbnail_size[0] }}" height="{{ thumbnail_size[1] }}" alt="{{ post.title | escape }}" loading="lazy" decoding="async">
   </div>
 
 </div>

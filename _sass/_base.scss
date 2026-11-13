@@ -200,6 +200,16 @@ blockquote {
   }
 }
 
+@media (max-width: 575.98px) {
+  .about-profile figure {
+    max-width: 180px;
+  }
+
+  .post-content {
+    overflow-wrap: anywhere;
+  }
+}
+
 .post-description {
   margin-bottom: 2rem;
   font-size: 0.875rem;

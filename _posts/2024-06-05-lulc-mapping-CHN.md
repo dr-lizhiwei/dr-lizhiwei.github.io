@@ -48,9 +48,10 @@ Li, Z., Weng, Q., Zhou, Y., Dou, P., & Ding, X. (2024). Learning spectral-indice
 
 广东-香港-澳门大湾区（以下简称大湾区）（图1），包含珠江三角洲地区在内的11个主要城市，作为中国最发达的地区之一，在近几十年经历了快速的土地利用和土地覆盖变化。大湾区的多云和多雨天气条件对高时间密度的LULC制图构成了挑战，特别是在每年的雨季，该地区会出现密集的云层覆盖。珠江和沿海环境的存在导致了大湾区中土地和水体相互作用频繁，从而引起LULC类型的高度动态变化。因此，本研究选择大湾区作为研究区域，以检验所提出的方法在多云地区进行LULC制图的有效性。
 
-<div align=center><img src="/assets/img/blogs/2024_lulc mapping/Fig. 1.png" alt="图1. 研究区域珠江三角洲及该区域Sentinel-2影像月平均云覆盖百分比。上图：研究区域的位置和验证样本点的分布；下图：2019至2022年间研究区域内Sentinel-2影像的平均每月云覆盖百分比。" width="1777" height="1656" style="width: 100%; max-width: 650px; height: auto;" loading="lazy" decoding="async"></div>
-
-图1. 研究区域珠江三角洲及该区域Sentinel-2影像月平均云覆盖百分比。上图：研究区域的位置和验证样本点的分布；下图：2019至2022年间研究区域内Sentinel-2影像的平均每月云覆盖百分比。
+<figure class="my-4 text-center">
+  <img class="img-fluid" src="/assets/img/blogs/2024_lulc mapping/Fig. 1.png" alt="图1. 研究区域珠江三角洲及该区域Sentinel-2影像月平均云覆盖百分比。上图：研究区域的位置和验证样本点的分布；下图：2019至2022年间研究区域内Sentinel-2影像的平均每月云覆盖百分比。" width="1777" height="1656" style="width: 100%; max-width: 650px; height: auto;" loading="lazy" decoding="async" data-zoomable>
+  <figcaption class="caption">图1. 研究区域珠江三角洲及该区域Sentinel-2影像月平均云覆盖百分比。上图：研究区域的位置和验证样本点的分布；下图：2019至2022年间研究区域内Sentinel-2影像的平均每月云覆盖百分比。</figcaption>
+</figure>
 
  
 
@@ -63,9 +64,10 @@ Li, Z., Weng, Q., Zhou, Y., Dou, P., & Ding, X. (2024). Learning spectral-indice
 
 本研究提出了一种集成的多云地区高时间密度LULC制图方法，该方法包含四个主要步骤（图2）。首先，所提出的方法通过基于光谱指数融合深度学习模型生成时间序列Sentinel-2影像的初始云与云阴影掩膜。然后，通过时间序列滤波重建Sentinel-2时间序列影像中被云或云阴影覆盖的像元，在此过程中，初始的云与云阴影掩膜被迭代优化和更新以改善重建效果。接着，将重建后的时间序列影像输入到另一个全球样本库训练的深度模型中进行LULC分类。最后，进行分类后处理，包括时空众数滤波和考虑水陆交互的时间序列优化，以提高LULC制图的准确性和一致性。通过定量评价和与现有LULC产品在大湾区范围进行比较，评估所生成的LULC产品的精度，以及云覆盖对LULC制图的影响。
 
-<div align=center><img src="/assets/img/blogs/2024_lulc mapping/Fig. 2.png" alt="图2. 本研究所提出的时间序列LULC制图方法流程图" width="2304" height="3147" style="width: 100%; max-width: 600px; height: auto;" loading="lazy" decoding="async"></div>
-
-<center>图2. 本研究所提出的时间序列LULC制图方法流程图</center>  
+<figure class="my-4 text-center">
+  <img class="img-fluid" src="/assets/img/blogs/2024_lulc mapping/Fig. 2.png" alt="图2. 本研究所提出的时间序列LULC制图方法流程图" width="2304" height="3147" style="width: 100%; max-width: 600px; height: auto;" loading="lazy" decoding="async" data-zoomable>
+  <figcaption class="caption">图2. 本研究所提出的时间序列LULC制图方法流程图</figcaption>
+</figure>
 
 
 
@@ -76,9 +78,10 @@ Li, Z., Weng, Q., Zhou, Y., Dou, P., & Ding, X. (2024). Learning spectral-indice
 
 考虑到四个比较产品之间的差异，本研究将LULC产品类别颜色方案统一为ESA WorldCover产品的相同方案，LULC类型的命名按照Dynamic World训练数据集中的定义进行统一。评估结果表明，在2019年至2022年连续四年中，GBACover在大湾区年度LULC制图中的总体精度最高。与此同时，Google Dynamic World和Esri Land Cover在个别年份的表现较好。评估显示，GBACover在2019-2022年大湾区年度制图中的平均总体精度为87.01%，优于ESA WorldCover的83.98%（仅2020和2021年平均）、Esri Land Cover的85.26%和Google Dynamic World的85.06%。如果在精度评估中排除ESA WorldCover中的湿地类别，因缺少其验证样本，那么2020年和2021年ESA WorldCover的平均总体精度为85.82%，这高于其实际精度，因为湿地类别的准确识别具有挑战性。值得注意的是，不同时间段合成的LULC产品精度存在时间差异。尽管GBACover在年度尺度上实现了87.01%的平均总体精度，但所提出方法生成的时间序列LULC产品在近实时尺度上的平均总体精度为80.13%。图3展示了2019年至2022年连续4年中大湾区珠江河口地区的年度LULC分类图，其展示了GBACover相对于其它LULC产品在陆地与水体类别转换发生频繁地区（如稻田）的显著差异。
 
-<div align=center><img src="/assets/img/blogs/2024_lulc mapping/Fig. 3.png" alt="图3. 2019-2022年珠江口区域LULC分类图比较" width="3543" height="1713" style="width: 100%; max-width: 900px; height: auto;" loading="lazy" decoding="async"></div>
-
-<center>图3. 2019-2022年珠江口区域LULC分类图比较</center>  
+<figure class="my-4 text-center">
+  <img class="img-fluid" src="/assets/img/blogs/2024_lulc mapping/Fig. 3.png" alt="图3. 2019-2022年珠江口区域LULC分类图比较" width="3543" height="1713" style="width: 100%; max-width: 900px; height: auto;" loading="lazy" decoding="async" data-zoomable>
+  <figcaption class="caption">图3. 2019-2022年珠江口区域LULC分类图比较</figcaption>
+</figure>
 
 本研究还评估了使用不同云掩膜对生成的时间序列LULC分类结果精度的影响。具体地，使用QA60、Sen2Cor、s2cloudless以及所提出的SIFDM模型在时间序列优化前后的掩膜进行比较，以定量评估云和云阴影掩膜精度对LULC制图的影响。具体来说，基于未重建的原始Sentinel-2时间序列影像生成的时间序列LULC分类图，使用大湾区中的人工标记样本进行验证。在验证之前，从生成的时间序列LULC分类图中排除由所比较的掩膜标记的云或云阴影像元，这将使得评估使用不同掩膜进行LULC制图表现成为可能。评估结果表明，利用本研究提出的SIFDM模型生成的优化和初始云掩膜，相较于其它比较的掩膜，在云和云阴影掩膜中表现最佳，分别在时间序列LULC制图中实现了81.16%和68.06%的最佳总体精度。优化后掩膜甚至可以比SIFDM生成的原始掩膜贡献更高的总体LULC分类精度，确认了时间序列优化在提高云掩膜精度方面的益处。更精确的云掩膜有助于提高LULC制图的精度。使用s2cloudless生成的两组掩膜，在灰度掩膜分割的二值化阈值分别为25和50时，分别导致了59.35%和57.04%的总体LULC分类精度。使用Sen2Cor掩膜进行LULC分类的总体精度为64.21%，高于s2cloudless，可能是由于Sen2Cor掩膜中标注了额外的云阴影信息。QA60生成的较不精确的云掩膜导致了47.99%的总体LULC分类精度，用户在应用QA60掩膜进行Sentinel-2影像解译时应注意这一点。此外，值得注意的是，在基于深度学习的卫星影像解译相关研究中，很少考虑云掩膜的精度。这一疏忽引起了对在多云条件下使用光学卫星影像进行陆地和水体动态精确制图的关注。本研究不仅通过结合先进的云掩膜和LULC分类模型提供了一种在多云地区进行LULC制图的综合方法，还评估了云掩膜对LULC制图的影响。评估结果表明，应用不同云掩膜进行LULC制图的精度差异显著，从47.99%到81.16%不等，强调了精确的云掩膜对时间序列LULC制图的重要性。
 
@@ -92,9 +95,10 @@ Li, Z., Weng, Q., Zhou, Y., Dou, P., & Ding, X. (2024). Learning spectral-indice
 
 本研究应用Whittaker滤波对影像时间序列中受云与云阴影影响的像元进行重建，以提升多云地区的LULC制图结果。在图4中，以农业用地的LULC制图为例，农业用地可能被水覆盖或种植作物，并且在一年内水和作物之间的土地覆盖类别变化可能会发生多次。在这种情况下，LULC类型（如作物和湿地）的制图结果会随所涉及的影像而变化，导致涉及土地和水体相互作用的LULC类型的分类偏差。由于云覆盖在影像时间序列中随机发生，准确识别涉及土地和水体相互作用的LULC类别变得更加困难。对影像时间序列中受云或云阴影影响的区域进行重建对于准确的LULC制图是必要的，以最小化由随机云覆盖和选取固定时间范围影像引起的时间序列制图中的偏差和错误。基于重建后的无云时间序列影像，可以生成高质量的年度、季度甚至月度的LULC分类图。此外，可以考虑时间序列变化模式来优化制图结果。
 
-<div align=center><img src="/assets/img/blogs/2024_lulc mapping/Fig. 4.png" alt="图4. 使用原始和重建的无云影像进行时间序列制图的比较。上图：使用原始影像生成的结果，其中时间序列中的缺失点由云覆盖引起。中图：使用重建影像和分类后处理后的时间序列制图结果。下图：基于原始和重建的无云影像获得的NDVI和NDWI时间序列。" width="5411" height="3104" style="width: 100%; max-width: 900px; height: auto;" loading="lazy" decoding="async"></div>
-
-图4. 使用原始和重建的无云影像进行时间序列制图的比较。上图：使用原始影像生成的结果，其中时间序列中的缺失点由云覆盖引起。中图：使用重建影像和分类后处理后的时间序列制图结果。下图：基于原始和重建的无云影像获得的NDVI和NDWI时间序列。
+<figure class="my-4 text-center">
+  <img class="img-fluid" src="/assets/img/blogs/2024_lulc mapping/Fig. 4.png" alt="图4. 使用原始和重建的无云影像进行时间序列制图的比较。上图：使用原始影像生成的结果，其中时间序列中的缺失点由云覆盖引起。中图：使用重建影像和分类后处理后的时间序列制图结果。下图：基于原始和重建的无云影像获得的NDVI和NDWI时间序列。" width="5411" height="3104" style="width: 100%; max-width: 900px; height: auto;" loading="lazy" decoding="async" data-zoomable>
+  <figcaption class="caption">图4. 使用原始和重建的无云影像进行时间序列制图的比较。上图：使用原始影像生成的结果，其中时间序列中的缺失点由云覆盖引起。中图：使用重建影像和分类后处理后的时间序列制图结果。下图：基于原始和重建的无云影像获得的NDVI和NDWI时间序列。</figcaption>
+</figure>
 
  
 
@@ -103,9 +107,10 @@ Li, Z., Weng, Q., Zhou, Y., Dou, P., & Ding, X. (2024). Learning spectral-indice
 
 现有的年度LULC产品通常基于植被生长期获取的影像生成。然而，光学卫星影像在这些多雨和多云季节遭受密集云层覆盖，导致用于年度LULC制图的无云影像较为有限。因此，年度制图结果仅基于一张或几张有效的卫星观测影像生成。在本研究中，年度LULC分类图基于全年所有可用的Sentinel-2影像生成和合成。此外，进行时间序列LULC分类图的分类后处理，以提高时间序列的一致性并滤除噪声。因此，年度LULC制图的准确性和鲁棒性可以得到提高。使用密集影像时间序列进行LULC制图有望捕捉到周期性的LULC变化模式（例如作物区的土地和水体相互作用），这些模式可以通过时间序列的分类后处理和分析来识别。在图5中，可以从密集时间序列LULC分类图中获取LULC类型的频次，从中可以以高精度和直观的方式定量测量年度LULC变化趋势（例如，四年间从作物到建筑区的变化趋势）。因此，密集时间序列的分类后处理和分析有助于提升LULC制图的准确性和鲁棒性。
 
-<div align=center><img src="/assets/img/blogs/2024_lulc mapping/Fig. 5.png" alt="图5. 从年度LULC频次图中识别变化趋势的示例。在此示例中，可以从其相应的年度LULC频次图清晰地解译从作物到建筑区的过渡，这些频次图是基于密集时间序列LULC分类图生成的，并表示在一年内检测到某一类别的次数与观测总次数的比例。" width="4484" height="1858" style="width: 100%; max-width: 900px; height: auto;" loading="lazy" decoding="async"></div>
-
-图5. 从年度LULC频次图中识别变化趋势的示例。在此示例中，可以从其相应的年度LULC频次图清晰地解译从作物到建筑区的过渡，这些频次图是基于密集时间序列LULC分类图生成的，并表示在一年内检测到某一类别的次数与观测总次数的比例。
+<figure class="my-4 text-center">
+  <img class="img-fluid" src="/assets/img/blogs/2024_lulc mapping/Fig. 5.png" alt="图5. 从年度LULC频次图中识别变化趋势的示例。在此示例中，可以从其相应的年度LULC频次图清晰地解译从作物到建筑区的过渡，这些频次图是基于密集时间序列LULC分类图生成的，并表示在一年内检测到某一类别的次数与观测总次数的比例。" width="4484" height="1858" style="width: 100%; max-width: 900px; height: auto;" loading="lazy" decoding="async" data-zoomable>
+  <figcaption class="caption">图5. 从年度LULC频次图中识别变化趋势的示例。在此示例中，可以从其相应的年度LULC频次图清晰地解译从作物到建筑区的过渡，这些频次图是基于密集时间序列LULC分类图生成的，并表示在一年内检测到某一类别的次数与观测总次数的比例。</figcaption>
+</figure>
 
  
 
@@ -119,9 +124,9 @@ Li, Z., Weng, Q., Zhou, Y., Dou, P., & Ding, X. (2024). Learning spectral-indice
 ## **6. 结论**
 {: .h4}
 
-本研究提出了一种使用密集Sentinel-2时间序影像列进行LULC制图的综合方法。尽管在不同时间尺度上的分类精度上存在差异，该方法可以用于多云地区的近实时、月度、季度和年度制图。通过开发深度模型以提高云掩膜和LULC分类的准确性、采用时间序列重建方法填补云覆盖区域、并应用时间序列分类后处理和分析，提出的方法在云掩膜和LULC分类方面展示出了优越性。在粤港澳大湾区的应用表明，该方法可以生成准确的LULC分类图，在年度尺度上的平均总体精度为87.01%，在近实时尺度上的精度为80.13%，优于比较的年度LULC产品。本研究评估了云覆盖对LULC制图的影响，提出了开发先进云与云阴影检测方法以提高LULC制图精度的必要性，这在本研究中已得到验证。本文还讨论了时间序列重建和使用密集时间序列影像进行LULC制图的益处，展示了它们对LULC制图的贡献，特别是在改善涉及陆地和水体交互的LULC类型以及多云地区的制图结果方面。
+本研究提出了一种使用密集的 Sentinel-2 影像时间序列进行LULC制图的综合方法。尽管在不同时间尺度上的分类精度上存在差异，该方法可以用于多云地区的近实时、月度、季度和年度制图。通过开发深度模型以提高云掩膜和LULC分类的准确性、采用时间序列重建方法填补云覆盖区域、并应用时间序列分类后处理和分析，提出的方法在云掩膜和LULC分类方面展示出了优越性。在粤港澳大湾区的应用表明，该方法可以生成准确的LULC分类图，在年度尺度上的平均总体精度为87.01%，在近实时尺度上的精度为80.13%，优于比较的年度LULC产品。本研究评估了云覆盖对LULC制图的影响，提出了开发先进云与云阴影检测方法以提高LULC制图精度的必要性，这在本研究中已得到验证。本文还讨论了时间序列重建和使用密集时间序列影像进行LULC制图的益处，展示了它们对LULC制图的贡献，特别是在改善涉及陆地和水体交互的LULC类型以及多云地区的制图结果方面。
 
-所提出方法中的深度模型是在全球收集的数据集上训练的，因而可以用于研究区域以外的其它地区的LULC制图。同时，所提出的方法还可以用于单一LULC类别的近实时监测（例如农田、湿地和淹没土地的时间序列监测），因此具有广泛的潜在应用。然而，所提出的方法在深度模型性能和多重处理步骤带来的误差传播方面的局限性留有很多改进空间，例如与最新的基础大模型集成以及在LULC分类图生产过程中引入质量控制。此外，研究区的实地调查是进一步验证LULC产品所必需的，特别是在具有挑战性的制图场景中，例如草地/灌木、湿地和淹没植被类别。未来，随着更先进的深度模型（例如基础大模型）的引入和多模态数据（例如Sentinel-1和Sentinel-1的结合）的应用，多云和多雨地区的密集影像时间序列LULC制图可以得到进一步增强。SAR影像的潜力可以得到充分利用，以有利于在持续云覆盖期间识别土地动态变化。
+所提出方法中的深度模型是在全球收集的数据集上训练的，因而可以用于研究区域以外的其它地区的LULC制图。同时，所提出的方法还可以用于单一LULC类别的近实时监测（例如农田、湿地和淹没土地的时间序列监测），因此具有广泛的潜在应用。然而，所提出的方法在深度模型性能和多重处理步骤带来的误差传播方面的局限性留有很多改进空间，例如与最新的基础大模型集成以及在LULC分类图生产过程中引入质量控制。此外，研究区的实地调查是进一步验证LULC产品所必需的，特别是在具有挑战性的制图场景中，例如草地/灌木、湿地和淹没植被类别。未来，随着更先进的深度模型（例如基础大模型）的引入和多模态数据（例如 Sentinel-1 与 Sentinel-2 的结合）的应用，多云和多雨地区的密集影像时间序列LULC制图可以得到进一步增强。SAR影像的潜力可以得到充分利用，以有利于在持续云覆盖期间识别土地动态变化。
 
  
 
