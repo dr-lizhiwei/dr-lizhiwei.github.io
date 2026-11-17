@@ -24,6 +24,8 @@ Research and supervision can be conducted **in English**.
 
 #### Research Areas
 
+Including but not limited to the following:
+
 - Cloud Detection and Removal
 - Time-Series Land Cover/Use Mapping
 - Seamless Flood Mapping and Monitoring
@@ -31,7 +33,7 @@ Research and supervision can be conducted **in English**.
 - Vision-Language Models (VLMs) for Environmental and Disaster Monitoring
 - Disaster Impact Assessment and Resilience Analysis
 
-####  Admission Requirements
+####  Requirements
 
 - A Master's degree in Remote Sensing, GIS, Geography, Geomatics, Environmental Science, Computer Science, or a related discipline.
 - At least **one first-author paper** published, accepted, or under major revision in an SCI-indexed journal.
